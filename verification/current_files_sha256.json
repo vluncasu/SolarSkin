@@ -21,8 +21,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 5747,
-    "sha256": "dc668da1cd28e194c9ba937f3867316aef55234b4ba9fb5e260e7dbf256223a2"
+    "bytes": 4537,
+    "sha256": "d70dc343509e3be35ec0c1978ae30aa03930253cff8fc4f25f8ceff203ee42a4"
   },
   {
     "file": "bom/building_optional_files.json",
@@ -221,13 +221,13 @@
   },
   {
     "file": "docs/02_screw_and_motor_calculations.md",
-    "bytes": 6102,
-    "sha256": "9e9f9b78fc1dd4276ba0c327047bceb44ebc530e7f34e725464ea26a3b7b7299"
+    "bytes": 6483,
+    "sha256": "02aa864f642b4ac4766c4ce1b37b5af258716a7d3e1f8d683ce9d5d0b7065c60"
   },
   {
     "file": "docs/03_printing_and_bom.md",
-    "bytes": 3001,
-    "sha256": "ea37e3b7ea2a4cefcad13f15d325f039b93243101ceddedaa65d285c47393495"
+    "bytes": 4051,
+    "sha256": "5a16dc6a2c79cdc5d63e41ba8b51dc6282363d80ae0d39c24bd9e7b24b85dba6"
   },
   {
     "file": "docs/04_mechanism_assembly.md",
@@ -246,8 +246,8 @@
   },
   {
     "file": "docs/07_firmware.md",
-    "bytes": 3886,
-    "sha256": "998ba5ff008ea6e9efd533d01d672a83ff031c50b74afda5b855d0cab3bd7c5b"
+    "bytes": 4704,
+    "sha256": "2907ed6351f555cb813b5e4a68885dbeb8665ef7d78380bfdcfe0a67e5e85b0f"
   },
   {
     "file": "docs/08_cad_and_renders.md",
@@ -273,6 +273,21 @@
     "file": "docs/12_building_and_facade.md",
     "bytes": 3521,
     "sha256": "aac1965202a6bafae5a2064ad4c9d065d873930a3a94d03019438a57a0cbc72c"
+  },
+  {
+    "file": "docs/13_print_beds.md",
+    "bytes": 4942,
+    "sha256": "a5ee6674652cdaf34c6eb1f2f0feeca48cf0aa7125e58ac0c8a18e66c473328f"
+  },
+  {
+    "file": "docs/14_photo_walkthrough.md",
+    "bytes": 2919,
+    "sha256": "8d8404ed4197a05b60defcf06a25337bba9a3ef814fa54b7ba0318d3df6fd19f"
+  },
+  {
+    "file": "docs/15_print_dimensions.md",
+    "bytes": 14614,
+    "sha256": "d9227f91cb965aae019bc5afe3e46f23c7b5e189f7df9d3c572d8e7a43d64e08"
   },
   {
     "file": "docs/pdf/SOLARSKIN_ENGINEERING_AND_ASSEMBLY.pdf",
@@ -765,6 +780,16 @@
     "sha256": "28aac1071487834579abc7d5f4ef66d2efa6d65d6f148a2f016f552b7e106742"
   },
   {
+    "file": "media/renders/building_front_elevation.webp",
+    "bytes": 109688,
+    "sha256": "18cda193bf0b55a69e15589965341bbcdc5adeb5dd0201c68f111ee54aee31f6"
+  },
+  {
+    "file": "media/renders/building_motion.gif",
+    "bytes": 5150063,
+    "sha256": "dfa03005dd3f947fac987483198bdd9d6cc24b0b02eeac56801d0280eb52cf6f"
+  },
+  {
     "file": "media/renders/building_open.webp",
     "bytes": 98722,
     "sha256": "acd99f57eee9bd546cac4fcea417aa0104df59c046adb45657cab93fb5a2f9c1"
@@ -773,6 +798,16 @@
     "file": "media/renders/building_rear.webp",
     "bytes": 96208,
     "sha256": "f6d44b7ab470d3decd41a2fc4a738a327fdb80ef23f8eabcd727b45e67c8d285"
+  },
+  {
+    "file": "media/renders/building_service_access.webp",
+    "bytes": 58608,
+    "sha256": "ff05843ce24c06339b984264fa49de8aa4ec7d140ce6dc132e6944aab89f4b60"
+  },
+  {
+    "file": "media/renders/building_wave_pose.webp",
+    "bytes": 93350,
+    "sha256": "4bf2ede1574ec51969a5d692a300f90612570adf15b590dd25a1a7cdea00f499"
   },
   {
     "file": "media/renders/cable_clip_section.webp",
@@ -1395,6 +1430,26 @@
     "sha256": "ca7a07e2bebc9c5ed84a5ebf7b3d680c4a5f87bfbc2dc523beef8cf2e5bb0470"
   },
   {
+    "file": "print/09_one_module_plates/orange_plate_1.3mf",
+    "bytes": 709467,
+    "sha256": "9858ffb79a5a0c12452680f5977c54b7e224764d13dbe65b79a82b945ff278fa"
+  },
+  {
+    "file": "print/09_one_module_plates/white_plate_1.3mf",
+    "bytes": 38368,
+    "sha256": "43efa549bc5687cf8d6c03232c2d417c34dc1282422c30a77888b02fc17375ec"
+  },
+  {
+    "file": "print/09_one_module_plates/windows_blue_plate_1.3mf",
+    "bytes": 726711,
+    "sha256": "513ff77466379b927824b1645476e56abcbb63dc080384d49a14429730f79a45"
+  },
+  {
+    "file": "print/09_one_module_plates/windows_blue_plate_2.3mf",
+    "bytes": 811633,
+    "sha256": "38c71bae11609480b404f12efec6cdcc8353e4a4fc7d79666afad2f248905f0e"
+  },
+  {
     "file": "tools/README.md",
     "bytes": 563,
     "sha256": "e45d94031da5a9292da982d9cc4b69a7b2e90eb85dbbd553b983f7293acfb7db"
@@ -1403,6 +1458,11 @@
     "file": "tools/build_manuals.py",
     "bytes": 30521,
     "sha256": "3f4c8527ebba66bf91c0fd746f9249e2a782b2ea8dd49ca4a9a71f9f76129c4a"
+  },
+  {
+    "file": "tools/build_print_plates.py",
+    "bytes": 3652,
+    "sha256": "4ebdbfb246f868cbb151c4af90318d3efdd1e98a56673d12c3483a37ed18a494"
   },
   {
     "file": "tools/package_release.py",
