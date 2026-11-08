@@ -6,6 +6,8 @@ technical roof. The assembled CAD model stands about 87 cm tall.
 In the Blender scene, each row and column starts at a different point in
 the opening cycle. Together the leaves make a wave across the building.
 
+[Browse all building angles](docs/20_building_views.md) · [Original render sheets by revision](docs/21_revision_views.md)
+
 ![Complete September SolarSkin office with its twenty kinetic modules](media/renders/original20_front.webp)
 
 **[Download the original building - Blender and FreeCAD ZIP](https://github.com/vluncasu/SolarSkin/releases/download/v1.5-original-building/SOLARSKIN_ORIGINAL_OFFICE_20.zip)**
@@ -17,7 +19,13 @@ the opening cycle. Together the leaves make a wave across the building.
 |---|---|---|
 | ![Wave across the original twenty-module office](media/renders/original20_motion.gif) | ![Office floors and furnishings in cutaway](media/renders/original20_cutaway.webp) | ![Plant and access space on the technical roof](media/renders/original20_roof.webp) |
 
-The animation above is an accelerated preview. Open the Blender file and
+| Around the building | Glazed rear facade | Furnished floor |
+|---|---|---|
+| ![Around the building](media/views/original20_orbit.gif) | ![Glazed rear facade](media/renders/original20_rear.webp) | ![Furnished floor](media/renders/original20_floor.webp) |
+
+[All angles of the original twenty-module office](docs/20_building_views.md#original-twenty-module-office).
+
+The facade animation above is an accelerated preview. Open the Blender file and
 press Space to see the full 40-second sequence at its saved playback rate.
 The R6 FreeCAD file exposes the individual M01-M20 placements for inspection.
 [Building elevations, office detail and revision notes](docs/19_original_office.md).
@@ -29,7 +37,24 @@ The R6 FreeCAD file exposes the individual M01-M20 placements for inspection.
 | ![Six modules folding on the compact office](media/renders/compact_motion.gif) | ![Moving leaves on the Aurora pavilion](media/renders/aurora_motion.gif) | ![Eight modules opening on the rigid office](media/renders/rigid_motion.gif) |
 | [Animated Blender assembly](cad/earlier_offices/COMPACT_OFFICE.blend) | [Animated Blender assembly](cad/earlier_offices/AURORA_PAVILION.blend) | [Animated Blender assembly](cad/earlier_offices/RIGID_OFFICE.blend) |
 
-Each preview follows its own CAD scene from closure to opening and back.
+The cameras in the motion previews stay still while the leaves move. In the views
+below, the buildings stay still so you can inspect the sides, roof and rear.
+
+| Compact office | Aurora pavilion | Rigid office |
+|---|---|---|
+| ![Compact office](media/views/compact_orbit.gif) | ![Aurora pavilion](media/views/aurora_orbit.gif) | ![Rigid office](media/views/rigid_orbit.gif) |
+
+| Compact - curved rear | Aurora - service side | Rigid - rear floors |
+|---|---|---|
+| ![Compact - curved rear](media/views/compact_source_rear.webp) | ![Aurora - service side](media/views/aurora_source_service_rear.webp) | ![Rigid - rear floors](media/views/rigid_source_rear.webp) |
+
+| Compact - technical cassette | Aurora - exposed frame | Rigid - equipment bay |
+|---|---|---|
+| ![Compact - technical cassette](media/views/compact_source_electronics.webp) | ![Aurora - exposed frame](media/views/aurora_source_structure.webp) | ![Rigid - equipment bay](media/views/rigid_source_equipment_bay.webp) |
+
+[All angles of the compact office](docs/20_building_views.md#compact-office) · [All angles of the aurora pavilion](docs/20_building_views.md#aurora-pavilion) · [All angles of the rigid office](docs/20_building_views.md#rigid-office).
+
+The opening sequences follow the original CAD motion of the leaves.
 Compact has six installed modules, Aurora has nine, and Rigid has eight.
 The assemblies contain 36, 54 and 48 moving leaves respectively. Follow a single hinge in each view to see how its leaf
 moves relative to the fixed frame.
@@ -37,6 +62,14 @@ moves relative to the fixed frame.
 The [design archive](docs/18_architectural_design_archive.md) includes the
 [nine-position office animation](media/renders/building_motion.gif) and
 identifies the later mounting revisions by their original folder names.
+
+### Nine-module office
+
+| Exterior survey | View into the rear | Service access |
+|---|---|---|
+| ![Exterior survey](media/views/office9_orbit.gif) | ![View into the rear](media/views/office9_source_rear.webp) | ![Service access](media/views/office9_source_service.webp) |
+
+[All angles of the nine-module office](docs/20_building_views.md#nine-module-office).
 
 ## The later furnished office - sixteen modules
 
@@ -67,6 +100,12 @@ hidden once the facade is on the building.
 | Side panel profile | Rear of the facade before installation | Ribbed front base |
 |---|---|---|
 | ![Projection of the side fins](media/renders/furnished_fin_profile.webp) | ![Back of the separately assembled facade](media/renders/furnished_cassette_rear.webp) | ![Fan-shaped ribs at the front base](media/renders/furnished_fan_base.webp) |
+
+| Exterior survey | Direct side view | Roof plan |
+|---|---|---|
+| ![Exterior survey](media/views/furnished_orbit.gif) | ![Direct side view](media/views/furnished_side-a.webp) | ![Roof plan](media/views/furnished_roof.webp) |
+
+[All angles of the furnished office](docs/20_building_views.md#furnished-office).
 
 The furnished office requires **193 architectural pieces on 46 print beds**.
 That count assumes the moving modules have already been made.
@@ -127,6 +166,12 @@ with the module attached to its receiver.
 | ![Rapid office with its facade open](media/renders/simplified_open.webp) | ![Populated stand showing the frame and supporting feet](media/renders/assembly_01.webp) |
 | [Open the building](cad/simplified/OFFICE_16.blend) | [Open the reinforced assembly](cad/03_reinforced_assembly/REINFORCED_16_MODULE_ASSEMBLY.blend) |
 
+| Around the simplified office | Rapid office from the rear | Rapid office interior |
+|---|---|---|
+| ![Around the simplified office](media/views/simplified_orbit.gif) | ![Rapid office from the rear](media/renders/simplified_rear.webp) | ![Rapid office interior](media/renders/simplified_interior.webp) |
+
+[All angles of the simplified office](docs/20_building_views.md#simplified-office).
+
 The **simplified office** keeps the floors, stair and facade. Its print
 inventory omits the optional furniture and includes thin translucent panes.
 It takes 158 architectural pieces across 63 beds. The slabs print on edge,
@@ -135,6 +180,12 @@ check. Its receivers use J02 D8 screws. The furnished office uses F01 bolts
 and an F02 locking bar.
 [Rapid office inventory](docs/atlas/simplified-office.md) ·
 [Assembly and glazing](docs/simplified_workshop.md)
+
+| Around the populated stand | Empty supporting frame | Rear foot connection |
+|---|---|---|
+| ![Around the populated stand](media/views/stand_orbit.gif) | ![Empty supporting frame](media/renders/assembly_03.webp) | ![Rear foot connection](media/renders/assembly_08.webp) |
+
+[All angles of the independent stand](docs/20_building_views.md#independent-stand).
 
 The **stand** leaves the motors, plugs and receiver screws accessible from
 behind. Assemble its twelve cassettes on a flat surface before loading

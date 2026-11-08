@@ -1,0 +1,58 @@
+{
+  "original20": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "compact": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "aurora": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "rigid": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "office9": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "furnished": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "simplified": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  },
+  "stand": {
+    "exterior_views": 10,
+    "orbit_preview_frames": 8,
+    "azimuth_interval_degrees": 45,
+    "elevation_degrees": 16,
+    "model_frame": 1
+  }
+}
