@@ -1,0 +1,3 @@
+PASS: actual stand firmware; 14 identical motor outputs; exactly two coils per active phase; continuous full-stroke reversal without network; 50296 equivalent halfsteps per leg; stop/restart/settings/manual override; 56 clocks per latch; speed/position limits; time counter wrap.
+PASS: actual restored firmware, 7 simulated cascaded registers / 14 outputs, four full 6287-step legs without network service, stop/resume, manual close then automatic reopen, bounds, phase packing, 56 clocks per latch.
+PASS: actual firmware; 7 cascaded registers; 14 identical phase sequences; 4 alternating legs of 6287 steps; zero outputs during pauses; 56 CLOCK pulses per LATCH.

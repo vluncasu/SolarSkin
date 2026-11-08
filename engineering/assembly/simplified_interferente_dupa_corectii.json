@@ -1,0 +1,62 @@
+{
+  "perechi_verificate": 44,
+  "interferente": [
+    {
+      "a": "Planseu_nivel_4_travee_1",
+      "b": "Blue_Pill_1",
+      "volum_mm3": 25.351
+    },
+    {
+      "a": "Planseu_nivel_4_travee_1",
+      "b": "Blue_Pill_2",
+      "volum_mm3": 17.688
+    },
+    {
+      "a": "Planseu_nivel_4_travee_1",
+      "b": "Blue_Pill_3",
+      "volum_mm3": 17.688
+    },
+    {
+      "a": "Planseu_nivel_4_travee_1",
+      "b": "Blue_Pill_4",
+      "volum_mm3": 31.323
+    },
+    {
+      "a": "Planseu_nivel_4_travee_2",
+      "b": "ESP32",
+      "volum_mm3": 47.74
+    },
+    {
+      "a": "E05_CUTIE_COMANDA_1",
+      "b": "ESP32",
+      "volum_mm3": 132.141
+    },
+    {
+      "a": "E05_CUTIE_COMANDA_1",
+      "b": "Blue_Pill_1",
+      "volum_mm3": 107.424
+    },
+    {
+      "a": "E05_CUTIE_COMANDA_1",
+      "b": "Blue_Pill_2",
+      "volum_mm3": 79.552
+    },
+    {
+      "a": "E05_CUTIE_COMANDA_1",
+      "b": "Blue_Pill_3",
+      "volum_mm3": 79.552
+    },
+    {
+      "a": "E05_CUTIE_COMANDA_1",
+      "b": "Blue_Pill_4",
+      "volum_mm3": 79.552
+    },
+    {
+      "a": "E06_CAPAC_COMANDA_1",
+      "b": "ESP32",
+      "volum_mm3": 49.193
+    }
+  ],
+  "limita_mm3": 0.05,
+  "exclus": "\u0218uruburi filetate; mecanisme originale"
+}

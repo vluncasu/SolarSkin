@@ -21,8 +21,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 4651,
-    "sha256": "f6431ed0a428f9cca485714d1fe0b12ed63af111ec65b3a0ca602951352890a0"
+    "bytes": 5893,
+    "sha256": "4843914f89fb23d7fca7a1161cd7b18aeb10fb2bd81c2f34a999b39a8b7ad4fd"
   },
   {
     "file": "bom/building_optional_files.json",
@@ -300,6 +300,66 @@
     "sha256": "d9227f91cb965aae019bc5afe3e46f23c7b5e189f7df9d3c572d8e7a43d64e08"
   },
   {
+    "file": "docs/17_simulation_and_commissioning.md",
+    "bytes": 4441,
+    "sha256": "a268dc88bafa504aa4ccc12b07e498fab30ccb89d750f7488ec01684984a4ba1"
+  },
+  {
+    "file": "docs/atlas/README.md",
+    "bytes": 690,
+    "sha256": "147aac589de238b33310d6ad960fdb040098dfc365b8aab3df5a32aa2a31b578"
+  },
+  {
+    "file": "docs/atlas/furnished-office.md",
+    "bytes": 12286,
+    "sha256": "12ca2ae0da39dea7c766b03493684a99587cd32bd87120bae6ab1d5ff224f9e1"
+  },
+  {
+    "file": "docs/atlas/independent-stand.md",
+    "bytes": 6711,
+    "sha256": "f90f8b8c7e3b2dbb05a987ea5023b310dfca83738338d7500d31c64838811234"
+  },
+  {
+    "file": "docs/atlas/one-mechanism.md",
+    "bytes": 7416,
+    "sha256": "944586527a3289f01f648b7b9d121df789f658e1cf8196b6afbf5a8ec9722f34"
+  },
+  {
+    "file": "docs/atlas/optional-architectural-revision.md",
+    "bytes": 11937,
+    "sha256": "491bc24a32a02374cfe22a4d010841302f653325b4051a4f9fbb8441f211dd49"
+  },
+  {
+    "file": "docs/atlas/simplified-office.md",
+    "bytes": 10834,
+    "sha256": "584c48a09af847bb8a898ce2cd3b86cf0062b3d8d7a34ab8ebd3ec48c0947cd2"
+  },
+  {
+    "file": "docs/atlas/stand-reinforcement.md",
+    "bytes": 3834,
+    "sha256": "902106427b6a68968bc77acbeb4fd67495cbd853cb57801851f323b25497ccb9"
+  },
+  {
+    "file": "docs/atlas/workshop-tools-and-additional-exports.md",
+    "bytes": 766,
+    "sha256": "750f2520794040711b535333635536941faed34188c470c3faab3d98c0ede96c"
+  },
+  {
+    "file": "docs/furnished_workshop.md",
+    "bytes": 3913,
+    "sha256": "1ed68884cb89a71da36d1e234763c1e21cdeb487f73f8c30188cae8c748666ff"
+  },
+  {
+    "file": "docs/module_workshop.md",
+    "bytes": 3154,
+    "sha256": "8452320c44ebf93b11df543c7c4b9ab2a52b8d38eeb288d93b899cf65dae4f7b"
+  },
+  {
+    "file": "docs/pdf/SOLARSKIN_ALL_PARTS.pdf",
+    "bytes": 7326903,
+    "sha256": "803ed7a169162e89f6c605678c7396b97dc1a73c3a39a2fcca8671d0af6c3edb"
+  },
+  {
     "file": "docs/pdf/SOLARSKIN_COMPARATIVE_DESIGN_STUDY.pdf",
     "bytes": 5379593,
     "sha256": "8c938b179717c3eb09fc0260a56b29831255abd8ef1709512a9d94e97ba19062"
@@ -313,6 +373,56 @@
     "file": "docs/pdf/SOLARSKIN_PARTS_CATALOG.pdf",
     "bytes": 7973052,
     "sha256": "bff0b2ee3954ac55f639a61176698dde6387521398873575531bf5cf95b9ff1b"
+  },
+  {
+    "file": "docs/pdf/SOLARSKIN_WORKSHOP_SEQUENCE.pdf",
+    "bytes": 4967505,
+    "sha256": "25392f6a7722753cf9788243044e40f8b84a3c175aa73fdcc64277267857fdc2"
+  },
+  {
+    "file": "docs/simplified_workshop.md",
+    "bytes": 3932,
+    "sha256": "b02eebe17561048e6823b5420d4b3aa3b378ab93cc7cd458f020a9d06ef1dfca"
+  },
+  {
+    "file": "docs/stand_workshop.md",
+    "bytes": 3148,
+    "sha256": "16b3be12f3977bc53b61e644e2779c021f9930d2b18bf07e5c009e7be1cead84"
+  },
+  {
+    "file": "engineering/assembly/furnished_instances.csv",
+    "bytes": 28860,
+    "sha256": "83c54cbfe4574257fa0f0e8d591f8a14e85176d60e67e4b93ab1b97b72381704"
+  },
+  {
+    "file": "engineering/assembly/furnished_interferente_revizie.json",
+    "bytes": 2701,
+    "sha256": "a74e595f5c7dd3daa54e315bf7f25f3cb279d905d4d9fa213e9f3daf743573f3"
+  },
+  {
+    "file": "engineering/assembly/furnished_module_positions.json",
+    "bytes": 4841,
+    "sha256": "490c9ad370538e587006bee6f36929eac618a6e874a0b9dcd55b0bd44f88fe62"
+  },
+  {
+    "file": "engineering/assembly/simplified_electronica_finala.json",
+    "bytes": 51,
+    "sha256": "ef92f84a3634519ab67835559392f59c1a7fc5a4d7b626b4a0fedc8350121c70"
+  },
+  {
+    "file": "engineering/assembly/simplified_instances.csv",
+    "bytes": 25068,
+    "sha256": "1621cd2f80c87fbd704b7347282839784c27b8b26266da6c731ead2f71177046"
+  },
+  {
+    "file": "engineering/assembly/simplified_interferente_dupa_corectii.json",
+    "bytes": 1232,
+    "sha256": "e4b62e7c6a95e2167dc8e48f8dd46f1969ce9fadceacf187be24438da429c5da"
+  },
+  {
+    "file": "engineering/assembly/simplified_module_positions.json",
+    "bytes": 4841,
+    "sha256": "490c9ad370538e587006bee6f36929eac618a6e874a0b9dcd55b0bd44f88fe62"
   },
   {
     "file": "engineering/calculations.py",
@@ -353,6 +463,11 @@
     "file": "engineering/results/reduction_table.csv",
     "bytes": 1429,
     "sha256": "3fe47b3dc3aa872e4cfaccb87826da40f551fc7d63b488595bab8045dbeecbe0"
+  },
+  {
+    "file": "engineering/simulate_cycle.py",
+    "bytes": 1543,
+    "sha256": "a92ba00c0f1ce26ff49a103778cafa9f7f6cb553be43e5c884c7bdcf574f2e53"
   },
   {
     "file": "engineering/source/P13_interface_reference.brep",
@@ -460,6 +575,1096 @@
     "sha256": "4e677979547826b7a1dde0819ccf58e53641c6de6ea3f449a766bdf3bf1693c7"
   },
   {
+    "file": "media/atlas/furnished-office-001.webp",
+    "bytes": 4178,
+    "sha256": "7a30a4d3b7b912d609036f981dc3665e77dcd3f224b65a1c1c57b4c08f06bdab"
+  },
+  {
+    "file": "media/atlas/furnished-office-002.webp",
+    "bytes": 3840,
+    "sha256": "801423a406e68da8c7982d519bc49d8e5625744cd81af45b3904de2947b8e675"
+  },
+  {
+    "file": "media/atlas/furnished-office-003.webp",
+    "bytes": 5226,
+    "sha256": "aadf2b55c6eda52bc6239909a57f57a619019b83e42181f3dc753acfb851ba0b"
+  },
+  {
+    "file": "media/atlas/furnished-office-004.webp",
+    "bytes": 3624,
+    "sha256": "a672ba369010d8d378eb1efd190c6f6d4ff704eec6fba686d585280898d99bcb"
+  },
+  {
+    "file": "media/atlas/furnished-office-005.webp",
+    "bytes": 6076,
+    "sha256": "6860abef5f9f333d318a69de0c7664598a74cd15e281aa1751b81b21447a2b93"
+  },
+  {
+    "file": "media/atlas/furnished-office-006.webp",
+    "bytes": 5900,
+    "sha256": "6e7ea7753b4275126e0b256f2aeaa7b93e2cc19415d1b6fdebdcfb78f9235659"
+  },
+  {
+    "file": "media/atlas/furnished-office-007.webp",
+    "bytes": 2816,
+    "sha256": "0d084f72c95ae131b2161011cd58da0d8ff53a3b080e49edcdcb2fc49ea2d48f"
+  },
+  {
+    "file": "media/atlas/furnished-office-008.webp",
+    "bytes": 2852,
+    "sha256": "9aaffaaf5ded312b589b3f40af25a2d69c5539daaf3f35652c64421e998f8c8e"
+  },
+  {
+    "file": "media/atlas/furnished-office-009.webp",
+    "bytes": 6258,
+    "sha256": "288a47c3153167a507287ade0a1b11c943f7c5623a1e51dd72e9946d1cbe16da"
+  },
+  {
+    "file": "media/atlas/furnished-office-010.webp",
+    "bytes": 7266,
+    "sha256": "cfc9c05073db53bfa49160dab6000a1543ee0fdccab600e7a45064e0e462fb2d"
+  },
+  {
+    "file": "media/atlas/furnished-office-011.webp",
+    "bytes": 4322,
+    "sha256": "eee9f200948f9b9df8ff75a5082ea16e64f9940530e2cf23bc830c8569c0a2fe"
+  },
+  {
+    "file": "media/atlas/furnished-office-012.webp",
+    "bytes": 4658,
+    "sha256": "15c7bcc5516ab2076927dc67f0cf70d8cf71eca612f078cd3fb8a4dae9b29a30"
+  },
+  {
+    "file": "media/atlas/furnished-office-013.webp",
+    "bytes": 7902,
+    "sha256": "f6d1217cb3906c69f01184befe65f9b0942b2b65b1a0bf66fd9ef4fc21759a56"
+  },
+  {
+    "file": "media/atlas/furnished-office-014.webp",
+    "bytes": 4618,
+    "sha256": "d24783e017efc08787eb9546087bd77e412ec788d420a2cf880d95a28d6d4ea7"
+  },
+  {
+    "file": "media/atlas/furnished-office-015.webp",
+    "bytes": 5264,
+    "sha256": "3788431b464d48d2f0a2dd06de686c4c1c856eb0263f14e516713f33c3d5ef33"
+  },
+  {
+    "file": "media/atlas/furnished-office-016.webp",
+    "bytes": 5512,
+    "sha256": "f861d4f821bf7b924c2b11f09914787dbc07863424f01ff078243aec67da8ce0"
+  },
+  {
+    "file": "media/atlas/furnished-office-017.webp",
+    "bytes": 5300,
+    "sha256": "e87a5e276b3de2640a844d05376ca8eb2d79bf117e3f7645440892175304a61b"
+  },
+  {
+    "file": "media/atlas/furnished-office-018.webp",
+    "bytes": 3552,
+    "sha256": "80fa433f8165e1118d47f0fd85a8421271db15b0546b03c1a9844e9aacff5f8a"
+  },
+  {
+    "file": "media/atlas/furnished-office-019.webp",
+    "bytes": 4452,
+    "sha256": "c354b9a441aaa872a894ec85011fac7ed859579997556490b121d5a48818799e"
+  },
+  {
+    "file": "media/atlas/furnished-office-020.webp",
+    "bytes": 5062,
+    "sha256": "46ad3d92e34042c710f4aabc19c694e4a0364a63447131fe3b529f04d6c058e0"
+  },
+  {
+    "file": "media/atlas/furnished-office-021.webp",
+    "bytes": 3490,
+    "sha256": "016a198577162d948bffb23496bb2fe0df46fd776bd74e1be260ebedfa9b6e78"
+  },
+  {
+    "file": "media/atlas/furnished-office-022.webp",
+    "bytes": 5492,
+    "sha256": "35e923b629ee360cf9c92ea4afaeacaee9b7d52163dfc738b37a2997163ec49a"
+  },
+  {
+    "file": "media/atlas/furnished-office-023.webp",
+    "bytes": 3906,
+    "sha256": "a2671f60b2de9c13c8866ce250508fddf705154b98937629870acad972462379"
+  },
+  {
+    "file": "media/atlas/furnished-office-024.webp",
+    "bytes": 3488,
+    "sha256": "85b2cd811540e258b58d6a9ffcc82a3931f8ca6eb215566ddd332a75c1cf4a6f"
+  },
+  {
+    "file": "media/atlas/furnished-office-025.webp",
+    "bytes": 3954,
+    "sha256": "dcdeea59510b9ec018c568b0bb74faa6590de5bdf63e41573906173dbe5baad1"
+  },
+  {
+    "file": "media/atlas/furnished-office-026.webp",
+    "bytes": 8952,
+    "sha256": "16584f5159ae535f07d511a1e4ad6366e08936e5447cbea91788ad4ddee5f993"
+  },
+  {
+    "file": "media/atlas/furnished-office-027.webp",
+    "bytes": 8974,
+    "sha256": "8db1eae1dcfb80709ee6a9b36f0ff65cfd8bacd75ac81d9e76b988f43dfe0b21"
+  },
+  {
+    "file": "media/atlas/furnished-office-028.webp",
+    "bytes": 8966,
+    "sha256": "373266ace59e96a8587b1eab14ddb8e8319cce70638895228c03fc2a24e2b028"
+  },
+  {
+    "file": "media/atlas/furnished-office-029.webp",
+    "bytes": 7946,
+    "sha256": "2a21e781791e2170e0015ae9ffab44e5b01996cb3d1f18f1e150f1916237b06f"
+  },
+  {
+    "file": "media/atlas/furnished-office-030.webp",
+    "bytes": 8934,
+    "sha256": "79c376aa257040398cf8a1b40c48ebf9bb811a393e260c13b76645b1517c9710"
+  },
+  {
+    "file": "media/atlas/furnished-office-031.webp",
+    "bytes": 9438,
+    "sha256": "07d6e485fdcf813e0f327e2d4b7567fce2a06e10768b3c28b6fbf6d4fedfcb6e"
+  },
+  {
+    "file": "media/atlas/furnished-office-032.webp",
+    "bytes": 9386,
+    "sha256": "a6afb0cc5c8e355c6e05876ed5b43446493599f8b2e81b07362a451911c3ca17"
+  },
+  {
+    "file": "media/atlas/furnished-office-033.webp",
+    "bytes": 9480,
+    "sha256": "4eea51b68d5213d03efd9994ed43ae5e3f77912105f1092a49e04ffe044fc373"
+  },
+  {
+    "file": "media/atlas/furnished-office-034.webp",
+    "bytes": 7410,
+    "sha256": "4e4e368e3cdda6a2f7700513e91ddbe9fc14772c701e5ee8ac2c19c2e3b18ba3"
+  },
+  {
+    "file": "media/atlas/furnished-office-035.webp",
+    "bytes": 8030,
+    "sha256": "66cc84e8286747980f5fe861540b1d29082e8c3e3cc536c51af389763dba2637"
+  },
+  {
+    "file": "media/atlas/furnished-office-036.webp",
+    "bytes": 8046,
+    "sha256": "714ba760b9d0ff10bba6186834fff0b72f026705a9dc1285407b030c7a659d1f"
+  },
+  {
+    "file": "media/atlas/furnished-office-037.webp",
+    "bytes": 8440,
+    "sha256": "766e3af5f80634b5890d876dae32aa1b29a56a326469cf6d3a23c198f4357e59"
+  },
+  {
+    "file": "media/atlas/furnished-office-038.webp",
+    "bytes": 2048,
+    "sha256": "6c65ab3bf9ec0d5e71ce2a961d78a7064164bb66651989b0a5d06dd1ba628738"
+  },
+  {
+    "file": "media/atlas/furnished-office-039.webp",
+    "bytes": 9450,
+    "sha256": "d8351512ddd962d96f562dc19f258df618cf04eef7903453a13d4182be7c607a"
+  },
+  {
+    "file": "media/atlas/furnished-office-040.webp",
+    "bytes": 9874,
+    "sha256": "f967ff90ae22237a5f3b3de4b3310b05ff449b918d3d9a42417c80c6f799b1f1"
+  },
+  {
+    "file": "media/atlas/furnished-office-041.webp",
+    "bytes": 9638,
+    "sha256": "35749ffc172490f8aebf5ae8ac9efdf7811c2b04152e4035fda7838eb9d0f15f"
+  },
+  {
+    "file": "media/atlas/furnished-office-042.webp",
+    "bytes": 10304,
+    "sha256": "80a4a29194a8665debb2132cc9b9ae1ce19d0bc361cc973da9d2a7e794294085"
+  },
+  {
+    "file": "media/atlas/furnished-office-043.webp",
+    "bytes": 6000,
+    "sha256": "2ba898540ab916918839d91ce32eaa3a65ffaf68dd2614e56da14c8652a77e2a"
+  },
+  {
+    "file": "media/atlas/furnished-office-044.webp",
+    "bytes": 5876,
+    "sha256": "e7fc711aad1cdd61c049bf57aea5b5b78cf25f4d61f6a0b2237941a4d3b60fa4"
+  },
+  {
+    "file": "media/atlas/furnished-office-045.webp",
+    "bytes": 6066,
+    "sha256": "024eb0692d8e09cb592bef4b6658ba56539593b84c4855baed32b330ae536cc3"
+  },
+  {
+    "file": "media/atlas/furnished-office-046.webp",
+    "bytes": 4068,
+    "sha256": "aa3c76f199e77e996dc5f47fa63c64bafda243edd297e24f0505b609696da907"
+  },
+  {
+    "file": "media/atlas/furnished-office-047.webp",
+    "bytes": 10256,
+    "sha256": "d01187fa6fd9c4b02ee54fac113e7aa08dcf4300a9b3a37c6ae65fee0afab1e0"
+  },
+  {
+    "file": "media/atlas/furnished-stage-0.webp",
+    "bytes": 17446,
+    "sha256": "3bbb6d592783ff75a1737b534e8996ac4c89448d5bbc541dfb9e0b8f8b52ac51"
+  },
+  {
+    "file": "media/atlas/furnished-stage-1.webp",
+    "bytes": 27880,
+    "sha256": "8715054ffe20addd8bb489e1458a970290fa67ca7bf09aafb8f856d5ec136bf0"
+  },
+  {
+    "file": "media/atlas/furnished-stage-2.webp",
+    "bytes": 55608,
+    "sha256": "5b565cb5bc4f1ea966364350b5f7a201db581edc94bd70f821824bfcdcad7224"
+  },
+  {
+    "file": "media/atlas/furnished-stage-3.webp",
+    "bytes": 63980,
+    "sha256": "f36833ab34db7982de50c24fa6c9b9c0ddd96dee9f25d6911a65f3cb00a372dc"
+  },
+  {
+    "file": "media/atlas/furnished-stage-4.webp",
+    "bytes": 72250,
+    "sha256": "a8a7ea65defdf99aa954e87f5547b23639805096d474b9f8abda71044a1f5553"
+  },
+  {
+    "file": "media/atlas/furnished-stage-5.webp",
+    "bytes": 67506,
+    "sha256": "36b454704600fddf53227abbeacc915b332bb9a69dc23fbb3516217f5f84db6e"
+  },
+  {
+    "file": "media/atlas/independent-stand-001.webp",
+    "bytes": 9380,
+    "sha256": "826c0ecfe4c4484309f300114405db3d643936f4d132f1ae7b0b2537c880c5b7"
+  },
+  {
+    "file": "media/atlas/independent-stand-002.webp",
+    "bytes": 9204,
+    "sha256": "59279d54faf5db24bb058aaba78161fd7e028610c96be1d7c292f37aa8d2c02f"
+  },
+  {
+    "file": "media/atlas/independent-stand-003.webp",
+    "bytes": 9152,
+    "sha256": "fff687a11471f94847ac9a233856bf60743b76264317d9e244bdaaae64bcccd3"
+  },
+  {
+    "file": "media/atlas/independent-stand-004.webp",
+    "bytes": 8052,
+    "sha256": "49080ec0d66c4e7f6e7e6f9a544df2111eec0f69e3c5760de6e318cbeecc4931"
+  },
+  {
+    "file": "media/atlas/independent-stand-005.webp",
+    "bytes": 9256,
+    "sha256": "be1c0195bbb27da628abdd7217fa4c12644b1f46281ddb8bfa72b1e37c86e04f"
+  },
+  {
+    "file": "media/atlas/independent-stand-006.webp",
+    "bytes": 9386,
+    "sha256": "623eae2399c2206f6b2ad7b22ef3cd8d29b8089a5f1b1e48f9036a9878c0a1ef"
+  },
+  {
+    "file": "media/atlas/independent-stand-007.webp",
+    "bytes": 9338,
+    "sha256": "fa9358ca10605923e87d54cc954bddf9844600f55dcb00b0c46c8827ddebe8c9"
+  },
+  {
+    "file": "media/atlas/independent-stand-008.webp",
+    "bytes": 9338,
+    "sha256": "adb1642c8d54c0171319538d2eed3b4e69f1c9e25f8b163b20e48033a099c10e"
+  },
+  {
+    "file": "media/atlas/independent-stand-009.webp",
+    "bytes": 8048,
+    "sha256": "3d980f6f56ddd6c853754cb71c977c67bf29fd63826a5989f42d1085ac946d46"
+  },
+  {
+    "file": "media/atlas/independent-stand-010.webp",
+    "bytes": 8160,
+    "sha256": "207891bcba74c6ae85e52ad103ea38f5c7e11954b0227439f31d0b4a8b50a071"
+  },
+  {
+    "file": "media/atlas/independent-stand-011.webp",
+    "bytes": 8192,
+    "sha256": "d6f7362d9578bda39453d38b00266da43ba102a8b0ed6840a6bd01f4364db7d8"
+  },
+  {
+    "file": "media/atlas/independent-stand-012.webp",
+    "bytes": 8504,
+    "sha256": "ffea8b87db36726f08930aef8d50c50e915aecf983442aa5f29945f09cae5104"
+  },
+  {
+    "file": "media/atlas/independent-stand-013.webp",
+    "bytes": 4834,
+    "sha256": "d7c32321b397812fa7666c41dba2e8717cbd27480b9f3d40b59c41201ceb414b"
+  },
+  {
+    "file": "media/atlas/independent-stand-014.webp",
+    "bytes": 4068,
+    "sha256": "105771a4937d253d360aa747a731d4fe00f59b5de9d2b1a1389b1f08d1281869"
+  },
+  {
+    "file": "media/atlas/independent-stand-015.webp",
+    "bytes": 5740,
+    "sha256": "647518f5068292c12a99662229dd619e476b9b8df93cf1e42ba4290c786be622"
+  },
+  {
+    "file": "media/atlas/independent-stand-016.webp",
+    "bytes": 4774,
+    "sha256": "815c0a60feecb6191ec07143e5927dfccc397d6e110970e51edf2a67083deef8"
+  },
+  {
+    "file": "media/atlas/independent-stand-017.webp",
+    "bytes": 4352,
+    "sha256": "2eac1a969bad389a47f04e7d2f5ee03d0dc1c7a20fef69bfdf74054ae7a4cf92"
+  },
+  {
+    "file": "media/atlas/independent-stand-018.webp",
+    "bytes": 4958,
+    "sha256": "4d41856fd3b829025c4d25c4b2e9bc434946297c6bd3ee151d52470d9c63f8d7"
+  },
+  {
+    "file": "media/atlas/independent-stand-019.webp",
+    "bytes": 4508,
+    "sha256": "ef511d31debe060d0fd603d050e7d330071a574c0962f0315c87b63a24b2110c"
+  },
+  {
+    "file": "media/atlas/independent-stand-020.webp",
+    "bytes": 10296,
+    "sha256": "965633501201874e1bcada6446600cd161db6db76fe6c6d3e24dbd5b5786662e"
+  },
+  {
+    "file": "media/atlas/independent-stand-021.webp",
+    "bytes": 5222,
+    "sha256": "4f4a1bf72ab95c6c70132f0a7a3bdf90f09a0a90beb12b404ac1a433fe98468f"
+  },
+  {
+    "file": "media/atlas/independent-stand-022.webp",
+    "bytes": 5676,
+    "sha256": "c86cce5f4673201b185fa17bef71bb8b342f95e377b896e56513c9080a48ae46"
+  },
+  {
+    "file": "media/atlas/independent-stand-023.webp",
+    "bytes": 4526,
+    "sha256": "b0edb48bb22e5a3747816c4999af6a3d01a67469f300e9fda324c1fa2ea3522a"
+  },
+  {
+    "file": "media/atlas/independent-stand-024.webp",
+    "bytes": 4162,
+    "sha256": "e471e55cef0bc591ea9869f208ba30707aa976aa01a3234f5fa6448f2d69cbee"
+  },
+  {
+    "file": "media/atlas/independent-stand-025.webp",
+    "bytes": 10930,
+    "sha256": "0dbf5d05e901a4cd0879e97d2a20ba954514672fd034b66fb02cff307defbbae"
+  },
+  {
+    "file": "media/atlas/module-stage-0.webp",
+    "bytes": 10836,
+    "sha256": "56da4aa1a725a0aae4163259759a446659efaa4c86c7b286c2f3f75b380ea552"
+  },
+  {
+    "file": "media/atlas/module-stage-1.webp",
+    "bytes": 9950,
+    "sha256": "0d3b807cd68f23ad60bcac82e00a88d084c6d3ad1bcc046315fca79c20210637"
+  },
+  {
+    "file": "media/atlas/module-stage-2.webp",
+    "bytes": 20026,
+    "sha256": "8b6f85841826cfdbe9083271f86e9ef1dd3a0e755cc4c03c0979d7e3f256f9ab"
+  },
+  {
+    "file": "media/atlas/module-stage-3.webp",
+    "bytes": 26080,
+    "sha256": "abfae2e6821f9a396c88b7dc6026c4bca082ab14a84927562ec530a331a430f4"
+  },
+  {
+    "file": "media/atlas/module-stage-4.webp",
+    "bytes": 28936,
+    "sha256": "ac0268e0ea7ab8c90e00aa2e8435b2feed6ac4181cf296bc09e10fe320cc2fab"
+  },
+  {
+    "file": "media/atlas/module-stage-5.webp",
+    "bytes": 29650,
+    "sha256": "f4382d5a164587a4b793f18222d5dec1b17ac936d7640d0348ccba645d66e4e1"
+  },
+  {
+    "file": "media/atlas/one-mechanism-001.webp",
+    "bytes": 5794,
+    "sha256": "2aaf96a66a44daa5bc21d04145d2b96f51f6584763cccdb91f4c2eecb5af05c9"
+  },
+  {
+    "file": "media/atlas/one-mechanism-002.webp",
+    "bytes": 4540,
+    "sha256": "9fb538c9d49511834f64a43b52d8bf669df9b9971c2e465b55894b62dc8c5196"
+  },
+  {
+    "file": "media/atlas/one-mechanism-003.webp",
+    "bytes": 3362,
+    "sha256": "ae08ce7d0b07f907e57bd79f6f2621498e38fdeca50404a9970e8ff4303dedc7"
+  },
+  {
+    "file": "media/atlas/one-mechanism-004.webp",
+    "bytes": 4040,
+    "sha256": "0cd81b35f9ac710140da29e0016d5876381e392294694806eb43847195f59c80"
+  },
+  {
+    "file": "media/atlas/one-mechanism-005.webp",
+    "bytes": 850,
+    "sha256": "ed6b1de76057d180a1cd14c1ed9be86244af37f2c6861ec693a83dcedb06e96e"
+  },
+  {
+    "file": "media/atlas/one-mechanism-006.webp",
+    "bytes": 7952,
+    "sha256": "9d36a65ee73259a1561fb018e9f27c7c0c8e87c46d1c57fce028666d3aceefee"
+  },
+  {
+    "file": "media/atlas/one-mechanism-007.webp",
+    "bytes": 5694,
+    "sha256": "8c6f71f388b16309ea19eb599657c792dca4b28645fc7c99e648cbe43695c636"
+  },
+  {
+    "file": "media/atlas/one-mechanism-008.webp",
+    "bytes": 3830,
+    "sha256": "4f05ad95b02d64dc6acbc4e203480a3b651e3f6de0ef7bb99eba7b9311b754b7"
+  },
+  {
+    "file": "media/atlas/one-mechanism-009.webp",
+    "bytes": 6116,
+    "sha256": "f3fd36a343aecba748bb1c46fc8d124cceeefb58e803ee110a45629936d1a605"
+  },
+  {
+    "file": "media/atlas/one-mechanism-010.webp",
+    "bytes": 3610,
+    "sha256": "bf2693789643d90979ceceb402389113eaad994fd01fb931efa4c09799a99031"
+  },
+  {
+    "file": "media/atlas/one-mechanism-011.webp",
+    "bytes": 4320,
+    "sha256": "545e9aac310351a477d0220591e51563ccf99c563b35bf44dc36f8ad7186b181"
+  },
+  {
+    "file": "media/atlas/one-mechanism-012.webp",
+    "bytes": 3624,
+    "sha256": "d1c2880a80b9692cd2f734c94670b3d5f66ba1397e0bc25cb73a584f5c557794"
+  },
+  {
+    "file": "media/atlas/one-mechanism-013.webp",
+    "bytes": 7138,
+    "sha256": "2ec139b603678f17640a5f3cc3075cf39f790c5d60e971c4ce2e87f54ace12c5"
+  },
+  {
+    "file": "media/atlas/one-mechanism-014.webp",
+    "bytes": 5592,
+    "sha256": "7676e74d874f7e36d592cbcedef44c59d978a65b87d0d455aee13a2931bccc30"
+  },
+  {
+    "file": "media/atlas/one-mechanism-015.webp",
+    "bytes": 5562,
+    "sha256": "c59b29032e4a85e75aaeefd3e5583cf4d7a04c50f7d49d41fde6f0ba65f297c4"
+  },
+  {
+    "file": "media/atlas/one-mechanism-016.webp",
+    "bytes": 7096,
+    "sha256": "13cebac3ee55e7ac45cd5d26c458fca120e0fcb058d0927675f8efae12cf4e2e"
+  },
+  {
+    "file": "media/atlas/one-mechanism-017.webp",
+    "bytes": 3892,
+    "sha256": "5abc6a7db22533b0fb62be52a388d4a601a77ba3342525fbffcd7a9c1f33ee66"
+  },
+  {
+    "file": "media/atlas/one-mechanism-018.webp",
+    "bytes": 3410,
+    "sha256": "e95117f68c420b0092f1ae4419ea63438f9cbd09953b83eaf7e92ae2026aba5e"
+  },
+  {
+    "file": "media/atlas/one-mechanism-019.webp",
+    "bytes": 8956,
+    "sha256": "821bea5667b7ad8589dfccfcf6d3e8e8a1780a2da4579bf17efa73ad4f0caab6"
+  },
+  {
+    "file": "media/atlas/one-mechanism-020.webp",
+    "bytes": 3080,
+    "sha256": "50203cde6bb7e0042b2464f63ed29cf137aa0635180ed72df06f02f3225ced92"
+  },
+  {
+    "file": "media/atlas/one-mechanism-021.webp",
+    "bytes": 5186,
+    "sha256": "2c0ed9adf5bfae14f3932b4ab44522b82b1c1d8cccceabe16cdbba3bea03a5a6"
+  },
+  {
+    "file": "media/atlas/one-mechanism-022.webp",
+    "bytes": 4234,
+    "sha256": "5e3b30283ff8b14433e0e70cf785c41fc6bd40a8f0a83dd798c5775787920011"
+  },
+  {
+    "file": "media/atlas/one-mechanism-023.webp",
+    "bytes": 5146,
+    "sha256": "55eaf457b691811c3bd024690ab5c0c62bc2569b2a5b0cd2d1dd0052775a4b04"
+  },
+  {
+    "file": "media/atlas/one-mechanism-024.webp",
+    "bytes": 4380,
+    "sha256": "88865a090b350ca1260618c2bb70bf4fd86241e597f2f60f09266e357ed63e2e"
+  },
+  {
+    "file": "media/atlas/one-mechanism-025.webp",
+    "bytes": 5628,
+    "sha256": "94b4dab86eaa7e6ccbafa39471c8ffda3dce646574738af6b4c0be02512495a7"
+  },
+  {
+    "file": "media/atlas/one-mechanism-026.webp",
+    "bytes": 8902,
+    "sha256": "cf82d97fbe930571256a24293dbb9d84a63bca0b8ce554a00cef7201d3132727"
+  },
+  {
+    "file": "media/atlas/one-mechanism-027.webp",
+    "bytes": 6068,
+    "sha256": "7cb484d03505f836a343b68d88ae2f82610c36c749629fd0772536e0528008e5"
+  },
+  {
+    "file": "media/atlas/one-mechanism-028.webp",
+    "bytes": 2486,
+    "sha256": "703090391d42f0e64e36098214376c65d2f3e69aba362dd35a5a3df4725a3a46"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-001.webp",
+    "bytes": 9754,
+    "sha256": "0fbc00f6c863314042ac7c0aea61b781dd7f6396ef5f0bec4fcb159d4b14f2c9"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-002.webp",
+    "bytes": 4068,
+    "sha256": "aa3c76f199e77e996dc5f47fa63c64bafda243edd297e24f0505b609696da907"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-003.webp",
+    "bytes": 5818,
+    "sha256": "aa3a694a580f280558daa7f7134c28ffe656f23cc13cdc18715dcea5369c439a"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-004.webp",
+    "bytes": 3552,
+    "sha256": "80fa433f8165e1118d47f0fd85a8421271db15b0546b03c1a9844e9aacff5f8a"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-005.webp",
+    "bytes": 6524,
+    "sha256": "14da236f28e09b3d86cfb756eb1347ea3b993f0b68e46957b319deac13d9e4dd"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-006.webp",
+    "bytes": 6048,
+    "sha256": "ff4d3d924d7d6f05d270be8bc6ff81e10bce6db1b68484d1ee4c65d25b0b0123"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-007.webp",
+    "bytes": 5468,
+    "sha256": "1874a019cae77d59281812a6156b15db0c395ae59a327e59c1fa86e4a3d24d2c"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-008.webp",
+    "bytes": 4618,
+    "sha256": "d24783e017efc08787eb9546087bd77e412ec788d420a2cf880d95a28d6d4ea7"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-009.webp",
+    "bytes": 7550,
+    "sha256": "81e48b97d59a36f9c5a8243fb4ebd1eb74859ef19f438ff76b7d14aacc84791f"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-010.webp",
+    "bytes": 5040,
+    "sha256": "252a5448c84759cb524027793504272bbacc186d982261da05681b84176ea981"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-011.webp",
+    "bytes": 7648,
+    "sha256": "c6909e7b6b3481b8a54f25321095f3857c5f6ae858ef3fdb834e25ec423897a2"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-012.webp",
+    "bytes": 5532,
+    "sha256": "5cd5bd1794871c0d9f6bb49f4f18628279c73f072aff02947502ceea11d94c54"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-013.webp",
+    "bytes": 7670,
+    "sha256": "1e5ff52b3c594454211e19cfaed113013ddf9f478ed75b2cc6b90f0121d32b94"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-014.webp",
+    "bytes": 9552,
+    "sha256": "33eda873d3589abb60fcae1272518a2442f7cff6a190cb2c593fd6be94f4ee6e"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-015.webp",
+    "bytes": 4648,
+    "sha256": "bf50a19ad624b1c9342c187cc7e671056a9117d9c2c83d133fc097de07c91274"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-016.webp",
+    "bytes": 8028,
+    "sha256": "ee29a8b04ab2f474658ebc1a1eaf394c7a2d221215926f1d43cadfddaacd2671"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-017.webp",
+    "bytes": 4236,
+    "sha256": "84e8a822839f289da0865c29688f883f128e40ac2f23b6b16f14ebd80654f06d"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-018.webp",
+    "bytes": 8372,
+    "sha256": "fadde174abf55ff2b11c5125ec7b3d98bf18590b905a9cf6b0dcae44ca78cd8b"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-019.webp",
+    "bytes": 9892,
+    "sha256": "b9f21e58a09d9e26397739d614569ff880ce3f0c6d96067bd3e5a7332d3197fc"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-020.webp",
+    "bytes": 4414,
+    "sha256": "da0632714c67b2a803ea39322531efee38f830e9a60c31de4e7b29947880f5b7"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-021.webp",
+    "bytes": 7300,
+    "sha256": "553f73aa1e08f508ed38aa87b538a277e62322b7511319265f80410443554fb1"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-022.webp",
+    "bytes": 2050,
+    "sha256": "4b59c65883d8431afee6be6df35578ad8e9fd0c7b6e3450f1de67e92726e4c87"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-023.webp",
+    "bytes": 5346,
+    "sha256": "560ec709994b8efa7f0055ce8c55ee3958d69ff92bad6719b65508de345a001b"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-024.webp",
+    "bytes": 4948,
+    "sha256": "96469e46812df7ca710eff7664e9ed9e3aa366655469cec34ee261d96e4e9949"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-025.webp",
+    "bytes": 5474,
+    "sha256": "6753bea77f986b95b278861755c0af73eef6f0e086fea2efa2de5e5e68bf3e16"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-026.webp",
+    "bytes": 5208,
+    "sha256": "e0aa683b7690978b768a1f5646d37b7033120021a89807fbabfef7d740816ded"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-027.webp",
+    "bytes": 4322,
+    "sha256": "eee9f200948f9b9df8ff75a5082ea16e64f9940530e2cf23bc830c8569c0a2fe"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-028.webp",
+    "bytes": 10374,
+    "sha256": "9f96dd2b0bf472f4b5218682c06118a4fb04abe32b81a08a3fb9d42285c52e46"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-029.webp",
+    "bytes": 3666,
+    "sha256": "74721bfb0f638df030b23127dc625aacde666e005e495d520b717f85c4f2801d"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-030.webp",
+    "bytes": 4874,
+    "sha256": "1ace1b7be17230f8553b87a035e1ba97b34eb25057a5d0a850002d872ae699fd"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-031.webp",
+    "bytes": 4028,
+    "sha256": "bf28eaeb4f92bd8c137184d5c204586e71b36cdc89da99a06c09baff0b436680"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-032.webp",
+    "bytes": 4268,
+    "sha256": "b4fb5e4e7804de936067f3291a9b6fce8766f79dcf81ef71d90df23e3816eae9"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-033.webp",
+    "bytes": 4068,
+    "sha256": "aa3c76f199e77e996dc5f47fa63c64bafda243edd297e24f0505b609696da907"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-034.webp",
+    "bytes": 5812,
+    "sha256": "d68a58de5208cf63fcfc1c4d3abef26944844a8b2249faf5b4a0f304d3032cb7"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-035.webp",
+    "bytes": 4068,
+    "sha256": "aa3c76f199e77e996dc5f47fa63c64bafda243edd297e24f0505b609696da907"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-036.webp",
+    "bytes": 5082,
+    "sha256": "df3c7f475dad17f6c031b32df80e5e4814b1f8a8db4d41b7368776b64ef9ee13"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-037.webp",
+    "bytes": 10394,
+    "sha256": "c9311016fcd022f819a54424e88d0b503374f6840346e95bb20bfd5d5e3bf6b7"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-038.webp",
+    "bytes": 4268,
+    "sha256": "b4fb5e4e7804de936067f3291a9b6fce8766f79dcf81ef71d90df23e3816eae9"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-039.webp",
+    "bytes": 4340,
+    "sha256": "67a2d3204b363d284c8e3698a3d4e988bde159b6e710bb19aed89803a75653c9"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-040.webp",
+    "bytes": 4616,
+    "sha256": "03de9f4d4e9e1e0832069d006bcee8bdda7e7c20babcee6028d0829c6021466f"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-041.webp",
+    "bytes": 2902,
+    "sha256": "a0192e3d96c0aa297442f884b17ecfa25a9e297170b9a776ef2655816f7d1db1"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-042.webp",
+    "bytes": 4068,
+    "sha256": "aa3c76f199e77e996dc5f47fa63c64bafda243edd297e24f0505b609696da907"
+  },
+  {
+    "file": "media/atlas/optional-architectural-revision-043.webp",
+    "bytes": 2882,
+    "sha256": "3d7d6f86c20895703041323741f1dee0ca992526ef1c6cb7d3cc05e0a9c2d1c2"
+  },
+  {
+    "file": "media/atlas/simplified-office-001.webp",
+    "bytes": 4178,
+    "sha256": "7a30a4d3b7b912d609036f981dc3665e77dcd3f224b65a1c1c57b4c08f06bdab"
+  },
+  {
+    "file": "media/atlas/simplified-office-002.webp",
+    "bytes": 3716,
+    "sha256": "7e907d99df248960c2780b0c272762d9f5ceccde4ba3d96759af8e5b4272ef81"
+  },
+  {
+    "file": "media/atlas/simplified-office-003.webp",
+    "bytes": 4900,
+    "sha256": "8dd7e3bb6ce146590b10baf8c85e43d7a52e5fa1c90fa8148019a6309c34e1a2"
+  },
+  {
+    "file": "media/atlas/simplified-office-004.webp",
+    "bytes": 3394,
+    "sha256": "d28f03dab5238861263f18ac387ba440c64bfa0e82becf87d388f760bf920298"
+  },
+  {
+    "file": "media/atlas/simplified-office-005.webp",
+    "bytes": 6968,
+    "sha256": "4fe8dd4e405b78cfefa32f934a0d7853d409f2f4ca91dd26bf05af3b03d26ea1"
+  },
+  {
+    "file": "media/atlas/simplified-office-006.webp",
+    "bytes": 3436,
+    "sha256": "ecc08cea140d5f9d415c8219eb0e4aebea9e94523eb6f7ae1cf7328b3001fbd6"
+  },
+  {
+    "file": "media/atlas/simplified-office-007.webp",
+    "bytes": 5878,
+    "sha256": "4a72f5f5e38a005462e8a6d27b4a8d795dad74b55451dde2318c46fb67f855c0"
+  },
+  {
+    "file": "media/atlas/simplified-office-008.webp",
+    "bytes": 3376,
+    "sha256": "c9fcb193b1797be0ad4a95519daa423cbb19913f2dd869b8cd691b5e00263566"
+  },
+  {
+    "file": "media/atlas/simplified-office-009.webp",
+    "bytes": 7356,
+    "sha256": "dc263080b76957f50170005f15f5295193295462279e31a03bd53d8563966205"
+  },
+  {
+    "file": "media/atlas/simplified-office-010.webp",
+    "bytes": 3460,
+    "sha256": "ca585b1f98981a00e34fd0a76214bfe681a80ff668ca663f9a8a94b50c882202"
+  },
+  {
+    "file": "media/atlas/simplified-office-011.webp",
+    "bytes": 5260,
+    "sha256": "df2be5a43137d598b91fdb35cd10476ed69d689a8fe31e924a1a1cbc4bb3cc97"
+  },
+  {
+    "file": "media/atlas/simplified-office-012.webp",
+    "bytes": 3316,
+    "sha256": "384583d4131245e6acc8959258dffe91168f6df3e6a2252c4f058019128e1ae2"
+  },
+  {
+    "file": "media/atlas/simplified-office-013.webp",
+    "bytes": 4170,
+    "sha256": "113064c1425b13892092e765d67c70d5773ea8e9df2fbf2f58abe8148331ffd7"
+  },
+  {
+    "file": "media/atlas/simplified-office-014.webp",
+    "bytes": 9970,
+    "sha256": "28d0ab12deda7d007bc43906f13c6af33831b14415f4e464f06608216f0e929d"
+  },
+  {
+    "file": "media/atlas/simplified-office-015.webp",
+    "bytes": 10040,
+    "sha256": "f465012546c51512c58ebae50a6b7860e67968652a9b9941cef03dd3cc0febcd"
+  },
+  {
+    "file": "media/atlas/simplified-office-016.webp",
+    "bytes": 10052,
+    "sha256": "5fbefe9e324366356a07e69568fbcb85c5594752c1d59812d3412eb027521171"
+  },
+  {
+    "file": "media/atlas/simplified-office-017.webp",
+    "bytes": 9014,
+    "sha256": "56bce8cba8a56b23d99b89f79ba1f5fe8697280b34d00f275f592821b21f629d"
+  },
+  {
+    "file": "media/atlas/simplified-office-018.webp",
+    "bytes": 10762,
+    "sha256": "62ad0fee1e6718e37efbd3ef2c5a7560293a7dc535b03ece0269df3e20c3c410"
+  },
+  {
+    "file": "media/atlas/simplified-office-019.webp",
+    "bytes": 11256,
+    "sha256": "14e6bf52fffaf79dd1ec12204632dc7a8a5d493f83c82d6ddc431f4d0943dc53"
+  },
+  {
+    "file": "media/atlas/simplified-office-020.webp",
+    "bytes": 11200,
+    "sha256": "ae6aaeed037fcf545b527a6027274020cc103ea9127467977f317d7c3568bf20"
+  },
+  {
+    "file": "media/atlas/simplified-office-021.webp",
+    "bytes": 10770,
+    "sha256": "20da1b90120d110cc6728259d9e46346ea09f4892e9277f14cff80a02baf9d9e"
+  },
+  {
+    "file": "media/atlas/simplified-office-022.webp",
+    "bytes": 8992,
+    "sha256": "87a1ad029e329792299f65ea78e6f4c25523708e2f28414d2d239f7403195607"
+  },
+  {
+    "file": "media/atlas/simplified-office-023.webp",
+    "bytes": 9630,
+    "sha256": "2e2611e86e93146e81f2dc2f4027ec309f83f1d07b5bac58888d83bce55e309f"
+  },
+  {
+    "file": "media/atlas/simplified-office-024.webp",
+    "bytes": 9622,
+    "sha256": "2252d42ca379c48f77941478d1d69973e606dd9512dbb0febbc634e80d657c2c"
+  },
+  {
+    "file": "media/atlas/simplified-office-025.webp",
+    "bytes": 9492,
+    "sha256": "859856d4a1e203f42fba1420de7d1afe51dcc12fb0c1ee25c7233a9474d27512"
+  },
+  {
+    "file": "media/atlas/simplified-office-026.webp",
+    "bytes": 4312,
+    "sha256": "213a450a1d1e207c161ce2cf1e47b9a6c6d118adb232402b3702869309e76d07"
+  },
+  {
+    "file": "media/atlas/simplified-office-027.webp",
+    "bytes": 4462,
+    "sha256": "fe2a0bed47e34e2559984d1745627a17107af2b7165532cb9115102198f8a834"
+  },
+  {
+    "file": "media/atlas/simplified-office-028.webp",
+    "bytes": 6258,
+    "sha256": "288a47c3153167a507287ade0a1b11c943f7c5623a1e51dd72e9946d1cbe16da"
+  },
+  {
+    "file": "media/atlas/simplified-office-029.webp",
+    "bytes": 4382,
+    "sha256": "8121f801cdb2a094f3dc488d45ae508c30166ad194c3aa48552bccc677980567"
+  },
+  {
+    "file": "media/atlas/simplified-office-030.webp",
+    "bytes": 6942,
+    "sha256": "8e42d24fcab00a042090f12db570a1b2a4980b3800ad00f8b0ce07f94bae4bee"
+  },
+  {
+    "file": "media/atlas/simplified-office-031.webp",
+    "bytes": 7266,
+    "sha256": "cfc9c05073db53bfa49160dab6000a1543ee0fdccab600e7a45064e0e462fb2d"
+  },
+  {
+    "file": "media/atlas/simplified-office-032.webp",
+    "bytes": 4322,
+    "sha256": "eee9f200948f9b9df8ff75a5082ea16e64f9940530e2cf23bc830c8569c0a2fe"
+  },
+  {
+    "file": "media/atlas/simplified-office-033.webp",
+    "bytes": 4658,
+    "sha256": "15c7bcc5516ab2076927dc67f0cf70d8cf71eca612f078cd3fb8a4dae9b29a30"
+  },
+  {
+    "file": "media/atlas/simplified-office-034.webp",
+    "bytes": 7902,
+    "sha256": "f6d1217cb3906c69f01184befe65f9b0942b2b65b1a0bf66fd9ef4fc21759a56"
+  },
+  {
+    "file": "media/atlas/simplified-office-035.webp",
+    "bytes": 4618,
+    "sha256": "d24783e017efc08787eb9546087bd77e412ec788d420a2cf880d95a28d6d4ea7"
+  },
+  {
+    "file": "media/atlas/simplified-office-036.webp",
+    "bytes": 5264,
+    "sha256": "3788431b464d48d2f0a2dd06de686c4c1c856eb0263f14e516713f33c3d5ef33"
+  },
+  {
+    "file": "media/atlas/simplified-office-037.webp",
+    "bytes": 5512,
+    "sha256": "f861d4f821bf7b924c2b11f09914787dbc07863424f01ff078243aec67da8ce0"
+  },
+  {
+    "file": "media/atlas/simplified-office-038.webp",
+    "bytes": 5300,
+    "sha256": "e87a5e276b3de2640a844d05376ca8eb2d79bf117e3f7645440892175304a61b"
+  },
+  {
+    "file": "media/atlas/simplified-office-039.webp",
+    "bytes": 3552,
+    "sha256": "80fa433f8165e1118d47f0fd85a8421271db15b0546b03c1a9844e9aacff5f8a"
+  },
+  {
+    "file": "media/atlas/simplified-office-040.webp",
+    "bytes": 4452,
+    "sha256": "c354b9a441aaa872a894ec85011fac7ed859579997556490b121d5a48818799e"
+  },
+  {
+    "file": "media/atlas/simplified-office-041.webp",
+    "bytes": 5062,
+    "sha256": "46ad3d92e34042c710f4aabc19c694e4a0364a63447131fe3b529f04d6c058e0"
+  },
+  {
+    "file": "media/atlas/simplified-stage-0.webp",
+    "bytes": 14814,
+    "sha256": "244708e28dfe876b0bdb3419e123c5b96ab83abf150ac9e849a3c8265797ea79"
+  },
+  {
+    "file": "media/atlas/simplified-stage-1.webp",
+    "bytes": 16448,
+    "sha256": "ac916eb3e1cc058e3d76d51d804b3610705e7466c210fdf94970326069a62f53"
+  },
+  {
+    "file": "media/atlas/simplified-stage-2.webp",
+    "bytes": 26570,
+    "sha256": "286756492955793e6979581d67c8a17cf1a5d2a178b94b2086c248b87bd17092"
+  },
+  {
+    "file": "media/atlas/simplified-stage-3.webp",
+    "bytes": 31226,
+    "sha256": "aca26baae8b788cf16e1864313c3ff32e9eba9054f58f50ecd38de6a0e10d878"
+  },
+  {
+    "file": "media/atlas/simplified-stage-4.webp",
+    "bytes": 29632,
+    "sha256": "0f86cfb245b25bc5c671fe4d080ff4e4199672a93f719ccb67e8f02386e1f419"
+  },
+  {
+    "file": "media/atlas/simplified-stage-5.webp",
+    "bytes": 31536,
+    "sha256": "3b2f4c27b406fb91d1124dff9140961f9753d689436b5511ee95908bcf5702d8"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-001.webp",
+    "bytes": 7322,
+    "sha256": "cacf73a89584c90c710b7a6345d9214684fba4d69f26e7d5b1c9d0e687eb4bb7"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-002.webp",
+    "bytes": 7584,
+    "sha256": "9df42e842bc62c02386c6a1bd01ebbb969d1b661a29af80bb1ef1fd3114b1025"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-003.webp",
+    "bytes": 5296,
+    "sha256": "cdb78af8dbd44e6d2b6c26dbcd562df2f93847b1fa9250a9d37ae8ba8abadcca"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-004.webp",
+    "bytes": 5502,
+    "sha256": "55daada1c442e836a62486c9440f30433f36dae97de14a3609d74a544d48fbcf"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-005.webp",
+    "bytes": 4508,
+    "sha256": "f13fdbc43c300add9973b3214e5945640db36e2ab2ad8a75e21d044d96c8e032"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-006.webp",
+    "bytes": 3970,
+    "sha256": "c50df2e6734e67ce9a25d6b20883de4463a95bc18c6919eecd783ab9bd665aa5"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-007.webp",
+    "bytes": 9142,
+    "sha256": "b614017ac5e68e12473081b097235c6ef52be5370c43e163b1029711714cfb20"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-008.webp",
+    "bytes": 11100,
+    "sha256": "555fb6f4b71f84e8f1022165a89cd40e7d12ada69143cffaba274d89336a58f6"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-009.webp",
+    "bytes": 4956,
+    "sha256": "ff1cbebcd6cdb79ecd1b4a3264a50dfc856aa6268e9e450630c17c63a9e31fb9"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-010.webp",
+    "bytes": 2726,
+    "sha256": "3d1daacf03ffaae00445f7c4192433ecae65ac374942a421ffdfb56135a3fa81"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-011.webp",
+    "bytes": 5082,
+    "sha256": "6601e3a4f5ae9a080ec3a820b2e8b7f3c2db1f60c731c45b5a30570302dcabc2"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-012.webp",
+    "bytes": 5522,
+    "sha256": "f4f0a8197a89ca0d2cf39ceeee47ccb2c9ee84a5a6de8a3ad184727faf20150e"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-013.webp",
+    "bytes": 6434,
+    "sha256": "3da2eb914bd3a9f1116f804412583af45a08540f3ee325fb2f3b87a8216301e3"
+  },
+  {
+    "file": "media/atlas/stand-reinforcement-014.webp",
+    "bytes": 10930,
+    "sha256": "0dbf5d05e901a4cd0879e97d2a20ba954514672fd034b66fb02cff307defbbae"
+  },
+  {
+    "file": "media/atlas/workshop-tools-and-additional-exports-001.webp",
+    "bytes": 6234,
+    "sha256": "d2cc4a271fcd055f5479f753dbeeb85c4801f46cf208cb7c1dabab893ea135db"
+  },
+  {
+    "file": "media/atlas/workshop-tools-and-additional-exports-002.webp",
+    "bytes": 3974,
+    "sha256": "bf22a71aed73b6156b8367d38be08908bdc0b7c8063f601da8c3387720c1c896"
+  },
+  {
     "file": "media/engineering/carriage_travel.png",
     "bytes": 59683,
     "sha256": "5ae76f0ad31d2b1d7c656493b5746e5c6a03277a13da6d3c8106542b3a3f3fb5"
@@ -468,6 +1673,11 @@
     "file": "media/engineering/linkage_geometry.png",
     "bytes": 56496,
     "sha256": "1aa70d4e0f85fc5b254d6fa624d31fc332a6725836bbdda599f1952f9f29d04d"
+  },
+  {
+    "file": "media/engineering/one_wing_cycle.gif",
+    "bytes": 128526,
+    "sha256": "cb2be24e8c71776a629d66ddacc9a3b0b5fa563855f9b05c3d061ca9feeed13a"
   },
   {
     "file": "media/parts/E01_iso.png",
@@ -1750,6 +2960,241 @@
     "sha256": "9074b6a63e7f8aa7d91476d8a98d2d2d0ca48d641c3c7135eeb1b194a534df33"
   },
   {
+    "file": "print/furnished/parts/A01_PLANSEU_1.stl",
+    "bytes": 57084,
+    "sha256": "ceeff46a4e67150285ec8f6b02c9044590559410adf9521175ec8ceade28e8bf"
+  },
+  {
+    "file": "print/furnished/parts/A01_PLANSEU_2.stl",
+    "bytes": 79484,
+    "sha256": "7f6c6e166abc06c795ca6d3f92115ccd786fc3e0b8965cd6f28e3641ad67d411"
+  },
+  {
+    "file": "print/furnished/parts/A01_PLANSEU_3.stl",
+    "bytes": 60284,
+    "sha256": "b220391b1242d4191e70530c6471c6880ad6d2290011c9404e198d269b0d0863"
+  },
+  {
+    "file": "print/furnished/parts/A02_CADRU_SPATE.stl",
+    "bytes": 8084,
+    "sha256": "b23207da84716d3dc080121a7dc6a7e6e0a6fb27e6061acbccd35b734a2d0765"
+  },
+  {
+    "file": "print/furnished/parts/A02_CADRU_SPATE_INALT.stl",
+    "bytes": 8084,
+    "sha256": "ef7161f1d3353e967d58d2d788738dadc8a9a363f07c02462324841224993808"
+  },
+  {
+    "file": "print/furnished/parts/A05_LAMELE_UNDA_ASCENDENTA.stl",
+    "bytes": 64284,
+    "sha256": "5f485061a9f4c8194c780877ea2b34c9d9a60b8bc68da8aebc8f374078802e0a"
+  },
+  {
+    "file": "print/furnished/parts/A06_LAMELE_UNDA_DESCENDENTA.stl",
+    "bytes": 64284,
+    "sha256": "2b4216a9744f3b681b38ca96dcb01a0f32d8bd0327ed1564479e707482029c17"
+  },
+  {
+    "file": "print/furnished/parts/A07_LAMELE_UNDA_ETAJ_INALT.stl",
+    "bytes": 64284,
+    "sha256": "2b312dd68185119232b33d95fd9dcc0e90ec8919ec683864d2fd8b5d5fad5f30"
+  },
+  {
+    "file": "print/furnished/parts/B03_SOCLU_SPATE_CU_TALPA.stl",
+    "bytes": 3484,
+    "sha256": "4b846b27054783393a6001c02362685c00b1f5e65246a8fa0871f08ccc2b1fd0"
+  },
+  {
+    "file": "print/furnished/parts/B04_SOCLU_EVANTAI_INTEGRAT.stl",
+    "bytes": 207084,
+    "sha256": "96af387c89e85f7ca5fc712a4bb1602c196721e14cbf51d2b9f0f6bbcccc6744"
+  },
+  {
+    "file": "print/furnished/parts/E02_CUTIE_SURSA_12V.stl",
+    "bytes": 69484,
+    "sha256": "91212174f0e98a85b7c195615a3d261c73df9b68120e614675352c15448c37e0"
+  },
+  {
+    "file": "print/furnished/parts/E03_CAPAC_SURSA.stl",
+    "bytes": 2284,
+    "sha256": "30c065d520da165a4a782f54e73916460bf7655ac7732de7dd133ab272c21e19"
+  },
+  {
+    "file": "print/furnished/parts/E04_BRIDA_SURSA.stl",
+    "bytes": 1484,
+    "sha256": "56e26bcc16ab990b818ec94c034fb9bf3cef82a79ece74a254aa838c470bf43e"
+  },
+  {
+    "file": "print/furnished/parts/E05_CUTIE_COMANDA.stl",
+    "bytes": 48884,
+    "sha256": "00ecc83a95db31474dfca0cb752183c274ad8e2f88ff23d5d29098c55cdc1c3b"
+  },
+  {
+    "file": "print/furnished/parts/E06_CAPAC_COMANDA.stl",
+    "bytes": 2284,
+    "sha256": "ac20ef9933399a8c7e6c64d641bd2177afee2fa82bc617727afe57428a45249d"
+  },
+  {
+    "file": "print/furnished/parts/E07_CANAL_ACOPERIS_1.stl",
+    "bytes": 2884,
+    "sha256": "8d8c02592ecb54fbd245a82335847c59c71b1dcab401dc060500cdd1b4f01606"
+  },
+  {
+    "file": "print/furnished/parts/E07_CANAL_ACOPERIS_2.stl",
+    "bytes": 4284,
+    "sha256": "adbd7736b6d3274fe9b88718f3f553b3cafeba27519741130a6c9e8dc06604ed"
+  },
+  {
+    "file": "print/furnished/parts/E07_CANAL_ACOPERIS_3.stl",
+    "bytes": 2884,
+    "sha256": "00023c25896cea56cff3e49cc875c54307d49b7800c87712d61de84996322a72"
+  },
+  {
+    "file": "print/furnished/parts/E08_CAPAC_CANAL_ACOPERIS.stl",
+    "bytes": 684,
+    "sha256": "186bf73fd1259c41407b94d45cd4b07040128b54afd21fa4e32a267dde870381"
+  },
+  {
+    "file": "print/furnished/parts/F01_BOLT_5_6.stl",
+    "bytes": 76884,
+    "sha256": "f7312f40240429134f4862df12653f5da2684d9f135f476c4b583e4c090bd36d"
+  },
+  {
+    "file": "print/furnished/parts/F02_SIGURANTA_DUBLA.stl",
+    "bytes": 17484,
+    "sha256": "28c5b5b8e5ca89992b07c10b4812d5365695b0890e2aee137c56f461fff7b211"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C1_N1.stl",
+    "bytes": 54084,
+    "sha256": "e1193f84547eafbbf1c28bbd7e300449850669c41ff5f836644083e7d3c2043a"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C1_N2.stl",
+    "bytes": 58584,
+    "sha256": "a055f98cc1a088ed5615bf6699b810027fe80bf83a6524f92e926d0378ad65b1"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C1_N3.stl",
+    "bytes": 58584,
+    "sha256": "041e6ad6a5fd242a1f44badb152e5e61ae114445f5598c3d23644118dcecc60b"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C1_N4.stl",
+    "bytes": 54184,
+    "sha256": "8f494c33d20a86b9463cc0ba448d8124840cfa2c1c5deea04938c6f6912b86d7"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C2_N1.stl",
+    "bytes": 58484,
+    "sha256": "e94c82dcbc813f5fa9748db687ccc16b6baecf79abd3aa33af8b3cb6c92fcd61"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C2_N2.stl",
+    "bytes": 99384,
+    "sha256": "547a8fa1c6b8882f4d6701aa8866250569d7d571789b1647ba8a38c61603ae10"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C2_N3.stl",
+    "bytes": 99384,
+    "sha256": "4454befd06c50b6892f959f5568d4bc02374805f7b22f4f2437de71bb9073cf2"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C2_N4.stl",
+    "bytes": 130184,
+    "sha256": "1474bfb9a552ac21093a61c502e8fb25f26b0f33d51587f166b4cdd41bc0f4b3"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C3_N1.stl",
+    "bytes": 18884,
+    "sha256": "45642b43f0530a519674c0ce36936d092d6f386e8649a5cee4f9afa1888a6aa4"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C3_N2.stl",
+    "bytes": 59784,
+    "sha256": "b6f4c31baa33999a0985e888cccd21c018f13cf74b81bb46323a5ef05541dbee"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C3_N3.stl",
+    "bytes": 59784,
+    "sha256": "37cb8605477ece0de5b4a54a0ca761559b4a5b089e437102ae45fa9d718f59fb"
+  },
+  {
+    "file": "print/furnished/parts/F04_CASETA_C3_N4.stl",
+    "bytes": 90584,
+    "sha256": "29e3d32928fe64b4e3f62fc2fed41808e039d511f89a5cac5bc07e8eb9ddf80f"
+  },
+  {
+    "file": "print/furnished/parts/F05_CHEIE_VERTICALA.stl",
+    "bytes": 11084,
+    "sha256": "a5ebe4bd78f33a58a9faf301eaf6e7cbcbc5a79c23c34f1ee0d0461634b95f0a"
+  },
+  {
+    "file": "print/furnished/parts/F06_CHEIE_VERTICALA_LUNGA.stl",
+    "bytes": 11084,
+    "sha256": "e439a58fef3306e52860e08d804e879c5a37a463b9e87e72289718f81dad1458"
+  },
+  {
+    "file": "print/furnished/parts/F07_CHEIE_ORIZONTALA.stl",
+    "bytes": 11084,
+    "sha256": "37c3755c5753d801afeeb704a46901719d276b3fd4c94076bbba9971d93f1665"
+  },
+  {
+    "file": "print/furnished/parts/I01_ATELIER.stl",
+    "bytes": 16484,
+    "sha256": "da5ba9e32d8796eeb93d8c7daac8f06b1f9b148a2980fd9a7466c5ed7862b6e5"
+  },
+  {
+    "file": "print/furnished/parts/I01_RECEPTIE.stl",
+    "bytes": 16284,
+    "sha256": "e1a7ae52ef2aaec8c35895cd3a8ee96c48167603788899eaf78a44a66184466a"
+  },
+  {
+    "file": "print/furnished/parts/I01_SEDINTA.stl",
+    "bytes": 20084,
+    "sha256": "1df994b14444e1768b9a4f19ffd6c33bfe9c699a7ccab9937e1c6fdda99e48e9"
+  },
+  {
+    "file": "print/furnished/parts/I02_BARA_POZITIONARE.stl",
+    "bytes": 2284,
+    "sha256": "7162d898412b300e0dd2769ccd3d5d09a05e80c81c2510b9d029484c47d36feb"
+  },
+  {
+    "file": "print/furnished/parts/I03_PROTECTIE_GOL_SCARA.stl",
+    "bytes": 22284,
+    "sha256": "abe0b6b0093d27237712d096818337b73fd9ef7bef0c12a2c949a8d0b1960d68"
+  },
+  {
+    "file": "print/furnished/parts/J01_CHEIE_FLUTURE.stl",
+    "bytes": 1484,
+    "sha256": "63087b86dca30396ee4747cc1eb117dd943e8b867e4d96bdb9a33d5a4bb0669e"
+  },
+  {
+    "file": "print/furnished/parts/J03_PROBA_IMBINARI.stl",
+    "bytes": 3284,
+    "sha256": "f11e08befda98d7002212adf3665b93d0e24cddac2b6a677061ab5b16b5f04ae"
+  },
+  {
+    "file": "print/furnished/parts/S01_SCARA_RAMPA_INFERIOARA.stl",
+    "bytes": 16484,
+    "sha256": "67ddf4419b4565207f889e175114b46cd274ddd46ca1fe4d56b2cfc8dd94bc78"
+  },
+  {
+    "file": "print/furnished/parts/S02_SCARA_RAMPA_SUPERIOARA.stl",
+    "bytes": 16484,
+    "sha256": "e9b1f1ec916df49fde37cabab46e9db4315a5c3557f65b64ac0179cc5d7cc10e"
+  },
+  {
+    "file": "print/furnished/parts/S03_BALUSTRADA_SEPARATA.stl",
+    "bytes": 3684,
+    "sha256": "da3e2ab4fddc554e768dfc3385edd41920af28415b09aec09a34ad13b3d8381c"
+  },
+  {
+    "file": "print/furnished/parts/T02_TRAPA_ACOPERIS.stl",
+    "bytes": 2284,
+    "sha256": "d8ae7bb569b255eaa45fa9674ec2362dac452bf9e5056f317742e2e2151543e0"
+  },
+  {
     "file": "print/furnished/placements.csv",
     "bytes": 9900,
     "sha256": "e7e07ed07bad409b867dfa389fd81aa5a6392c56b201a74e59d71ac90a0ce21a"
@@ -2075,6 +3520,211 @@
     "sha256": "f120d3c9ea503384de73b3acf46e9c2c1519fffd30a99e28be4ed9ca28a11430"
   },
   {
+    "file": "print/simplified/parts/A01_PLANSEU_1.stl",
+    "bytes": 53484,
+    "sha256": "7a1263698a649999886fd8dd46475b1a6243f441091998124f13d79b250d1046"
+  },
+  {
+    "file": "print/simplified/parts/A01_PLANSEU_2.stl",
+    "bytes": 70684,
+    "sha256": "f33116d784d65425c43bdb1a833cbc4d66444a725a9517c102188cb5cf0aba7b"
+  },
+  {
+    "file": "print/simplified/parts/A01_PLANSEU_3.stl",
+    "bytes": 56684,
+    "sha256": "ab2564380a87e1bd8f96aa16a2a4bf01a138da2ac3c3bbf3234680d3199f4343"
+  },
+  {
+    "file": "print/simplified/parts/A02_CADRU_SPATE.stl",
+    "bytes": 11684,
+    "sha256": "d0581ffff64f1dd575389f755eae60765adb913e9205cd84f57b729c9d516845"
+  },
+  {
+    "file": "print/simplified/parts/A02_CADRU_SPATE_INALT.stl",
+    "bytes": 11684,
+    "sha256": "cef6a45c35227ca248c98dff307eb3685e4d9009cc85930331aa62c709ef4168"
+  },
+  {
+    "file": "print/simplified/parts/A03_CADRU_LATERAL.stl",
+    "bytes": 8684,
+    "sha256": "16cedcf1a401a3f33a57852db3b8d41a0dffd4327c36cc5c0f225009844dbf14"
+  },
+  {
+    "file": "print/simplified/parts/A03_CADRU_LATERAL_INALT.stl",
+    "bytes": 8684,
+    "sha256": "0207027e86211b067363d2b01148497096d16fc1024ee3eb20361ffa6302b502"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_1_N1.stl",
+    "bytes": 272084,
+    "sha256": "32b299d34f4ea257f05af2f06ef7e40336edafc5b366ad645c2a3968a27b62d6"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_1_N2.stl",
+    "bytes": 272084,
+    "sha256": "867547cb2a4bfff9dfd9014e7beebecb5d98a9eff750943d369434a54aa56ed2"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_1_N3.stl",
+    "bytes": 272084,
+    "sha256": "0991d7cea6d45efdfaa72e7524382dc354b390e47b53d6ca79436a2f4df04aa0"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_1_N4.stl",
+    "bytes": 272084,
+    "sha256": "47ee834490ffa96e1000c93b297a8d7bb5c87eb4be4b322a1106edc0c141327e"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_2_N1.stl",
+    "bytes": 277484,
+    "sha256": "37cdb2bffee7231b8c4a936028ea9372676942a9cb28f78b1c98643bad10178d"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_2_N2.stl",
+    "bytes": 534284,
+    "sha256": "b88d9448c9e8cabe304dbffea4f99fcfc306af6062a1415ddc3feda3f253e990"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_2_N3.stl",
+    "bytes": 534284,
+    "sha256": "93e87d64b24a54abf62d6f1eeaad958afeb0beb1a2ee782c08a942aef6e46f06"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_2_N4.stl",
+    "bytes": 789884,
+    "sha256": "59fe0e123d812e0f2ddd75f0eaea318b56a053d6093fe8a2813dd9c3eecdf7bd"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_3_N1.stl",
+    "bytes": 16484,
+    "sha256": "bb133b53045630252fe31bd625584c1a530c8e7125d8e6eaa0d9bb9d6993a16b"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_3_N2.stl",
+    "bytes": 273284,
+    "sha256": "8ce15990bfa408bb4fd97bab6f66d576fc6dd54cd47ede2ef949c2e4dd3b889f"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_3_N3.stl",
+    "bytes": 273284,
+    "sha256": "1d030dceac21364d242bb1cc5ee4e4b23aa95a0cbec743df9de578cf6c185b6f"
+  },
+  {
+    "file": "print/simplified/parts/A04_PORTANT_3_N4.stl",
+    "bytes": 528884,
+    "sha256": "80879c45a85c3d367d3a56bd7204b2d2cfe8a394b30ae8a58559d0e4b6243e4a"
+  },
+  {
+    "file": "print/simplified/parts/B01_SOCLU_SPATE.stl",
+    "bytes": 3484,
+    "sha256": "11219bb9e5d274b75db56f452705167ad7b84b09ea53b27689144855bbf15782"
+  },
+  {
+    "file": "print/simplified/parts/B02_TALPA_FATA.stl",
+    "bytes": 3284,
+    "sha256": "9b17daa369046234de3b98788a8248ea742c8c637a9b7fe7f4eff7bdd129157f"
+  },
+  {
+    "file": "print/simplified/parts/B03_SOCLU_SPATE_CU_TALPA.stl",
+    "bytes": 3484,
+    "sha256": "4b846b27054783393a6001c02362685c00b1f5e65246a8fa0871f08ccc2b1fd0"
+  },
+  {
+    "file": "print/simplified/parts/E02_CUTIE_SURSA_12V.stl",
+    "bytes": 69484,
+    "sha256": "91212174f0e98a85b7c195615a3d261c73df9b68120e614675352c15448c37e0"
+  },
+  {
+    "file": "print/simplified/parts/E03_CAPAC_SURSA.stl",
+    "bytes": 2284,
+    "sha256": "30c065d520da165a4a782f54e73916460bf7655ac7732de7dd133ab272c21e19"
+  },
+  {
+    "file": "print/simplified/parts/E04_BRIDA_SURSA.stl",
+    "bytes": 1484,
+    "sha256": "56e26bcc16ab990b818ec94c034fb9bf3cef82a79ece74a254aa838c470bf43e"
+  },
+  {
+    "file": "print/simplified/parts/E05_CUTIE_COMANDA.stl",
+    "bytes": 48884,
+    "sha256": "00ecc83a95db31474dfca0cb752183c274ad8e2f88ff23d5d29098c55cdc1c3b"
+  },
+  {
+    "file": "print/simplified/parts/E06_CAPAC_COMANDA.stl",
+    "bytes": 2284,
+    "sha256": "ac20ef9933399a8c7e6c64d641bd2177afee2fa82bc617727afe57428a45249d"
+  },
+  {
+    "file": "print/simplified/parts/E07_CANAL_ACOPERIS_1.stl",
+    "bytes": 2884,
+    "sha256": "8d8c02592ecb54fbd245a82335847c59c71b1dcab401dc060500cdd1b4f01606"
+  },
+  {
+    "file": "print/simplified/parts/E07_CANAL_ACOPERIS_2.stl",
+    "bytes": 4284,
+    "sha256": "adbd7736b6d3274fe9b88718f3f553b3cafeba27519741130a6c9e8dc06604ed"
+  },
+  {
+    "file": "print/simplified/parts/E07_CANAL_ACOPERIS_3.stl",
+    "bytes": 2884,
+    "sha256": "00023c25896cea56cff3e49cc875c54307d49b7800c87712d61de84996322a72"
+  },
+  {
+    "file": "print/simplified/parts/E08_CAPAC_CANAL_ACOPERIS.stl",
+    "bytes": 684,
+    "sha256": "186bf73fd1259c41407b94d45cd4b07040128b54afd21fa4e32a267dde870381"
+  },
+  {
+    "file": "print/simplified/parts/J01_CHEIE_FLUTURE.stl",
+    "bytes": 1484,
+    "sha256": "63087b86dca30396ee4747cc1eb117dd943e8b867e4d96bdb9a33d5a4bb0669e"
+  },
+  {
+    "file": "print/simplified/parts/J02_SURUB_RECEPTOR_D8.stl",
+    "bytes": 445384,
+    "sha256": "8cd1abab9f787af0a7b8b2138f3b41a74446cdad492e792830ca4e2687989e33"
+  },
+  {
+    "file": "print/simplified/parts/J03_PROBA_IMBINARI.stl",
+    "bytes": 3284,
+    "sha256": "f11e08befda98d7002212adf3665b93d0e24cddac2b6a677061ab5b16b5f04ae"
+  },
+  {
+    "file": "print/simplified/parts/S01_SCARA_RAMPA_INFERIOARA.stl",
+    "bytes": 16084,
+    "sha256": "ed74a722d3121f8312a91a0b0bc4756b28c8e60760fa14411ab95cedffac94dc"
+  },
+  {
+    "file": "print/simplified/parts/S02_SCARA_RAMPA_SUPERIOARA.stl",
+    "bytes": 16084,
+    "sha256": "8ef990a4ad39ef300151265fb338a836aa7fd66012746918a0ddff23b683de4f"
+  },
+  {
+    "file": "print/simplified/parts/T02_TRAPA_ACOPERIS.stl",
+    "bytes": 2284,
+    "sha256": "d8ae7bb569b255eaa45fa9674ec2362dac452bf9e5056f317742e2e2151543e0"
+  },
+  {
+    "file": "print/simplified/parts/V01_VITRAJ_SPATE.stl",
+    "bytes": 684,
+    "sha256": "5d623ddb6b0e9fe3dd6346fbd7e39b3422e04fb820fb8f97d35c98adb4a0cee5"
+  },
+  {
+    "file": "print/simplified/parts/V01_VITRAJ_SPATE_INALT.stl",
+    "bytes": 684,
+    "sha256": "bb3e0d8f76f559f0b5a952a20330dd5b48609a04a841bf1522b48f30919ed25c"
+  },
+  {
+    "file": "print/simplified/parts/V02_VITRAJ_LATERAL.stl",
+    "bytes": 684,
+    "sha256": "ab9a7612b27491bef4962e2eecd4481f7201f410ad39a9adc31e68c2a6de2bbb"
+  },
+  {
+    "file": "print/simplified/parts/V02_VITRAJ_LATERAL_INALT.stl",
+    "bytes": 684,
+    "sha256": "6d22cb52ea7bbcb5917d5246199770b5347310c89b0db0f60d6495212630011a"
+  },
+  {
     "file": "print/simplified/placements.csv",
     "bytes": 8288,
     "sha256": "90f154063870c2b479b18669eb1fa78189e07b21236ff652af318bb1c4d72def"
@@ -2095,9 +3745,19 @@
     "sha256": "dddc8f882b4b361be50d2ed5dcdcbe9f07b9280eac22219a3e1fae0d9a7ee677"
   },
   {
+    "file": "tools/build_parts_atlas.py",
+    "bytes": 5061,
+    "sha256": "b4bbc3c2d7db457ce1de2f51858fae0634393a27cc1e258e5c09d39df100a24c"
+  },
+  {
     "file": "tools/build_print_plates.py",
     "bytes": 3652,
     "sha256": "4ebdbfb246f868cbb151c4af90318d3efdd1e98a56673d12c3483a37ed18a494"
+  },
+  {
+    "file": "tools/build_workshop_sequence.py",
+    "bytes": 10982,
+    "sha256": "1b4942c849748a5b9d69ad3180d0e6eab891136ecc9e2f5cc46d85a49126f9fd"
   },
   {
     "file": "tools/package_release.py",
@@ -2111,7 +3771,7 @@
   },
   {
     "file": "tools/verify.py",
-    "bytes": 2206,
-    "sha256": "77308ca54c68e2ea3b0c19323ae0faad41aba29a9507144b0f3d785518a69863"
+    "bytes": 2207,
+    "sha256": "cf52d870034572f9df7cdf69b2115aafe1130800990b60e4c01b60eaf27b54a7"
   }
 ]

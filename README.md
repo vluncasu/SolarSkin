@@ -18,6 +18,24 @@ relates both to the actuator stroke and the fourteen-channel controller.
 
 [Download the project and illustrated manuals](https://github.com/vluncasu/SolarSkin/releases).
 
+## Assemble your build
+
+Start with the [illustrated parts atlas](docs/atlas/README.md).
+Each entry shows two views of the actual mesh, size, quantity and a direct
+STL link. The two architectural inventories also identify the print beds.
+Keep the furnished and simplified facade hardware in separate trays.
+
+| Route | Parts to collect | Workbench sequence |
+|---|---|---|
+| One working module | [28 types, 62 prints](docs/atlas/one-mechanism.md) | [Guides to motor and receiver](docs/module_workshop.md) |
+| Furnished office | [47 architectural part types](docs/atlas/furnished-office.md) | [Base to roof and F01/F02 mounts](docs/furnished_workshop.md) |
+| Simplified office | [41 architectural part types](docs/atlas/simplified-office.md) | [Floors, glazing and D8 mounts](docs/simplified_workshop.md) |
+| Stand only | [Frame](docs/atlas/independent-stand.md) and [reinforcement](docs/atlas/stand-reinforcement.md) | [Cassette map, feet and module mounting](docs/stand_workshop.md) |
+
+[All parts in one printable PDF](docs/pdf/SOLARSKIN_ALL_PARTS.pdf) ·
+[24 illustrated assembly steps in PDF](docs/pdf/SOLARSKIN_WORKSHOP_SEQUENCE.pdf) ·
+[Motion simulation, CAD comparison and commissioning sheet](docs/17_simulation_and_commissioning.md).
+
 ## Print one working module
 
 | Filament | Pieces | What to look for |

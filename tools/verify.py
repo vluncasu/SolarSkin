@@ -5,7 +5,7 @@ import csv,json,re
 ROOT=Path(__file__).resolve().parents[1]
 def main():
  errors=[]
- for f in [ROOT/'README.md',*ROOT.joinpath('docs').glob('*.md'),*ROOT.joinpath('tools').glob('*.md')]:
+ for f in [ROOT/'README.md',*ROOT.joinpath('docs').rglob('*.md'),*ROOT.joinpath('tools').glob('*.md')]:
   for target in re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',f.read_text()):
    target=target.split('#')[0]
    if target and not re.match(r'^\w+://',target) and not (f.parent/target).exists():errors.append(f'Broken link: {f.name}: {target}')
