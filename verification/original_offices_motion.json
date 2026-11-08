@@ -1,0 +1,58 @@
+{
+  "compact": {
+    "file": "earlier_offices/COMPACT_OFFICE.blend",
+    "wing_meshes": 36,
+    "wings_with_changed_world_transform": 36,
+    "sample_frames": [
+      1,
+      121
+    ],
+    "scene_objects": 771,
+    "external_blend_libraries": 0,
+    "preview_file": "media/renders/compact_motion.gif",
+    "unique_source_frames": 11,
+    "gif_frames": 20
+  },
+  "aurora": {
+    "file": "earlier_offices/AURORA_PAVILION.blend",
+    "wing_meshes": 54,
+    "wings_with_changed_world_transform": 54,
+    "sample_frames": [
+      1,
+      121
+    ],
+    "scene_objects": 892,
+    "external_blend_libraries": 0,
+    "preview_file": "media/renders/aurora_motion.gif",
+    "unique_source_frames": 11,
+    "gif_frames": 20
+  },
+  "rigid": {
+    "file": "earlier_offices/RIGID_OFFICE.blend",
+    "wing_meshes": 48,
+    "wings_with_changed_world_transform": 48,
+    "sample_frames": [
+      1,
+      121
+    ],
+    "scene_objects": 677,
+    "external_blend_libraries": 0,
+    "preview_file": "media/renders/rigid_motion.gif",
+    "unique_source_frames": 11,
+    "gif_frames": 20
+  },
+  "original20": {
+    "file": "original_20_module_building/COMPLETE_BUILDING_20.blend",
+    "wing_meshes": 120,
+    "wings_with_changed_world_transform": 120,
+    "sample_frames": [
+      1,
+      121
+    ],
+    "scene_objects": 2667,
+    "external_blend_libraries": 0,
+    "preview_file": "media/renders/original20_motion.gif",
+    "unique_source_frames": 16,
+    "gif_frames": 16
+  }
+}

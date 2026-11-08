@@ -1,17 +1,48 @@
 # SolarSkin - a 3D printed kinetic facade
 
-Sixteen motorized modules cover the front of a model office building.
-Each has six folding leaves. Behind each set of leaves, a single geared motor
-turns a printed screw. A sliding carriage draws six short rods together and
-opens the leaves around their hinges.
+The original SolarSkin office carries **twenty moving modules** across its
+front. Behind the facade are four occupied levels, furnished rooms and a
+technical roof. The assembled CAD model stands about 87 cm tall.
+In the Blender scene, each row and column starts at a different point in
+the opening cycle. Together the leaves make a wave across the building.
 
-![The furnished office with its sixteen facade modules open](media/renders/furnished_open.webp)
+![Complete September SolarSkin office with its twenty kinetic modules](media/renders/original20_front.webp)
 
-[Download the CAD, print files and manuals](https://github.com/vluncasu/SolarSkin/releases) ·
-[Open the furnished office in Blender](cad/furnished/OFFICE_16.blend) ·
-[Find a part by its shape](docs/atlas/README.md)
+**[Download the original building - Blender and FreeCAD ZIP](https://github.com/vluncasu/SolarSkin/releases/download/v1.5-original-building/SOLARSKIN_ORIGINAL_OFFICE_20.zip)**
+· [Open the animated Blender model](cad/original_20_module_building/COMPLETE_BUILDING_20.blend)
+· [Corrected R6 assembly in FreeCAD](cad/original_20_module_building/COMPLETE_BUILDING_R6.FCStd)
+· [Download the CAD, print files and manuals](https://github.com/vluncasu/SolarSkin/releases)
 
-## Inside the furnished office
+| The twenty-module facade in motion | Inside the building | Roof equipment |
+|---|---|---|
+| ![Wave across the original twenty-module office](media/renders/original20_motion.gif) | ![Office floors and furnishings in cutaway](media/renders/original20_cutaway.webp) | ![Plant and access space on the technical roof](media/renders/original20_roof.webp) |
+
+The animation above is an accelerated preview. Open the Blender file and
+press Space to see the full 40-second sequence at its saved playback rate.
+The R6 FreeCAD file exposes the individual M01-M20 placements for inspection.
+[Building elevations, office detail and revision notes](docs/19_original_office.md).
+
+## Compact office, Aurora pavilion and rigid office
+
+| Compact office | Aurora pavilion | Rigid office |
+|---|---|---|
+| ![Six modules folding on the compact office](media/renders/compact_motion.gif) | ![Moving leaves on the Aurora pavilion](media/renders/aurora_motion.gif) | ![Eight modules opening on the rigid office](media/renders/rigid_motion.gif) |
+| [Animated Blender assembly](cad/earlier_offices/COMPACT_OFFICE.blend) | [Animated Blender assembly](cad/earlier_offices/AURORA_PAVILION.blend) | [Animated Blender assembly](cad/earlier_offices/RIGID_OFFICE.blend) |
+
+Each preview follows its own CAD scene from closure to opening and back.
+Compact has six installed modules, Aurora has nine, and Rigid has eight.
+The assemblies contain 36, 54 and 48 moving leaves respectively. Follow a single hinge in each view to see how its leaf
+moves relative to the fixed frame.
+
+The [design archive](docs/18_architectural_design_archive.md) includes the
+[nine-position office animation](media/renders/building_motion.gif) and
+identifies the later mounting revisions by their original folder names.
+
+## The later furnished office - sixteen modules
+
+![The furnished sixteen-module office](media/renders/furnished_open.webp)
+
+[Open this office in Blender](cad/furnished/OFFICE_16.blend).
 
 The rear is open so that you can see past the facade into the rooms.
 The stair runs through the middle. Two reception units sit on the first
@@ -112,18 +143,6 @@ printed soles, and the fourth foot extends behind the frame. In Blender,
 scene 03 isolates the frame. Scenes 04 to 06 show one module attachment.
 [Stand and foot assembly](docs/stand_workshop.md) ·
 [Fastener sizes and cassette map](docs/05_frame_assembly.md)
-
-## Earlier facade designs
-
-| Compact office | Aurora pavilion | Rigid office | Nine-module facade in motion |
-|---|---|---|---|
-| ![Six-module compact office](media/renders/archive_compact_office_6.webp) | ![Aurora pavilion design](media/renders/archive_aurora_9.webp) | ![Eight-module rigid office](media/renders/archive_office_rigid_8.webp) | ![Earlier nine-position facade animation](media/renders/building_motion.gif) |
-
-The [illustrated design archive](docs/18_architectural_design_archive.md)
-also identifies the integrated, sculptural, interior-support, connector and
-threaded-mount revisions by their original design folder. For manufacturing,
-keep the building, plate set and receiver hardware from the same revision.
-[Comparative design study](docs/12_building_and_facade.md)
 
 ## Run the facade with an ESP32
 

@@ -1,22 +1,30 @@
 # Architectural design archive
 
+[Original twenty-module office building and kinetic facade](19_original_office.md).
+
 The folder identifiers below match the original design records. Several mounting revisions retain the same exterior rendering. Use the CAD and print inventory of the selected revision to identify its hardware.
 
 ## Compact office, six modules
 
-![Compact office, six modules - source elevation](../media/renders/archive_compact_office_6.webp)
+![Animated Compact office, six modules](../media/renders/compact_motion.gif)
+
+[Open the animated Blender scene](../cad/earlier_offices/COMPACT_OFFICE.blend).
 
 Source assembly family: `SOLARSKIN_COMPACT_OFFICE_6`.
 
 ## Aurora pavilion
 
-![Aurora pavilion - source elevation](../media/renders/archive_aurora_9.webp)
+![Animated Aurora pavilion](../media/renders/aurora_motion.gif)
+
+[Open the animated Blender scene](../cad/earlier_offices/AURORA_PAVILION.blend).
 
 Source assembly family: `SOLARSKIN_AURORA_9`.
 
 ## Rigid office, eight modules
 
-![Rigid office, eight modules - source elevation](../media/renders/archive_office_rigid_8.webp)
+![Animated Rigid office, eight modules](../media/renders/rigid_motion.gif)
+
+[Open the animated Blender scene](../cad/earlier_offices/RIGID_OFFICE.blend).
 
 Source assembly family: `SOLARSKIN_OFFICE_RIGID_8`.
 
@@ -98,3 +106,17 @@ Source assembly family: `SOLARSKIN_16_GRAVATE`.
 
 Source assembly family: `SOLARSKIN_16_FILET_PRIORITAR`.
 
+
+
+## Motion in the downloadable scenes
+
+The three preview assemblies preserve their building geometry and module
+placement. The moving components use transforms sampled every six frames
+from the original 10 mm mechanism. Each module has its own parent placement
+in its building. Press Space in Blender to play the 241-frame sequence.
+
+We reopened the delivered files and compared the world transforms of each
+leaf at frames 1 and 121. All 36 leaves in Compact, 54 in Aurora and 48 in
+Rigid change pose. The earlier twenty-module building retains its original
+animation; all 120 of its leaves change pose between the same sampled frames.
+[Read the verification record](../verification/original_offices_motion.json).

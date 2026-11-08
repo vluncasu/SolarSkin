@@ -1,8 +1,8 @@
 {
   "result": "PASS",
   "edition": "essential",
-  "files": 783,
-  "working_bytes": 485808401,
+  "files": 802,
+  "working_bytes": 631582370,
   "mechanism_types": 28,
   "mechanism_pieces_per_module": 62,
   "historical_archive_included": false,

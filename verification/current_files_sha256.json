@@ -21,8 +21,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 8676,
-    "sha256": "d4a3bb3c0977fad7dfaa721a423b6bab0eaedfc7d5be66c059b5439405e0ef9f"
+    "bytes": 10163,
+    "sha256": "5022d48d0cf924eb49954986f75d7ba96a720546a6c25411392422827839bee9"
   },
   {
     "file": "bom/building_optional_files.json",
@@ -215,9 +215,34 @@
     "sha256": "3920a0b49ef65404c2b87ea333657b5a3d63b82a4c63d6e9f843ea66dc3aa9f9"
   },
   {
+    "file": "cad/earlier_offices/AURORA_PAVILION.blend",
+    "bytes": 13359341,
+    "sha256": "74c7b7c239d06c32be3535ca4dd1f5e256a1e11de6f8749271b8d5d15a678cb7"
+  },
+  {
+    "file": "cad/earlier_offices/COMPACT_OFFICE.blend",
+    "bytes": 14423556,
+    "sha256": "8aee6184cb169eb7a2f851e7d3d821e8233cd7e17360a47cef3afa83fdf6788d"
+  },
+  {
+    "file": "cad/earlier_offices/RIGID_OFFICE.blend",
+    "bytes": 15238689,
+    "sha256": "5ebe53643ccb97a5b3763e5521aa589a14680df7b3145de12d3276521b59776d"
+  },
+  {
     "file": "cad/furnished/OFFICE_16.blend",
     "bytes": 50643756,
     "sha256": "8e12580299cf64b6a6c8fa6435b48e2a4e2500bf77a21fa6ca6c917fc7edf10c"
+  },
+  {
+    "file": "cad/original_20_module_building/COMPLETE_BUILDING_20.blend",
+    "bytes": 64150032,
+    "sha256": "4d994a260f84038ee390640f148c0291e3e4d79d9c9ca0d9e240d191cfceb8a5"
+  },
+  {
+    "file": "cad/original_20_module_building/COMPLETE_BUILDING_R6.FCStd",
+    "bytes": 34225869,
+    "sha256": "725c692324e84377465ce1a4021c29d8cdb5f92051cd5285e4bf3ee3c8f9184c"
   },
   {
     "file": "cad/simplified/OFFICE_16.blend",
@@ -306,8 +331,13 @@
   },
   {
     "file": "docs/18_architectural_design_archive.md",
-    "bytes": 2901,
-    "sha256": "8d96f4aadac3f8341e9de7fb5a2661cc94fce7c9b67ce3ac43c6dd3c74d3ab65"
+    "bytes": 3887,
+    "sha256": "999db2c0f9ee5222165a8d16518e4bdb2c6285847c54d9d5b0c5b1606245912a"
+  },
+  {
+    "file": "docs/19_original_office.md",
+    "bytes": 2612,
+    "sha256": "8b186b51bb81a8d363bb08e90c7ccb4400789e73dcbf280c111ee9959be2498d"
   },
   {
     "file": "docs/atlas/README.md",
@@ -2060,6 +2090,11 @@
     "sha256": "6467971105cc7d58f1f51bcc637ac51da19f29a02431a4e8b49745c687bf2166"
   },
   {
+    "file": "media/renders/aurora_motion.gif",
+    "bytes": 1042413,
+    "sha256": "83ef15dd4bb7cfa6e385f560d6aa7dfa66520c893827a83ec85a45d6eb17ebb5"
+  },
+  {
     "file": "media/renders/base_assembly.webp",
     "bytes": 31962,
     "sha256": "22a3587f6f774a8b9da9b25c7dcb47d88d0799a80043bf022882e151d86bfc7d"
@@ -2108,6 +2143,11 @@
     "file": "media/renders/cable_clip_section.webp",
     "bytes": 17000,
     "sha256": "dc94598df0d830abb10eea5866943b5739b824cda4804cf48935929d09bc5ee7"
+  },
+  {
+    "file": "media/renders/compact_motion.gif",
+    "bytes": 736678,
+    "sha256": "2499c88bd12d42f8dbdf1de5c2415e236cdb26cdcb9e39ade21e7888a3a6c64c"
   },
   {
     "file": "media/renders/frame_assembly.webp",
@@ -2198,6 +2238,56 @@
     "file": "media/renders/module_drive.gif",
     "bytes": 1671487,
     "sha256": "d6d3f0f04334000b32395e8a30a31f3d2f9d2f0b490a74b4e8378087c7debb4c"
+  },
+  {
+    "file": "media/renders/original20_closed.webp",
+    "bytes": 157408,
+    "sha256": "1c569fbbb73a75aa1cc732db69e703b0f2929f8ddd547fc644d4b1bc54478dce"
+  },
+  {
+    "file": "media/renders/original20_cutaway.webp",
+    "bytes": 105758,
+    "sha256": "279480cb3fa873a8fdaabf748f2df91526df1d0ecb0d512bba67abb7ca632a4c"
+  },
+  {
+    "file": "media/renders/original20_desks.webp",
+    "bytes": 65260,
+    "sha256": "781844ad5809ecac0bc761e83e9b3033dc2c3ebcc418ba6f658cff643155a5a8"
+  },
+  {
+    "file": "media/renders/original20_floor.webp",
+    "bytes": 42652,
+    "sha256": "47d999e3e8bd36543f46d0756059081f6f215ebb4f02d56d33b3b741fb64ba34"
+  },
+  {
+    "file": "media/renders/original20_front.webp",
+    "bytes": 140754,
+    "sha256": "1d42db7c3cb3e080a8ca8dc7b5257daefa72fca2fbe7364b9c92b65dc47d506b"
+  },
+  {
+    "file": "media/renders/original20_motion.gif",
+    "bytes": 822424,
+    "sha256": "18cbc198290f260d8d3e6c9899accf72f93250adc9478dd89f6ce2df36cac639"
+  },
+  {
+    "file": "media/renders/original20_open.webp",
+    "bytes": 138538,
+    "sha256": "1c6d86fe7a412404a74799fdbaecc4f5d28c1c91032ee4ad48c18fa9614ab83e"
+  },
+  {
+    "file": "media/renders/original20_rear.webp",
+    "bytes": 102616,
+    "sha256": "2532c5689bd02b999e147a6a8a0d9fd4c2b90fb427297dad3549099c6adcd769"
+  },
+  {
+    "file": "media/renders/original20_roof.webp",
+    "bytes": 49178,
+    "sha256": "b064542c8adb444773d55e7d28641047d526726ef124d690fd1fa4c91f27cb18"
+  },
+  {
+    "file": "media/renders/rigid_motion.gif",
+    "bytes": 959963,
+    "sha256": "b95c7c83d58e12668257b8ef7aa2b4e24a9fb13a783849278c866228a09eade6"
   },
   {
     "file": "media/renders/screw_insertion_01.webp",
