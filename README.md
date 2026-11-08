@@ -10,7 +10,7 @@ the opening cycle. Together the leaves make a wave across the building.
 
 ![Complete September SolarSkin office with its twenty kinetic modules](media/renders/original20_front.webp)
 
-**[Download the original building - Blender and FreeCAD ZIP](https://github.com/vluncasu/SolarSkin/releases/download/v1.5-original-building/SOLARSKIN_ORIGINAL_OFFICE_20.zip)**
+**[Download the original building - Blender and FreeCAD ZIP](https://github.com/vluncasu/SolarSkin/releases/latest/download/SOLARSKIN_ORIGINAL_OFFICE_20.zip)**
 · [Open the animated Blender model](cad/original_20_module_building/COMPLETE_BUILDING_20.blend)
 · [Corrected R6 assembly in FreeCAD](cad/original_20_module_building/COMPLETE_BUILDING_R6.FCStd)
 · [Download the CAD, print files and manuals](https://github.com/vluncasu/SolarSkin/releases)

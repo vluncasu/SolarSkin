@@ -21,8 +21,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 13299,
-    "sha256": "b7c6cbb05a05e6e637518962b5161884ce5390d5b7d82b1f0944612c0408bcae"
+    "bytes": 13283,
+    "sha256": "1c6eedeaa1e676638ce6bd3cd06c5cc1f601cc3af38fa4009e75f18855c777cf"
   },
   {
     "file": "bom/building_optional_files.json",
@@ -245,6 +245,11 @@
     "sha256": "725c692324e84377465ce1a4021c29d8cdb5f92051cd5285e4bf3ee3c8f9184c"
   },
   {
+    "file": "cad/original_20_module_building/OPEN_FIRST.txt",
+    "bytes": 361,
+    "sha256": "7935c8eec88fb616d5770eb5dfd59e543e75c137d150a27e7e9f517ca978547b"
+  },
+  {
     "file": "cad/simplified/OFFICE_16.blend",
     "bytes": 53560280,
     "sha256": "ea2a29f2fb2ae7d4cc62639aba08ec94ebe9dd4e468da907105013caaa46ef63"
@@ -296,8 +301,8 @@
   },
   {
     "file": "docs/10_repository_and_downloads.md",
-    "bytes": 1249,
-    "sha256": "5821a24136c7b6edd76b21db00cf7c481d1cfa96a4631b95a73245b6be5fd2d7"
+    "bytes": 948,
+    "sha256": "b0c1b4ba0fb9089b1476560b839196a2917abd1ba86d81d254566af09c7d40a2"
   },
   {
     "file": "docs/11_references.md",
@@ -4901,8 +4906,8 @@
   },
   {
     "file": "tools/package_release.py",
-    "bytes": 1286,
-    "sha256": "ee7dc374c152ea0b686628fd4475e53b6ba7753f079d56067a3054f092e93655"
+    "bytes": 2273,
+    "sha256": "a70ea13e054bd2c9a70691daabfd3db30c000757a1865d9e089227d66f69baca"
   },
   {
     "file": "tools/requirements.txt",

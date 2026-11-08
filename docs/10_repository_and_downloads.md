@@ -1,8 +1,13 @@
-# Repository and downloads
+# Download SolarSkin
 
-Project: [vluncasu/SolarSkin](https://github.com/vluncasu/SolarSkin). This essential edition contains the furnished and simplified sixteen-position office buildings, the current 10 mm mechanism, reinforced stand, manufacturing files, illustrated documentation and three small firmware variants.
+Open the [current release](https://github.com/vluncasu/SolarSkin/releases/latest).
+Choose **SOLARSKIN_ESSENTIAL.zip** for the complete project, including all
+building views, editable models, print files, firmware and manuals.
+Extract it and open SolarSkin/README.md.
 
-The multi-gigabyte historical archive, duplicate full-mechanism STEP export, experimental axle alternatives, old batch plates and draft electronics boxes are deliberately excluded. The complete working history remains local.
+Choose **SOLARSKIN_ORIGINAL_OFFICE_20.zip** if you only want the original
+twenty-module building in Blender and FreeCAD. Both ZIPs contain the actual
+CAD files. The five PDF downloads are also inside the complete ZIP.
 
 ## Clone
 
@@ -14,5 +19,3 @@ python3 tools/verify.py
 ```
 
 Git LFS is required for editable CAD and print/PDF assets. For a download without Git, use the complete essential ZIP in [Releases](https://github.com/vluncasu/SolarSkin/releases). The release also offers the comparative study, engineering manual and parts catalogue separately. Preserve the directory structure.
-
-The repository is public so its README and documentation can be discovered. Search indexing and ranking are controlled by the search provider and are not guaranteed. No standalone HTML site, schema injection or invented SEO score is part of this publication.

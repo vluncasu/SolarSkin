@@ -1,0 +1,5 @@
+Open COMPLETE_BUILDING_20.blend in Blender and press Space to play the
+original 960-frame facade sequence. For the engineering model, open
+COMPLETE_BUILDING_R6.FCStd in FreeCAD and expand the building and SolarSkin
+groups to locate the storeys and module placements M01 through M20.
+The Blender animation and the corrected R6 assembly are separate checkpoints.
