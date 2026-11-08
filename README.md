@@ -1,107 +1,150 @@
-# SolarSkin - kinetic facade design for three architectural prototypes
+# SolarSkin - a 3D printed kinetic facade
 
-![Furnished office with a sixteen-module kinetic facade](media/renders/furnished_open.webp)
+Sixteen motorized modules cover the front of a model office building.
+Each has six folding leaves. Behind each set of leaves, a single geared motor
+turns a printed screw. A sliding carriage draws six short rods together and
+opens the leaves around their hinges.
 
-The same six-leaf mechanism appears in three configurations. Choose the
-assembly that corresponds to the question you want to investigate.
+![The furnished office with its sixteen facade modules open](media/renders/furnished_open.webp)
 
-| Furnished office | Simplified office | Independent stand |
-|---|---|---|
-| ![Office interior and stairs](media/renders/furnished_interior.webp) | ![Rapid office model](media/renders/simplified_open.webp) | ![Reinforced frame](media/renders/assembly_03.webp) |
-| [Open building CAD](cad/furnished/OFFICE_16.blend) | [Open building CAD](cad/simplified/OFFICE_16.blend) | [Open stand CAD](cad/03_reinforced_assembly/REINFORCED_16_MODULE_ASSEMBLY.blend) |
-| [46 architectural print beds](print/furnished/) | [63 architectural print beds](print/simplified/) | [Frame and foot assembly](docs/05_frame_assembly.md) |
+[Download the CAD, print files and manuals](https://github.com/vluncasu/SolarSkin/releases) ·
+[Open the furnished office in Blender](cad/furnished/OFFICE_16.blend) ·
+[Find a part by its shape](docs/atlas/README.md)
 
-[Read the comparative design study](docs/12_building_and_facade.md) ·
-[Download the study as a PDF](docs/pdf/SOLARSKIN_COMPARATIVE_DESIGN_STUDY.pdf).
-It traces the design from the office interior to the support frame and
-relates both to the actuator stroke and the fourteen-channel controller.
+## Inside the furnished office
 
-[Download the project and illustrated manuals](https://github.com/vluncasu/SolarSkin/releases).
+The rear is open so that you can see past the facade into the rooms.
+The stair runs through the middle. Two reception units sit on the first
+occupied level, four workshop units occupy the middle levels and two meeting
+units sit above them. Every unit drops onto its floor and is held by a
+two-pin bar. Fit that bar while you can still reach it from above.
 
-## Assemble your build
-
-Start with the [illustrated parts atlas](docs/atlas/README.md).
-Each entry shows two views of the actual mesh, size, quantity and a direct
-STL link. The two architectural inventories also identify the print beds.
-Keep the furnished and simplified facade hardware in separate trays.
-
-| Route | Parts to collect | Workbench sequence |
-|---|---|---|
-| One working module | [28 types, 62 prints](docs/atlas/one-mechanism.md) | [Guides to motor and receiver](docs/module_workshop.md) |
-| Furnished office | [47 architectural part types](docs/atlas/furnished-office.md) | [Base to roof and F01/F02 mounts](docs/furnished_workshop.md) |
-| Simplified office | [41 architectural part types](docs/atlas/simplified-office.md) | [Floors, glazing and D8 mounts](docs/simplified_workshop.md) |
-| Stand only | [Frame](docs/atlas/independent-stand.md) and [reinforcement](docs/atlas/stand-reinforcement.md) | [Cassette map, feet and module mounting](docs/stand_workshop.md) |
-
-[All parts in one printable PDF](docs/pdf/SOLARSKIN_ALL_PARTS.pdf) ·
-[24 illustrated assembly steps in PDF](docs/pdf/SOLARSKIN_WORKSHOP_SEQUENCE.pdf) ·
-[Motion simulation, CAD comparison and commissioning sheet](docs/17_simulation_and_commissioning.md).
-
-## Print one working module
-
-| Filament | Pieces | What to look for |
-|---|---:|---|
-| Windows blue | 30 | Hub, guides, carriage, split nuts, axles and mounting parts |
-| White | 6 | Three left leaves and three right leaves |
-| Orange | 26 | Lead screw, links, joint nuts and connectors |
-
-Start with the orange P13 screw and the blue P12 and P26 nuts.
-Thread each nut onto the screw by hand. One turn advances it 10 mm.
-This small print checks the fit of the most sensitive interface
-before you commit to printing the full facade.
-
-[Four prearranged 3MF plates](print/09_one_module_plates/) ·
-[One-module bed layouts](docs/13_print_beds.md) ·
-[Dimensions of every printable STL](docs/15_print_dimensions.md) ·
-[Color folders and quantities](docs/03_printing_and_bom.md) ·
-[Illustrated parts catalogue](docs/pdf/SOLARSKIN_PARTS_CATALOG.pdf)
-
-## Assemble the mechanism
-
-| Screw and split nuts | Screw entering the frame |
+| Facade closed | View from the rear |
 |---|---|
-| ![Orange lead screw passing through the blue nuts](media/renders/lead_screw_10mm.webp) | ![Side opening used to insert P13 before fitting the motor](media/renders/screw_insertion_01.webp) |
+| ![Closed leaves on the furnished office](media/renders/furnished_closed.webp) | ![Open rear frames expose the floors and rooms](media/renders/furnished_rear.webp) |
 
-The carriage slides along three guides. Push the screw through the side
-opening in the rear frame before fitting the motor. Each printed axle carries
-a left and a right leaf. A short rod connects each leaf to the carriage.
-Turn the assembled screw by hand and watch all six joints through a full cycle.
+| Stair and landings | Furniture detail |
+|---|---|
+| ![Stair flights connecting the furnished floors](media/renders/furnished_interior.webp) | ![Furnished room and adjacent circulation space](media/renders/furnished_room_detail.webp) |
 
-[Module assembly, in order](docs/04_mechanism_assembly.md) ·
-[Frame, feet and receiver mounting](docs/05_frame_assembly.md) ·
-[Engineering and assembly PDF](docs/pdf/SOLARSKIN_ENGINEERING_AND_ASSEMBLY.pdf)
+The wavy strips along the sides are eight printed panels. Each panel carries
+its fins in one frame, which sets their spacing during assembly. The fins
+project between 8 and 14 mm. At the front, twelve cassettes carry the sixteen
+module receivers. The rear view below shows the cassette joints that are
+hidden once the facade is on the building.
 
-## Calculate how far the motor must turn
+| Side panel profile | Rear of the facade before installation | Ribbed front base |
+|---|---|---|
+| ![Projection of the side fins](media/renders/furnished_fin_profile.webp) | ![Back of the separately assembled facade](media/renders/furnished_cassette_rear.webp) | ![Fan-shaped ribs at the front base](media/renders/furnished_fan_base.webp) |
 
-Three helices share the screw. Adjacent crests are 3.333 mm apart along its
-axis. Follow the same helix for a complete turn and it climbs 10 mm.
-The 12 mm pivot arm and 20 mm rod need 15.348 mm of carriage travel
-to move a leaf from 0 to 75 degrees in CAD.
+The furnished office requires **193 architectural pieces on 46 print beds**.
+That count assumes the moving modules have already been made.
+[Building parts and quantities](docs/atlas/furnished-office.md) ·
+[Floor-by-floor assembly](docs/furnished_workshop.md) ·
+[Prepared print beds](print/furnished/)
 
-That takes 15.348 / 10 = 1.535 screw turns. At direct drive, the motor's
-nominal 4,096 half-steps per geared output turn give about 6,287 half-steps.
-With an additional reduction, multiply by the measured number of motor
-output turns per screw turn.
+## Watch one module open
 
-[Thread profile, helix equations and clearance](docs/02_screw_and_motor_calculations.md) ·
-[Linkage derivation](docs/01_mechanism_and_kinematics.md) ·
-[Reproduce the calculations](engineering/calculations.py)
+| Complete mechanism | Same motion with the leaves and outer frame hidden |
+|---|---|
+| ![Animated six-leaf module from the 10 mm Blender assembly](media/renders/module_cycle.gif) | ![Carriage and rods travelling between the two end poses](media/renders/module_drive.gif) |
 
-## Wire and run the controller
+Follow the blue carriage in the right-hand view. Three guides keep it from
+turning with the screw. As it slides, each rod pulls on a point 12 mm from
+its leaf pivot. Both animations use the same frames from the
+[mechanism CAD](cad/01_mechanism/MECHANISM_10MM.blend). Playback is for
+inspection. The motor speed on the stand is set in firmware.
 
-One ESP32 sends 56 bits through seven 74HC595 registers.
-Each register feeds two ULN2003 drivers. Each driver operates one
-12 V motor. The baseline firmware cycles through opening and closing
-as soon as its startup delay ends. A phone connected to the SolarSkin
-Wi-Fi network can stop, resume or reverse the motion.
+The screw has three thread starts. Adjacent crests are 3.33 mm apart
+along the axis. A nut following one start advances **10 mm per turn**.
+With a 20 mm rod, moving a leaf from 0 to 75 degrees requires 15.348 mm
+of carriage travel. That takes 1.535 screw turns, or about **6,287 half-steps**
+with direct coupling and the nominal 4,096 half-steps per geared output turn.
+Multiply that count by any additional reduction between the output and screw.
 
-The exhibition program uses 25,148 full steps per direction.
-Measure the extra reduction before using that setting. With direct coupling,
-it would command about 122.8 mm against a CAD stroke of only 15.35 mm.
-The controller counts commands and has no end-position sensor.
+[Thread profile and equations](docs/02_screw_and_motor_calculations.md) ·
+[Linkage geometry](docs/01_mechanism_and_kinematics.md) ·
+[Compare the calculation with nine CAD poses](docs/17_simulation_and_commissioning.md)
+
+## Print and assemble the first module
+
+Print the orange P13 screw and the two blue nuts, P12 and P26, first.
+Run each nut along the screw by hand. A tight fit is easier to diagnose
+on the bench than inside the carriage. For a complete module, the print
+set has **30 blue structural parts, 6 white leaves and 26 orange parts**.
+The architectural renders preserve the material colors of their own revisions.
+
+| Fit both nuts in the carriage | Insert the screw through the side | Attach the paired leaves and rods |
+|---|---|---|
+| ![Split nuts and cover fitted on the carriage](media/atlas/module-stage-1.webp) | ![Lead screw entering the rear frame](media/renders/screw_insertion_01.webp) | ![Leaf hinges and six links in their assembled positions](media/atlas/module-stage-4.webp) |
+
+Seat the screw in the rear frame **before** fitting the motor and clamps.
+The side opening gives the coupling room to pass. After the three axles
+and six rods are in place, turn the screw by hand through the intended
+travel. Each rod must pivot at both ends. Check the cable loop again
+with the module attached to its receiver.
+
+[Four arranged 3MF plates](print/09_one_module_plates/) ·
+[Bed layout by color](docs/13_print_beds.md) ·
+[Module assembly steps](docs/module_workshop.md) ·
+[All printable parts, with dimensions and two views each](docs/pdf/SOLARSKIN_ALL_PARTS.pdf)
+
+## The simplified office and the exhibition stand
+
+| Simplified office | Independent stand |
+|---|---|
+| ![Rapid office with its facade open](media/renders/simplified_open.webp) | ![Populated stand showing the frame and supporting feet](media/renders/assembly_01.webp) |
+| [Open the building](cad/simplified/OFFICE_16.blend) | [Open the reinforced assembly](cad/03_reinforced_assembly/REINFORCED_16_MODULE_ASSEMBLY.blend) |
+
+The **simplified office** keeps the floors, stair and facade. Its print
+inventory omits the optional furniture and includes thin translucent panes.
+It takes 158 architectural pieces across 63 beds. The slabs print on edge,
+so their brim and the bridges across the stair opening deserve a first-bed
+check. Its receivers use J02 D8 screws. The furnished office uses F01 bolts
+and an F02 locking bar.
+[Rapid office inventory](docs/atlas/simplified-office.md) ·
+[Assembly and glazing](docs/simplified_workshop.md)
+
+The **stand** leaves the motors, plugs and receiver screws accessible from
+behind. Assemble its twelve cassettes on a flat surface before loading
+them. The ribs bridge the cassette joints. The base supports stiffen the
+printed soles, and the fourth foot extends behind the frame. In Blender,
+scene 03 isolates the frame. Scenes 04 to 06 show one module attachment.
+[Stand and foot assembly](docs/stand_workshop.md) ·
+[Fastener sizes and cassette map](docs/05_frame_assembly.md)
+
+## Earlier facade designs
+
+| Compact office | Aurora pavilion | Rigid office | Nine-module facade in motion |
+|---|---|---|---|
+| ![Six-module compact office](media/renders/archive_compact_office_6.webp) | ![Aurora pavilion design](media/renders/archive_aurora_9.webp) | ![Eight-module rigid office](media/renders/archive_office_rigid_8.webp) | ![Earlier nine-position facade animation](media/renders/building_motion.gif) |
+
+The [illustrated design archive](docs/18_architectural_design_archive.md)
+also identifies the integrated, sculptural, interior-support, connector and
+threaded-mount revisions by their original design folder. For manufacturing,
+keep the building, plate set and receiver hardware from the same revision.
+[Comparative design study](docs/12_building_and_facade.md)
+
+## Run the facade with an ESP32
+
+One ESP32 shifts 56 bits through seven 74HC595 registers. Each register feeds
+two ULN2003 drivers. Each driver controls one 12 V geared motor, giving the
+installed chain **14 motor channels** for a facade with 16 physical positions.
+
+The baseline program starts from an assumed closed position and alternates
+opening and closing without a browser. Connect to its SolarSkin Wi-Fi network
+to stop, resume or reverse it. The long exhibition program commands 25,148
+full steps per direction. Measure the extra reduction before using that value:
+with direct coupling it would request 122.8 mm of travel from a mechanism
+whose design stroke is 15.35 mm. There is no end-position sensor.
 
 [Pin-by-pin wiring](docs/06_electronics.md) ·
-[Set the travel, upload firmware and open the controls](docs/07_firmware.md) ·
-[What was tested](docs/09_verification.md) · [Engineering references](docs/11_references.md)
+[Build, calibrate and operate the firmware](docs/07_firmware.md) ·
+[Commissioning sheet and simulation results](docs/17_simulation_and_commissioning.md)
 
-Maintained by [vluncasu](https://github.com/vluncasu).
-[License status](LICENSE_STATUS.md).
+For the workbench, download the [24-step assembly sequence](docs/pdf/SOLARSKIN_WORKSHOP_SEQUENCE.pdf)
+and the [illustrated parts atlas](docs/pdf/SOLARSKIN_ALL_PARTS.pdf).
+For the design rationale, read the [engineering manual](docs/pdf/SOLARSKIN_ENGINEERING_AND_ASSEMBLY.pdf)
+and its [references](docs/11_references.md).
+
+Maintained by [vluncasu](https://github.com/vluncasu). [License status](LICENSE_STATUS.md).
