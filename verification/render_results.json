@@ -1,0 +1,44 @@
+[
+  {
+    "scene": "01",
+    "file": "media/renders/assembly_01.webp",
+    "render_completed": true,
+    "visual_review": "accepted assembly view"
+  },
+  {
+    "scene": "03",
+    "file": "media/renders/assembly_03.webp",
+    "render_completed": true,
+    "visual_review": "accepted assembly view"
+  },
+  {
+    "scene": "05",
+    "file": "media/renders/assembly_05.webp",
+    "render_completed": true,
+    "visual_review": "accepted assembly view"
+  },
+  {
+    "scene": "06",
+    "file": "media/renders/assembly_06.webp",
+    "render_completed": true,
+    "visual_review": "accepted detail view"
+  },
+  {
+    "scene": "08",
+    "file": "media/renders/assembly_08.webp",
+    "render_completed": true,
+    "visual_review": "accepted detail view"
+  },
+  {
+    "scene": "09",
+    "file": "media/renders/assembly_09.webp",
+    "render_completed": true,
+    "visual_review": "accepted detail view"
+  },
+  {
+    "scene": "07",
+    "visual_review": "rejected: camera framing",
+    "replacement": "media/renders/mechanism_10mm.webp",
+    "rejected_image_distributed": false
+  }
+]

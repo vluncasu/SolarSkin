@@ -1,0 +1,30 @@
+{
+  "title": "SolarSkin \u2014 3D Printed Kinetic Facade with ESP32",
+  "primary_topic": "3D printed kinetic facade",
+  "secondary_topics": [
+    "kinetic architecture",
+    "office-building model",
+    "ESP32 stepper motor control",
+    "FreeCAD",
+    "Blender",
+    "3D printing"
+  ],
+  "changes": [
+    "Descriptive repository description and topics",
+    "Building render placed first",
+    "Natural technical summary and meaningful headings",
+    "Descriptive image alternative text",
+    "Internal assembly, CAD and calculation links",
+    "Maintainer and prototype limitations identified",
+    "WebP render encoding for smaller image transfers"
+  ],
+  "limits": [
+    "Search-engine indexing and rankings are not guaranteed",
+    "GitHub controls HTML metadata, robots and page templates",
+    "No standalone HTML site or invented SEO score"
+  ],
+  "references": [
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics"
+  ]
+}

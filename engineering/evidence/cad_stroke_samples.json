@@ -1,0 +1,126 @@
+{
+  "positions": [
+    {
+      "wing_deg": 0,
+      "travel_mm": -15.348483958404778,
+      "screw_rotation_deg": 552.545422502572,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 9.375,
+      "travel_mm": -13.274773339549387,
+      "screw_rotation_deg": 477.89184022377793,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 18.75,
+      "travel_mm": -11.032821647463336,
+      "screw_rotation_deg": 397.1815793086801,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 28.125,
+      "travel_mm": -8.721191503647301,
+      "screw_rotation_deg": 313.96289413130285,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 37.5,
+      "travel_mm": -6.454571163524186,
+      "screw_rotation_deg": 232.3645618868707,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 46.875,
+      "travel_mm": -4.3498018950635995,
+      "screw_rotation_deg": 156.59286822228958,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 56.25,
+      "travel_mm": -2.5147300512645288,
+      "screw_rotation_deg": 90.53028184552304,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 65.625,
+      "travel_mm": -1.0409949837440884,
+      "screw_rotation_deg": 37.47581941478718,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    },
+    {
+      "wing_deg": 75,
+      "travel_mm": 0.0,
+      "screw_rotation_deg": -0.0,
+      "nuts": {
+        "P12": {
+          "overlap_mm3": 0.0
+        },
+        "P26": {
+          "overlap_mm3": 0.0
+        }
+      }
+    }
+  ],
+  "frame_overlap_mm3": 0.0,
+  "stroke_mm": 15.348483958404778,
+  "lead_mm": 10,
+  "valid_solids": true,
+  "limits": "Digital geometric checks; 10 mm transmission not physically tested."
+}

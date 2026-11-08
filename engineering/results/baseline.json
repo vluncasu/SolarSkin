@@ -1,0 +1,16 @@
+{
+  "stroke_mm": 15.348483958404778,
+  "extra_reduction": 1,
+  "step_mode": "half",
+  "nominal_steps_per_output_rev": 4096,
+  "screw_revolutions": 1.5348483958404777,
+  "geared_motor_output_revolutions": 1.5348483958404777,
+  "internal_rotor_revolutions_nominal": 98.23029733379057,
+  "ideal_step_count": 6286.739029362597,
+  "nearest_integer_steps": 6287,
+  "rate_steps_per_second": 180,
+  "constant_rate_time_s": 34.92632794090331,
+  "linear_speed_mm_per_second": 0.439453125,
+  "thread_pitch_mm": 3.3333333333333335,
+  "assumption": "4096 halfsteps or 2048 full steps per geared output revolution; nominal, not measured. Extra reduction is downstream of that output."
+}

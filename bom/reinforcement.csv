@@ -1,0 +1,15 @@
+part_id,quantity,color,x_mm,y_mm,z_mm,file
+R01_RIGHT_RIB,4,anthracite,169.60000610351562,35.5,24.300003051757812,print/03_reinforcement/anthracite/R01_RIGHT_RIB__qty_04.stl
+R02_LEFT_RIB,4,anthracite,169.60000610351562,35.5,24.300003051757812,print/03_reinforcement/anthracite/R02_LEFT_RIB__qty_04.stl
+R03_FRONT_CLAMP,16,white,24.300003051757812,30.0,3.0,print/03_reinforcement/white/R03_FRONT_CLAMP__qty_16.stl
+R04_SIDE_SPLICE,6,white,56.0,35.5,4.0,print/03_reinforcement/white/R04_SIDE_SPLICE__qty_06.stl
+R05_SHORT_SCREW_15MM,34,white,9.397895812988281,9.398947715759277,15.0,print/03_reinforcement/white/R05_SHORT_SCREW_15MM__qty_34.stl
+R21_LONG_SCREW_18_8MM,26,white,9.397895812988281,9.398947715759277,18.799999237060547,print/03_reinforcement/white/R21_LONG_SCREW_18_8MM__qty_26.stl
+R22_LEFT_CENTRE_BASE_SUPPORT,2,anthracite,156.0,246.0,18.0,print/03_reinforcement/anthracite/R22_LEFT_CENTRE_BASE_SUPPORT__qty_02.stl
+R23_RIGHT_REAR_BASE_SUPPORT,2,anthracite,156.0,246.0,18.0,print/03_reinforcement/anthracite/R23_RIGHT_REAR_BASE_SUPPORT__qty_02.stl
+R24_FOOT_RETAINING_SADDLE,4,orange,54.0,12.0,19.944578170776367,print/03_reinforcement/orange/R24_FOOT_RETAINING_SADDLE__qty_04.stl
+R25_FOOT_SCREW_61MM,8,white,12.530529022216797,12.531929969787598,61.0,print/03_reinforcement/white/R25_FOOT_SCREW_61MM__qty_08.stl
+R26_ASSEMBLY_KEY,1,white,24.0,50.66666793823242,5.200000286102295,print/03_reinforcement/white/R26_ASSEMBLY_KEY__qty_01.stl
+R31_REAR_FOOT_ADAPTER,1,anthracite,164.69998168945312,148.60079956054688,44.0,print/03_reinforcement/anthracite/R31_REAR_FOOT_ADAPTER__qty_01.stl
+R41_CLIP_ON_CABLE_GUIDE,4,anthracite,,,,print/03_reinforcement/anthracite/R41_CLIP_ON_CABLE_GUIDE__qty_04.stl
+F18_EXTRA_REAR_FOOT,1,anthracite,,,,print/03_reinforcement/anthracite/F18_EXTRA_REAR_FOOT__qty_01.stl

@@ -1,0 +1,1422 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 420,
+    "sha256": "1740ea3b2e20348ac86dd52becf8bbb0cf734369107b18ce3ac5a95fd7aaa03b"
+  },
+  {
+    "file": ".github/workflows/verify.yml",
+    "bytes": 907,
+    "sha256": "52875c7f71e3df63f76d682ee5b5969cc3ffe074145b38f581ef0f17ac809716"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 194,
+    "sha256": "75e622231a4f05d35ddec1ecbc019b6cb8d28eaff8556e0eca5c5236b4611368"
+  },
+  {
+    "file": "LICENSE_STATUS.md",
+    "bytes": 361,
+    "sha256": "26157b0626322f5fe80a67af35a95fef7320975bdfa04c88bbea706bd377bf45"
+  },
+  {
+    "file": "README.md",
+    "bytes": 5747,
+    "sha256": "dc668da1cd28e194c9ba937f3867316aef55234b4ba9fb5e260e7dbf256223a2"
+  },
+  {
+    "file": "bom/building_optional_files.json",
+    "bytes": 4393,
+    "sha256": "a4c5ca21125bae4b46fdd2852af0311ebe06f1fa9d6a02039722d4625330bfb1"
+  },
+  {
+    "file": "bom/frame.csv",
+    "bytes": 2924,
+    "sha256": "2f913dc65b9e81120d2420a2223ebbfe2bde372d30e396701ffc4e98dfc75eed"
+  },
+  {
+    "file": "bom/mechanism.csv",
+    "bytes": 4552,
+    "sha256": "36cb7a7b742c65ea1e26835fd1a5a3617e1cfa25bed9c9c15b7aeefeb7fef6cf"
+  },
+  {
+    "file": "bom/reinforcement.csv",
+    "bytes": 1800,
+    "sha256": "d4a0e724a3c9199a6d1fb36a39d07aac722ce82f7179a48e9ee5426607779f8d"
+  },
+  {
+    "file": "cad/01_mechanism/LEAD_SCREW_10MM.FCStd",
+    "bytes": 472762,
+    "sha256": "5c91e5380907be0bfab2d3165b46f42a790f9095c5274299ec648ba73a2ba8a9"
+  },
+  {
+    "file": "cad/01_mechanism/LEAD_SCREW_10MM.step",
+    "bytes": 992761,
+    "sha256": "f55ae214701a39918fc1b9c68733e53eafd176a95a6d8f051154c522caf911fb"
+  },
+  {
+    "file": "cad/01_mechanism/MECHANISM_10MM.FCStd",
+    "bytes": 51497336,
+    "sha256": "8270b7100d1f353ddd9e8d1120da5515f9b924d5299d2d769b2b6861623cb29c"
+  },
+  {
+    "file": "cad/01_mechanism/MECHANISM_10MM.blend",
+    "bytes": 39585704,
+    "sha256": "003ea50261af4488a2aefddd77266241d019f0d118c9a272accf1e1e161da7fa"
+  },
+  {
+    "file": "cad/02_frame/FRAME_ONLY.blend",
+    "bytes": 3100940,
+    "sha256": "fba688adaea912c2a98c365c671af89436a6534dc297609e84e9b84e4fb2158e"
+  },
+  {
+    "file": "cad/02_frame/parts/23_F01_RECEIVER_BOLT__qty_32.step",
+    "bytes": 253022,
+    "sha256": "210ddb72ad8aea549667225703ae7d75eba2143278dc7b9dc33e5b2921512b7f"
+  },
+  {
+    "file": "cad/02_frame/parts/24_F02_DOUBLE_RECEIVER_NUT__qty_16.step",
+    "bytes": 491261,
+    "sha256": "0bb4d36c46b64861219dc101e1fbd43b5c76bf39a7d6a7493f9a2650890ef49b"
+  },
+  {
+    "file": "cad/02_frame/parts/25_F04_FRAME_CASSETTE_C1_N1__qty_01.step",
+    "bytes": 268824,
+    "sha256": "db9110dfef17ea4882ef5006cdc082f33621ec1420a13f06127df7e1619f4a42"
+  },
+  {
+    "file": "cad/02_frame/parts/26_F04_FRAME_CASSETTE_C1_N2__qty_01.step",
+    "bytes": 260967,
+    "sha256": "101eaaab5c87ef9ff27aae4985d8cc8ec2142f00cc791910e421a2c758124112"
+  },
+  {
+    "file": "cad/02_frame/parts/27_F04_FRAME_CASSETTE_C1_N3__qty_01.step",
+    "bytes": 249473,
+    "sha256": "fea53870c2f36b6f354f87f7bb69d11d58a757bcca0fb6eea920760a6e6ec857"
+  },
+  {
+    "file": "cad/02_frame/parts/28_F04_FRAME_CASSETTE_C1_N4__qty_01.step",
+    "bytes": 245408,
+    "sha256": "47804445fa0bdf904fd2364b333ec443813449aaaf7e00fcf8209d27ea4f3fed"
+  },
+  {
+    "file": "cad/02_frame/parts/29_F04_FRAME_CASSETTE_C2_N1__qty_01.step",
+    "bytes": 342874,
+    "sha256": "456f808648442dbe4b5841aa685e027d79f26158b686fb5e3fcb36f7f286c8e1"
+  },
+  {
+    "file": "cad/02_frame/parts/30_F04_FRAME_CASSETTE_C2_N2__qty_01.step",
+    "bytes": 366745,
+    "sha256": "cff26ded7ed8c8e689bafc74df86f5c598a2d74e7bff65c048da5d1ab82899aa"
+  },
+  {
+    "file": "cad/02_frame/parts/31_F04_FRAME_CASSETTE_C2_N3__qty_01.step",
+    "bytes": 313360,
+    "sha256": "f987046f6416e6f598ec4a41e94b2db1ade5d9a2a6565495e21eb6d0a4820d48"
+  },
+  {
+    "file": "cad/02_frame/parts/32_F04_FRAME_CASSETTE_C2_N4__qty_01.step",
+    "bytes": 359686,
+    "sha256": "313065140c686838464de61f322ef2eaf7a948c4b92e7836aeec4e794342829b"
+  },
+  {
+    "file": "cad/02_frame/parts/33_F04_FRAME_CASSETTE_C3_N1__qty_01.step",
+    "bytes": 216341,
+    "sha256": "d884a5ee7a88ff3c2372a763d048db26a55f0ef0a846a43d5be5cd87b8520482"
+  },
+  {
+    "file": "cad/02_frame/parts/34_F04_FRAME_CASSETTE_C3_N2__qty_01.step",
+    "bytes": 257135,
+    "sha256": "ac01257c550e8f89924bfeeed4769e03af4064b7de2d3529d9e4c7ed6d82a925"
+  },
+  {
+    "file": "cad/02_frame/parts/35_F04_FRAME_CASSETTE_C3_N3__qty_01.step",
+    "bytes": 257201,
+    "sha256": "9e83bf1542354e57f9ceae140bf90de51e2253d87b1f8200f74e431aba63cc0c"
+  },
+  {
+    "file": "cad/02_frame/parts/36_F04_FRAME_CASSETTE_C3_N4__qty_01.step",
+    "bytes": 291696,
+    "sha256": "0b21e7773c7e7cd954fa523e9ef5b7bfd83d22fac21c2e8e583d975f6c713097"
+  },
+  {
+    "file": "cad/02_frame/parts/37_F05_VERTICAL_SPLICE__qty_06.step",
+    "bytes": 951251,
+    "sha256": "3493b7b69e4f518d15d28f56f468525895b009e8597928087552e5725ab8d01d"
+  },
+  {
+    "file": "cad/02_frame/parts/38_F06_LONG_SPLICE__qty_02.step",
+    "bytes": 988433,
+    "sha256": "45a2792bb0161cc9319a4be8df4ee93b0d842cef9c8f1f8309e833a61fbb11d7"
+  },
+  {
+    "file": "cad/02_frame/parts/39_F07_HORIZONTAL_SPLICE__qty_06.step",
+    "bytes": 920638,
+    "sha256": "bd35f13c18c37874e1cfb02f459ed69d66cbadb0b47b2305af808b367830bdf9"
+  },
+  {
+    "file": "cad/02_frame/parts/40_F10_CAPTIVE_CROSS_MEMBER__qty_12.step",
+    "bytes": 39201,
+    "sha256": "2d74ecfa92165290f149034aefd4ce00445ff96da4b48c8b8fa212c5b39be0be"
+  },
+  {
+    "file": "cad/02_frame/parts/63_F12_FRAME_BOLT__qty_38.step",
+    "bytes": 235469,
+    "sha256": "efe15b71d987f79c140de9dfc87786c1d60248c38175ab5edcf76f4bc02bd1fd"
+  },
+  {
+    "file": "cad/02_frame/parts/64_F13_PRESENTATION_FOOT__qty_02.step",
+    "bytes": 2789210,
+    "sha256": "a35cf39e90e1eb9237365e1626ebab199daceee4776cef0567080fd9386093e5"
+  },
+  {
+    "file": "cad/02_frame/parts/65_F14_HEX_KEY__qty_01.step",
+    "bytes": 79940,
+    "sha256": "e1046fd3cfa04d6c84421720c3a611fe00a9be853065a17aced7c67f7a6e127b"
+  },
+  {
+    "file": "cad/02_frame/parts/66_F15_CENTRAL_SPLICE__qty_03.step",
+    "bytes": 940208,
+    "sha256": "ac8aeed7a893911bdbc016b468b326522e0fbc7112e3f560d6a09c5ab65c61c6"
+  },
+  {
+    "file": "cad/02_frame/parts/67_F16_RECESSED_HEAD_BOLT__qty_36.step",
+    "bytes": 214343,
+    "sha256": "1efedff0cd3b423755d8993d5ad837527009ad3409f2904004ec3bec485b6042"
+  },
+  {
+    "file": "cad/02_frame/parts/68_F17_LONG_RECEIVER_KEY__qty_01.step",
+    "bytes": 90844,
+    "sha256": "0bf40ebfa83ddaa5de0acf430499518938db7ee03d0642d69a653e1a9e4720f9"
+  },
+  {
+    "file": "cad/02_frame/parts/69_F18_RIGHT_BASE_FOOT__qty_01.step",
+    "bytes": 2789493,
+    "sha256": "52aedcd0bcba1bb54a4a7956f8dfbe289ea223bd1fb67c4faf8048806d06bc09"
+  },
+  {
+    "file": "cad/03_reinforced_assembly/REINFORCED_16_MODULE_ASSEMBLY.blend",
+    "bytes": 18891945,
+    "sha256": "08804b62a1be9baed981fd0ddf4eb64e288287dcee0cfa4720e1648190e2238e"
+  },
+  {
+    "file": "cad/04_building_optional/BUILDING.FCStd",
+    "bytes": 25710103,
+    "sha256": "62d8ce9ae25d172c07e4eff09136f5f4fd82a119d1919a890bb0afc649f1b27e"
+  },
+  {
+    "file": "cad/04_building_optional/BUILDING_ASSEMBLY.blend",
+    "bytes": 64242356,
+    "sha256": "16d4a1084cefcccc4284eccc7e46f7b35c0804832a90b3d79674261089229827"
+  },
+  {
+    "file": "cad/04_building_optional/BUILDING_FACADE.step",
+    "bytes": 58446285,
+    "sha256": "3920a0b49ef65404c2b87ea333657b5a3d63b82a4c63d6e9f843ea66dc3aa9f9"
+  },
+  {
+    "file": "docs/01_mechanism_and_kinematics.md",
+    "bytes": 2669,
+    "sha256": "572d843787bb6d8acebd779da566a249808151b9739c538485ee164efa294dcc"
+  },
+  {
+    "file": "docs/02_screw_and_motor_calculations.md",
+    "bytes": 6102,
+    "sha256": "9e9f9b78fc1dd4276ba0c327047bceb44ebc530e7f34e725464ea26a3b7b7299"
+  },
+  {
+    "file": "docs/03_printing_and_bom.md",
+    "bytes": 3001,
+    "sha256": "ea37e3b7ea2a4cefcad13f15d325f039b93243101ceddedaa65d285c47393495"
+  },
+  {
+    "file": "docs/04_mechanism_assembly.md",
+    "bytes": 4190,
+    "sha256": "5eb61388ba9e316c3c0c8aebddddb9282214a63c5e260be17458409212676e47"
+  },
+  {
+    "file": "docs/05_frame_assembly.md",
+    "bytes": 5222,
+    "sha256": "5db2cf1ea806bd4d52952a4298755404fb2dec3590a06d6eb8020c8573426789"
+  },
+  {
+    "file": "docs/06_electronics.md",
+    "bytes": 3567,
+    "sha256": "f47c74e6f85d0bbe8f4cf0b90b065047230b07d34de9d0d77df4150676b19569"
+  },
+  {
+    "file": "docs/07_firmware.md",
+    "bytes": 3886,
+    "sha256": "998ba5ff008ea6e9efd533d01d672a83ff031c50b74afda5b855d0cab3bd7c5b"
+  },
+  {
+    "file": "docs/08_cad_and_renders.md",
+    "bytes": 2092,
+    "sha256": "beadce628b573a727858e4207820b07e338cdc2552235ec7268578a365b13770"
+  },
+  {
+    "file": "docs/09_verification.md",
+    "bytes": 1160,
+    "sha256": "0a585c65a0fa1c774d6aae67bb7c4eaf515a3af8385c521b1188abcb45bb1fe8"
+  },
+  {
+    "file": "docs/10_repository_and_downloads.md",
+    "bytes": 1179,
+    "sha256": "0f5b9b873abf2a0bbc48c31ec8887c34b553acd0d159cf0f1ae183074c7eb4c7"
+  },
+  {
+    "file": "docs/11_references.md",
+    "bytes": 2143,
+    "sha256": "975f753fad79dff11e03a2a47fd817f8c299b16756a7063518c991854b842435"
+  },
+  {
+    "file": "docs/12_building_and_facade.md",
+    "bytes": 3521,
+    "sha256": "aac1965202a6bafae5a2064ad4c9d065d873930a3a94d03019438a57a0cbc72c"
+  },
+  {
+    "file": "docs/pdf/SOLARSKIN_ENGINEERING_AND_ASSEMBLY.pdf",
+    "bytes": 7175049,
+    "sha256": "9a33d27fbd8d0ed3db2a6f737d52e0231fe0bbd3ffd3fb37e4db7631d334b845"
+  },
+  {
+    "file": "docs/pdf/SOLARSKIN_PARTS_CATALOG.pdf",
+    "bytes": 7973052,
+    "sha256": "12a0b3bd1853a877d08a81033a5fe7050b55275ed30e9d758881d0c6095a7d05"
+  },
+  {
+    "file": "engineering/calculations.py",
+    "bytes": 3233,
+    "sha256": "cb75853d0972234b22d809fc55e0413bfa4835cc086c85530f3be6dc624113b7"
+  },
+  {
+    "file": "engineering/evidence/cad_stroke_samples.json",
+    "bytes": 2534,
+    "sha256": "dc5d9eb5006f4ac3c56505e2ae88c58c5ecd5aad3d311c424a0e61b896df7a20"
+  },
+  {
+    "file": "engineering/evidence/design_parameters.json",
+    "bytes": 1433,
+    "sha256": "2c340696db9ecf21228ddb3d0e9b4cd06153351b06c47d21c8dd71a2f1650e95"
+  },
+  {
+    "file": "engineering/evidence/original_kinematic_helpers.py",
+    "bytes": 1531,
+    "sha256": "40ab3467062bf2e30b8d696a970a45129fe4d2ec77c409066069549cebb1c8f8"
+  },
+  {
+    "file": "engineering/evidence/thread_geometry_check.json",
+    "bytes": 807,
+    "sha256": "c506aa19434475a6b7360e555d539f7453b41f7c93297353696986ba87b6ae68"
+  },
+  {
+    "file": "engineering/results/baseline.json",
+    "bytes": 673,
+    "sha256": "8671522383c48f37d194aef07959ea34bec73ce11dc42e822289c84f1cfdd09b"
+  },
+  {
+    "file": "engineering/results/kinematic_samples.csv",
+    "bytes": 5930,
+    "sha256": "0c78470eb3721cf3a2d23909f7bc97152c24e01aa508a648d5e3838cf80d6f01"
+  },
+  {
+    "file": "engineering/results/reduction_table.csv",
+    "bytes": 1429,
+    "sha256": "3fe47b3dc3aa872e4cfaccb87826da40f551fc7d63b488595bab8045dbeecbe0"
+  },
+  {
+    "file": "engineering/source/P13_interface_reference.brep",
+    "bytes": 896089,
+    "sha256": "68ecc304202780a3c93ad07f79ae031e7f76e9a40eff4a427dee5dbd1d448e61"
+  },
+  {
+    "file": "engineering/source/rebuild_thread.FCMacro",
+    "bytes": 3579,
+    "sha256": "be28d924556b6c8f6c23dd81a12b4938c363273e67591649af4a0752286e89fc"
+  },
+  {
+    "file": "engineering/test_calculations.py",
+    "bytes": 1417,
+    "sha256": "cfacb1a5e2561f1089fcc117a5210daa92e7b89c97ff030c95cb2e1b6b015663"
+  },
+  {
+    "file": "firmware/baseline_web/FLASH.command",
+    "bytes": 225,
+    "sha256": "c962542283c488b8001c6e3e0a1a7062502fbbc76a14535427919b8bc7cfe131"
+  },
+  {
+    "file": "firmware/baseline_web/platformio.ini",
+    "bytes": 126,
+    "sha256": "5937be505598bc67b5838b2850f8bca2445f710b28aa59be9dfcd3a33c27ce29"
+  },
+  {
+    "file": "firmware/baseline_web/src/config.example.h",
+    "bytes": 191,
+    "sha256": "d0adcc2374a73238fe65685c46fe06560b6934804c3fe19c4c30f4f9a14c3af6"
+  },
+  {
+    "file": "firmware/baseline_web/src/main.cpp",
+    "bytes": 2979,
+    "sha256": "9c09ab0857e83cb23d5c5a9e0d63b96d1b61798824f033c1ddea7f86329dd855"
+  },
+  {
+    "file": "firmware/baseline_web/src/network.h",
+    "bytes": 4692,
+    "sha256": "1dd23341a6cb7ad81043fad0a6dff5c82b71f6e26ba9ead2b9a1b5640653344c"
+  },
+  {
+    "file": "firmware/baseline_web/test/firmware_test.cpp",
+    "bytes": 2420,
+    "sha256": "88a07017d38fe48eb4225a40fe49de91e1279592c266bac3c6d63586648132ab"
+  },
+  {
+    "file": "firmware/minimal/FLASH.command",
+    "bytes": 225,
+    "sha256": "c962542283c488b8001c6e3e0a1a7062502fbbc76a14535427919b8bc7cfe131"
+  },
+  {
+    "file": "firmware/minimal/host_test.cpp",
+    "bytes": 3522,
+    "sha256": "3638b8e53b6221f21e98c6ef1866065cf9cddd272eedbc4f4ef36b14e0cfd460"
+  },
+  {
+    "file": "firmware/minimal/platformio.ini",
+    "bytes": 126,
+    "sha256": "5937be505598bc67b5838b2850f8bca2445f710b28aa59be9dfcd3a33c27ce29"
+  },
+  {
+    "file": "firmware/minimal/src/main.cpp",
+    "bytes": 2112,
+    "sha256": "883b45dc75a1073246cae0286d6b46a20a55eba35044107e6dd86e9540ea5f68"
+  },
+  {
+    "file": "firmware/stand/FLASH.command",
+    "bytes": 225,
+    "sha256": "c962542283c488b8001c6e3e0a1a7062502fbbc76a14535427919b8bc7cfe131"
+  },
+  {
+    "file": "firmware/stand/platformio.ini",
+    "bytes": 126,
+    "sha256": "5937be505598bc67b5838b2850f8bca2445f710b28aa59be9dfcd3a33c27ce29"
+  },
+  {
+    "file": "firmware/stand/src/config.example.h",
+    "bytes": 191,
+    "sha256": "d0adcc2374a73238fe65685c46fe06560b6934804c3fe19c4c30f4f9a14c3af6"
+  },
+  {
+    "file": "firmware/stand/src/engine.h",
+    "bytes": 1643,
+    "sha256": "f68b15303ed2d34a22104984a67b44fd1feeb13cb092d89c1cc96472951bc52e"
+  },
+  {
+    "file": "firmware/stand/src/main.cpp",
+    "bytes": 1796,
+    "sha256": "445cb4315ae3ff9bbd9608e6bd92e10e3675b8d050868ad1f6330cfaae2c7838"
+  },
+  {
+    "file": "firmware/stand/src/network.h",
+    "bytes": 3082,
+    "sha256": "bb0a905ff9a93c467db24a2ed23436fad2a0e2b937a2dbdb28fe080add3a3aeb"
+  },
+  {
+    "file": "firmware/stand/src/ui.h",
+    "bytes": 12363,
+    "sha256": "7adf0af161523259d9590dafe9c764fc96071c826594e7f02407e383e15ee331"
+  },
+  {
+    "file": "firmware/stand/test/firmware_test.cpp",
+    "bytes": 3079,
+    "sha256": "4e677979547826b7a1dde0819ccf58e53641c6de6ea3f449a766bdf3bf1693c7"
+  },
+  {
+    "file": "media/engineering/carriage_travel.png",
+    "bytes": 59683,
+    "sha256": "5ae76f0ad31d2b1d7c656493b5746e5c6a03277a13da6d3c8106542b3a3f3fb5"
+  },
+  {
+    "file": "media/engineering/linkage_geometry.png",
+    "bytes": 56496,
+    "sha256": "1aa70d4e0f85fc5b254d6fa624d31fc332a6725836bbdda599f1952f9f29d04d"
+  },
+  {
+    "file": "media/parts/E01_iso.png",
+    "bytes": 144882,
+    "sha256": "e3c8be3d5cc8e53c3dba5679a3a3f7b94c22c7dd1981be9c441d7547120d35eb"
+  },
+  {
+    "file": "media/parts/E01_plan.png",
+    "bytes": 89162,
+    "sha256": "75219bbd02ebfc5ed78b539b5bab06bb89ff01042c219c0cc58729edb64ceeaa"
+  },
+  {
+    "file": "media/parts/E02_iso.png",
+    "bytes": 150884,
+    "sha256": "2979c4ded5c781a4b86e764d5f189deb42c3bc020e1051bafd56f7b67710feb8"
+  },
+  {
+    "file": "media/parts/E02_plan.png",
+    "bytes": 80273,
+    "sha256": "cb2459c4fc1863159e65d110353b1f940372aa2a577c73c390a7223e8f1f77b4"
+  },
+  {
+    "file": "media/parts/E03_iso.png",
+    "bytes": 138250,
+    "sha256": "46fb1c335f035a73517abd89cfc7b2d42526b0349caa53661affc4aa84d3d013"
+  },
+  {
+    "file": "media/parts/E03_plan.png",
+    "bytes": 134217,
+    "sha256": "25e346c290237fe857637f6e3b00a2f92d7252ea10f7ac89c77507f64913b730"
+  },
+  {
+    "file": "media/parts/P02_iso.png",
+    "bytes": 111992,
+    "sha256": "635a884695437fb8714331da56ad064b5cab4324d2bce878e050233e0d7d1876"
+  },
+  {
+    "file": "media/parts/P02_plan.png",
+    "bytes": 128410,
+    "sha256": "061f0936d98b4c259aa4c423a9d56346882e24ab53b5dcc618dc8d29d2a1988e"
+  },
+  {
+    "file": "media/parts/P03_iso.png",
+    "bytes": 165949,
+    "sha256": "949544431d296bdf940c51d0f52a96a024bf6d0f4adae88fd0d499799a086b15"
+  },
+  {
+    "file": "media/parts/P03_plan.png",
+    "bytes": 102573,
+    "sha256": "af12fb0a92104fa05ed31e3373590243e337b23578c6d8de1e837181cd1cd866"
+  },
+  {
+    "file": "media/parts/P04_iso.png",
+    "bytes": 117267,
+    "sha256": "b245f450689f33a054c4fe8e96256bbdab1318a1728f6dfa3b03463005321b63"
+  },
+  {
+    "file": "media/parts/P04_plan.png",
+    "bytes": 175648,
+    "sha256": "f5b54dc008be59b4e4925d9388e4e30bccc1edaa3089d14c92f9a3ab115430f0"
+  },
+  {
+    "file": "media/parts/P05_iso.png",
+    "bytes": 79522,
+    "sha256": "ff13c01f83816d95c4d69921b0aa349ca53a96036b79b9678a4ae9407fcdd88f"
+  },
+  {
+    "file": "media/parts/P05_plan.png",
+    "bytes": 27252,
+    "sha256": "04b78aa5625f231251d610b9b35e43bf148ef1659565141399393d0b79fc3f90"
+  },
+  {
+    "file": "media/parts/P07L_iso.png",
+    "bytes": 104072,
+    "sha256": "d41ec1948bf46365024934dbdf161995ad6ba1555ec55fa22591ec2f75577884"
+  },
+  {
+    "file": "media/parts/P07L_plan.png",
+    "bytes": 129189,
+    "sha256": "38976434b411e7d82fe433bb0795e3cf173c1b3021d395ed335af6169904e129"
+  },
+  {
+    "file": "media/parts/P07R_iso.png",
+    "bytes": 103483,
+    "sha256": "a31068a4560b7dc36963023ea85de44383e416d0689d3141f496a9241abd6402"
+  },
+  {
+    "file": "media/parts/P07R_plan.png",
+    "bytes": 110543,
+    "sha256": "6552464397f90c0f342b4de2c186e014346727b60aef931949e977c3e7958bc6"
+  },
+  {
+    "file": "media/parts/P08_iso.png",
+    "bytes": 77919,
+    "sha256": "444ab17e000da861d5f1ecf6e6ae8b04adebd9d60bb97805a9d296844b599153"
+  },
+  {
+    "file": "media/parts/P08_plan.png",
+    "bytes": 49440,
+    "sha256": "1e09bc8d55cc82be62af511683cd511d58117d72ed9ca3b6858c5d193cfa2998"
+  },
+  {
+    "file": "media/parts/P09_iso.png",
+    "bytes": 68131,
+    "sha256": "19ddbefb5086f18d722440637acd11c2829d96624266c031b1cd07b76d19e572"
+  },
+  {
+    "file": "media/parts/P09_plan.png",
+    "bytes": 39517,
+    "sha256": "969807732fd8ff3e63e0e5ebaa778ba1b9d4d9a2e2aa5de5a1738ae69793695e"
+  },
+  {
+    "file": "media/parts/P10_iso.png",
+    "bytes": 115599,
+    "sha256": "8adbc9b02b2e32f1c38b5dbb193751743d7617ebb38c88dbc2ae21fbbe16a47e"
+  },
+  {
+    "file": "media/parts/P10_plan.png",
+    "bytes": 99278,
+    "sha256": "de09ac9ab55573c9cfa02aa78bc2242f6dff15472ee7e7f0ba0bd78093372194"
+  },
+  {
+    "file": "media/parts/P11_iso.png",
+    "bytes": 185803,
+    "sha256": "7a34b76639638abe9b6bf940c1cf354d693c6b3a572cf4da9629992c37f7918a"
+  },
+  {
+    "file": "media/parts/P11_plan.png",
+    "bytes": 190646,
+    "sha256": "04027a7f1324b007125354c9a8f53acec926f717ec64f55ccbaf9f3548f003ec"
+  },
+  {
+    "file": "media/parts/P12_iso.png",
+    "bytes": 227734,
+    "sha256": "3f00c90af86f876cc4044e5946b8265d8bd1a220e10629bc03b15eb0e2da4513"
+  },
+  {
+    "file": "media/parts/P12_plan.png",
+    "bytes": 151833,
+    "sha256": "67440e660460963f85ccbfd35134e7298d5ce923d47ac7a2e7fde163f076825f"
+  },
+  {
+    "file": "media/parts/P13_iso.png",
+    "bytes": 161088,
+    "sha256": "c84011872f2cec799c0a9220a7d831d2751bc82de8e62496d7db083b3da2c5c3"
+  },
+  {
+    "file": "media/parts/P13_plan.png",
+    "bytes": 135354,
+    "sha256": "1f9403070cf7ec735155623c25e37a0a23a16a1496f16daaf5b76d962917cd69"
+  },
+  {
+    "file": "media/parts/P16_iso.png",
+    "bytes": 115823,
+    "sha256": "32b2bfaba4c3c49f313527cbca16f8275e68e8f05fb59ac03f59cca867c1189a"
+  },
+  {
+    "file": "media/parts/P16_plan.png",
+    "bytes": 68216,
+    "sha256": "350a48ce7df500d346b80b40ee35c66134e9d2f3d03da29248b9f62463ef24b9"
+  },
+  {
+    "file": "media/parts/P26_iso.png",
+    "bytes": 227274,
+    "sha256": "917304758327716ebb3b4a15a9086aa6f9de41b21b43b1fa86e081864b75ea45"
+  },
+  {
+    "file": "media/parts/P26_plan.png",
+    "bytes": 153716,
+    "sha256": "f44eb5353bd5cd7471ab9c80353df272ecd4dfe0d3151b63b0ed969b55b0a7b0"
+  },
+  {
+    "file": "media/parts/P29_iso.png",
+    "bytes": 174250,
+    "sha256": "283fa71f2df797bf34c3e278db2df42fe6ec81764749d65bc766489254c22681"
+  },
+  {
+    "file": "media/parts/P29_plan.png",
+    "bytes": 201711,
+    "sha256": "e27d9e5b0a63ba6e80464343205b98ca065e5d52ce1efea25290055a566f14bc"
+  },
+  {
+    "file": "media/parts/P30_iso.png",
+    "bytes": 152226,
+    "sha256": "01ab423224cb7c49fc3db86dc964e4c0a229a4274bbc0a736aa6a3f92772b3a6"
+  },
+  {
+    "file": "media/parts/P30_plan.png",
+    "bytes": 272711,
+    "sha256": "b247719909ae47eb60fe11a2b778adb0234b78565f3df13a13c5d1e38f7f9201"
+  },
+  {
+    "file": "media/parts/P31_iso.png",
+    "bytes": 189078,
+    "sha256": "e949c31a69d98468a735d8ad9f230c5a7817e73dc6424b34c586699521c2d3b5"
+  },
+  {
+    "file": "media/parts/P31_plan.png",
+    "bytes": 135344,
+    "sha256": "e39506db7ae1e50464331c455f4723d3a40a0685272a8401ba64be3efb392603"
+  },
+  {
+    "file": "media/parts/P32_iso.png",
+    "bytes": 160497,
+    "sha256": "c8b30d926a2bba01adb03bb7917896aee50cce47d705c72b7137b309d95802bf"
+  },
+  {
+    "file": "media/parts/P32_plan.png",
+    "bytes": 157182,
+    "sha256": "e42a7392f51f9f69a9301ca0fe8160841905b92ef6c9c405326492963b8a3020"
+  },
+  {
+    "file": "media/parts/P33_iso.png",
+    "bytes": 130367,
+    "sha256": "9c24e6d7ce6aaebbc0cd328649ba97d932c8cd7c3040eeef81664d995ccdd1d9"
+  },
+  {
+    "file": "media/parts/P33_plan.png",
+    "bytes": 205403,
+    "sha256": "029a5ca54bc1327ff81af937e59b2b453840deac79fd77a28d74a4b51e0cc389"
+  },
+  {
+    "file": "media/parts/P34_iso.png",
+    "bytes": 107186,
+    "sha256": "4c7cd00c9f676cda0963dccb09eeba9c4956b65db8cc8e53163f621dc435271e"
+  },
+  {
+    "file": "media/parts/P34_plan.png",
+    "bytes": 185557,
+    "sha256": "f1b1f44491fa56a8f0f65eb6f37ea582b117663eaaf49359aa9c1209776725a0"
+  },
+  {
+    "file": "media/parts/P36_iso.png",
+    "bytes": 136334,
+    "sha256": "1850950ccd3e845b978a185e0cdaa623d5b3b910316a454529a0f59afbb16835"
+  },
+  {
+    "file": "media/parts/P36_plan.png",
+    "bytes": 231598,
+    "sha256": "99b5dadf127be43d9e46e0a9cf1748dd17be3250be3f48ef930a8e07c4ca24eb"
+  },
+  {
+    "file": "media/parts/P37_iso.png",
+    "bytes": 110472,
+    "sha256": "e4d913c873cc08cc6476fa157f029b4874f856fd915eeaeb088ef058a1f24113"
+  },
+  {
+    "file": "media/parts/P37_plan.png",
+    "bytes": 208811,
+    "sha256": "02e2e58a59afff8a0a9beb7003ebd7f3058f229cc66227761191a5247d944e5f"
+  },
+  {
+    "file": "media/parts/P44_iso.png",
+    "bytes": 148003,
+    "sha256": "5a4c8fc48fd206e9faf2e3ca4b47baa0fe2b753709df70b394bcf9a048918f72"
+  },
+  {
+    "file": "media/parts/P44_plan.png",
+    "bytes": 235048,
+    "sha256": "d73113239aee4baca695233c8d052a39b125ee1b58d2e50a4717d4207273a51f"
+  },
+  {
+    "file": "media/parts/P45_iso.png",
+    "bytes": 176739,
+    "sha256": "792a5989ee4211f32bcfbb1a95d93f00ef1f74e63f91aff7e28d09e651ae4e91"
+  },
+  {
+    "file": "media/parts/P45_plan.png",
+    "bytes": 228160,
+    "sha256": "583afd777a24901d93cd72d4d2fa563c8844e88854f6349e934430a8340a5965"
+  },
+  {
+    "file": "media/parts/P46_iso.png",
+    "bytes": 136515,
+    "sha256": "e68929380eb6c3f51fcbe745b0149749e4684fa7b4a85b9f0a0552d349abae7f"
+  },
+  {
+    "file": "media/parts/P46_plan.png",
+    "bytes": 213789,
+    "sha256": "52776f9de7d554a8da56de66c35500ae00523ee31ff56aed78a02e5b5e0b3b7e"
+  },
+  {
+    "file": "media/renders/assembly_01.webp",
+    "bytes": 103052,
+    "sha256": "457e599c6bd76c63dc44db05e119f26e63784b13ce407e4022c84b87407a4663"
+  },
+  {
+    "file": "media/renders/assembly_03.webp",
+    "bytes": 51356,
+    "sha256": "dda8ce8f710c438c65b0afad2408eb2622a4356b7c5ae72f0df002a3bd07dbcc"
+  },
+  {
+    "file": "media/renders/assembly_05.webp",
+    "bytes": 37812,
+    "sha256": "e96bae0778a33193e56a43482697900ddb5b1152bd4c90098708a4874dfbc43c"
+  },
+  {
+    "file": "media/renders/assembly_06.webp",
+    "bytes": 14842,
+    "sha256": "51eda24de5f19c3dd07edb8bea5fa6d399f7009ae3f972c2c2f02d5d2e709f4c"
+  },
+  {
+    "file": "media/renders/assembly_08.webp",
+    "bytes": 14550,
+    "sha256": "6b2c98b92c60672dd592ecd3147a3683f04dce1788086a97f0027d0c66dff970"
+  },
+  {
+    "file": "media/renders/assembly_09.webp",
+    "bytes": 75184,
+    "sha256": "6467971105cc7d58f1f51bcc637ac51da19f29a02431a4e8b49745c687bf2166"
+  },
+  {
+    "file": "media/renders/base_assembly.webp",
+    "bytes": 31962,
+    "sha256": "22a3587f6f774a8b9da9b25c7dcb47d88d0799a80043bf022882e151d86bfc7d"
+  },
+  {
+    "file": "media/renders/building_closed.webp",
+    "bytes": 106996,
+    "sha256": "0fc9a3f7c5160aa35dd752938d01d0b12534ee252ce651018271a93fdb3b4d76"
+  },
+  {
+    "file": "media/renders/building_floors.webp",
+    "bytes": 123640,
+    "sha256": "28aac1071487834579abc7d5f4ef66d2efa6d65d6f148a2f016f552b7e106742"
+  },
+  {
+    "file": "media/renders/building_open.webp",
+    "bytes": 98722,
+    "sha256": "acd99f57eee9bd546cac4fcea417aa0104df59c046adb45657cab93fb5a2f9c1"
+  },
+  {
+    "file": "media/renders/building_rear.webp",
+    "bytes": 96208,
+    "sha256": "f6d44b7ab470d3decd41a2fc4a738a327fdb80ef23f8eabcd727b45e67c8d285"
+  },
+  {
+    "file": "media/renders/cable_clip_section.webp",
+    "bytes": 17000,
+    "sha256": "dc94598df0d830abb10eea5866943b5739b824cda4804cf48935929d09bc5ee7"
+  },
+  {
+    "file": "media/renders/frame_assembly.webp",
+    "bytes": 56132,
+    "sha256": "d82c5ece77caa92367f8f40f1bdb373671cff5d9bc2e5aef30c4dbf0cc11c061"
+  },
+  {
+    "file": "media/renders/frame_horizontal_splices.webp",
+    "bytes": 6296,
+    "sha256": "1ff22aa6fb3c948e4a0c8b6547e14b68b461d93f91d5d6b1efa9c6ced15b25c6"
+  },
+  {
+    "file": "media/renders/frame_vertical_splices.webp",
+    "bytes": 4160,
+    "sha256": "70b6f9b73814f724454d190535733bd2285304d8dd1a0e49180a3db0d907a1b2"
+  },
+  {
+    "file": "media/renders/front_clamp_detail.webp",
+    "bytes": 12238,
+    "sha256": "48a5052f1f70c6cfbe26068652c52fc473631a0e529e35c70286e123b58f1df8"
+  },
+  {
+    "file": "media/renders/interior_detail.webp",
+    "bytes": 111780,
+    "sha256": "4aa1b90bf5c5aac4fd1f45919adf03c171634abbc17abc47e3193f32312d037d"
+  },
+  {
+    "file": "media/renders/lead_screw_10mm.webp",
+    "bytes": 18174,
+    "sha256": "030af5b34fbd1aa5106614f3880ecab0404893e10ab41681d496174a66723b12"
+  },
+  {
+    "file": "media/renders/mechanism_10mm.webp",
+    "bytes": 26724,
+    "sha256": "c9f98c1767a4e2275a96267b3fb6add01e2549c79e25459631d1a1f0f940c165"
+  },
+  {
+    "file": "media/renders/screw_insertion_01.webp",
+    "bytes": 25902,
+    "sha256": "7a6e05640427e4810b2e612ab3db082c317750ca157c57e77309a3b459afde05"
+  },
+  {
+    "file": "media/renders/screw_insertion_02.webp",
+    "bytes": 25832,
+    "sha256": "7542f3371fbe4441151165b5bcfdfa51b30892aa0f3114afc482288e47e6c0cb"
+  },
+  {
+    "file": "media/renders/screw_insertion_03.webp",
+    "bytes": 25944,
+    "sha256": "0f4fec88926064c85682ffc463e303b6159841b8b5f645abf7a4e1030e857ef6"
+  },
+  {
+    "file": "media/renders/stand_overview.webp",
+    "bytes": 93322,
+    "sha256": "bc1b5270926ae7643aa364660e4853982052b693262819cb6ae4ceef47f9fcc9"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P13_THREE_START_LEAD_SCREW__qty_01.stl",
+    "bytes": 813584,
+    "sha256": "ae5e837023b4afa03e1d0da4e04f3ef5332b3c52f9f095b4a3b95dc8645838f9"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P16_LINK_ROD__qty_06.stl",
+    "bytes": 430484,
+    "sha256": "1ec08933df1775b293af80b4704d36e8c2542bf683fa9a8df78b0b3a7eac3513"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P30_MOTOR_SCREW__qty_02.stl",
+    "bytes": 303584,
+    "sha256": "7b1561584bb973e589f83f1cddc084444169b896c00741115407eec9b7e201f9"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P32_AXLE_NUT__qty_12.stl",
+    "bytes": 213784,
+    "sha256": "6945e2ac4fa67073e6e5ade821c2fe2fe23a94f28b46496bfad8da3c4082494b"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P34_CLAMP_CONE__qty_02.stl",
+    "bytes": 263084,
+    "sha256": "4d80deb58e54b76a622edd18b22ad37f49b928c87ff51e39124543b3fa686ecd"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P37_DRIVER_TRAY_CONE__qty_01.stl",
+    "bytes": 341784,
+    "sha256": "3c35ac038b20277e049109492cb385bae201767d1029da58931828e3df401060"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P44_FRAME_CONNECTOR__qty_01.stl",
+    "bytes": 502484,
+    "sha256": "db144351dccc1b49a7e14dc32eb5534a73da38087481dc8589eb9d1124fdc176"
+  },
+  {
+    "file": "print/01_mechanism/one_module/orange/P46_RECEIVER_CROSS_SCREW__qty_01.stl",
+    "bytes": 283084,
+    "sha256": "8663b1c6b1e44c944edb5e307f213061e07ed9d2622beb3c89440121d5346a26"
+  },
+  {
+    "file": "print/01_mechanism/one_module/white/P07L_LEFT_WING__qty_03.stl",
+    "bytes": 88184,
+    "sha256": "6c1c808a7feeed095ee6bb4a0a8073fe72b6f8740d12709eca89c6e8b031bdd2"
+  },
+  {
+    "file": "print/01_mechanism/one_module/white/P07R_RIGHT_WING__qty_03.stl",
+    "bytes": 105984,
+    "sha256": "f6e8ab1afab1ab0d750dcfef992fad6aeba9c95deaae3f26e0a74bd91621b1a1"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/E01_DRIVER_TRAY__qty_01.stl",
+    "bytes": 895584,
+    "sha256": "d398e108d2074c7bf91fd630c8961ff3b0eea81eeb0f3f707391249dc94e9862"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/E02_DRIVER_COVER__qty_01.stl",
+    "bytes": 130884,
+    "sha256": "3dee81855492ee8845eed7901f77362e138bc05d784e64248afa985104126348"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/E03_DRIVER_COVER_SCREW__qty_03.stl",
+    "bytes": 318384,
+    "sha256": "9417f230ba91befc9a576307ff06443975d2c3888d5baa7aab0d13d95b4695ce"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P02_REAR_FRAME__qty_01.stl",
+    "bytes": 1314784,
+    "sha256": "88a4f48cc49a6db84c07277893718ff64cd27426918646cf41130da66db02fc7"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P03_MOTOR_CLAMP__qty_02.stl",
+    "bytes": 34984,
+    "sha256": "8ac33436832681e72d84894e7a81864bc8ee08d41c789ea93a59d8aa2959ebd4"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P04_FRONT_HUB__qty_01.stl",
+    "bytes": 990084,
+    "sha256": "c6b63ca5f46efe357a377b247af5f30f93734d889b4440fcbe3e43164fb9058e"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P05_PILLAR__qty_03.stl",
+    "bytes": 67384,
+    "sha256": "67c58435817cac015bc416455dc3a34f868d4df7863585c30e53699f37c134aa"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P08_WING_AXLE__qty_03.stl",
+    "bytes": 295984,
+    "sha256": "4d61f36810cc52882296a87a7ff2d2efb72ed21fe7d3ef8052a23d2b2c1aedcb"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P09_D_PROFILE_GUIDE__qty_03.stl",
+    "bytes": 42084,
+    "sha256": "91ccb79a56fad092003b1331ab15a0255b0d8f1898e0c23fd572d37039ae1fcf"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P10_CARRIAGE__qty_01.stl",
+    "bytes": 655784,
+    "sha256": "14709554abac8e6cd2d9ba35ac49320682f4d70f8ee78e309d1e3d3621754076"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P11_CARRIAGE_COVER__qty_01.stl",
+    "bytes": 81884,
+    "sha256": "3dda87a61cea50e02c420fb74bd63bb1545c97b48241bf12f7023473f57db0e4"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P12_LOWER_SPLIT_NUT__qty_01.stl",
+    "bytes": 116884,
+    "sha256": "c06e5fc57d209b6d3dcbfd82d4e92eb2d6fece7a2e5d401d1240616ff74ac705"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P26_UPPER_SPLIT_NUT__qty_01.stl",
+    "bytes": 114784,
+    "sha256": "fb92877530f968317110aa92c2a8e6b064ad9aa15ffec63099ead9ac4c811f66"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P29_COVER_SCREW__qty_02.stl",
+    "bytes": 498684,
+    "sha256": "8428d60c1631098ea51ab15f6a6f0fbed51d29dc5b614f8f5371a1edc6c6faae"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P31_MOTOR_LOCKNUT__qty_02.stl",
+    "bytes": 72484,
+    "sha256": "e1abb55b5d7711a717fd8e0398d9b5bb1180fbb85df6fdf59fe23ef7a753d934"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P33_EXPANSION_BUSHING__qty_02.stl",
+    "bytes": 287384,
+    "sha256": "65a20dadb18882c381bb2fa16b6ce2c9a2d561aa3f64982e1006149d3b66370f"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P36_DRIVER_TRAY_BUSHING__qty_01.stl",
+    "bytes": 362284,
+    "sha256": "af8d58e0ccb8a67e0c8e9b79d60bfedd916ed6d36b08acfe2427026a9dcaa677"
+  },
+  {
+    "file": "print/01_mechanism/one_module/windows_blue/P45_D_PROFILE_RECEIVER__qty_01.stl",
+    "bytes": 451484,
+    "sha256": "64d7d558eb36f9eb1d7bd728779bf337a617aff6bde18c8b1046523e8d1a8f76"
+  },
+  {
+    "file": "print/02_frame/anthracite/25_F04_FRAME_CASSETTE_C1_N1__qty_01.stl",
+    "bytes": 180684,
+    "sha256": "a9beaed177abfbbf44c161ff068e44d9f6171b5e9ea9e8d9668ed44132310561"
+  },
+  {
+    "file": "print/02_frame/anthracite/26_F04_FRAME_CASSETTE_C1_N2__qty_01.stl",
+    "bytes": 206884,
+    "sha256": "29cb64174a21855a663563585903a14978600da96ce22e8d3a581ef6ee74eda6"
+  },
+  {
+    "file": "print/02_frame/anthracite/27_F04_FRAME_CASSETTE_C1_N3__qty_01.stl",
+    "bytes": 205284,
+    "sha256": "7001478966727bf7f705cd3c78ae74bc6113f99fada5cc26070111286d8b95f9"
+  },
+  {
+    "file": "print/02_frame/anthracite/28_F04_FRAME_CASSETTE_C1_N4__qty_01.stl",
+    "bytes": 148884,
+    "sha256": "9de9b32ee22bbb097a31d1963931c34c1f6483e32ac86f72bdc7940625b1607a"
+  },
+  {
+    "file": "print/02_frame/anthracite/29_F04_FRAME_CASSETTE_C2_N1__qty_01.stl",
+    "bytes": 216784,
+    "sha256": "1511f77d60caee6d11dbe9a1b02eebbda5d47e122478ce4bece6844107e0686c"
+  },
+  {
+    "file": "print/02_frame/anthracite/30_F04_FRAME_CASSETTE_C2_N2__qty_01.stl",
+    "bytes": 282384,
+    "sha256": "826e8123a9fd9b1d6ac030b4d4edd5bcdad70019f98f210ed45df4f98cd0149d"
+  },
+  {
+    "file": "print/02_frame/anthracite/31_F04_FRAME_CASSETTE_C2_N3__qty_01.stl",
+    "bytes": 279084,
+    "sha256": "83631274e6a46b1be0fa77ce64b4bc10be550b56d2de3f336e67c22b1bb9a608"
+  },
+  {
+    "file": "print/02_frame/anthracite/32_F04_FRAME_CASSETTE_C2_N4__qty_01.stl",
+    "bytes": 257884,
+    "sha256": "51a103c484127123cc87f103a221741e9ca9ac6b0f7fdad5e8864192e1bbcf57"
+  },
+  {
+    "file": "print/02_frame/anthracite/33_F04_FRAME_CASSETTE_C3_N1__qty_01.stl",
+    "bytes": 144884,
+    "sha256": "8d340b8daa3cf2079c1eca63985637822d50219f4b2965d9a6301031b0850e34"
+  },
+  {
+    "file": "print/02_frame/anthracite/34_F04_FRAME_CASSETTE_C3_N2__qty_01.stl",
+    "bytes": 206884,
+    "sha256": "6543dd38f235045ff32ce97f55da874e931dbc2b791de3a388548f36efbbb324"
+  },
+  {
+    "file": "print/02_frame/anthracite/35_F04_FRAME_CASSETTE_C3_N3__qty_01.stl",
+    "bytes": 206884,
+    "sha256": "2f29c6ab57fbba4dc48a9b5e91324bed8586fea2c164bf2eed0d0271f26ae394"
+  },
+  {
+    "file": "print/02_frame/anthracite/36_F04_FRAME_CASSETTE_C3_N4__qty_01.stl",
+    "bytes": 184084,
+    "sha256": "847e820b7c2a1e23ce6fc009ef5888a3b33d0cb1567c196789f5c5344fafaa1e"
+  },
+  {
+    "file": "print/02_frame/anthracite/64_F13_PRESENTATION_FOOT__qty_02.stl",
+    "bytes": 626784,
+    "sha256": "0f51c47d02d258aa5e7919776585a224cc63b6d5a3ee0220a8cb057bdb12e0c8"
+  },
+  {
+    "file": "print/02_frame/anthracite/69_F18_RIGHT_BASE_FOOT__qty_01.stl",
+    "bytes": 626784,
+    "sha256": "a7996af5d8bfa9a73456cbfe61d552984a23be136b1e2ab9701b2f436daf6912"
+  },
+  {
+    "file": "print/02_frame/white/23_F01_RECEIVER_BOLT__qty_32.stl",
+    "bytes": 411284,
+    "sha256": "e0db19bc224954757d47395fe3590f6482135b495af862a4b6450b86f741884a"
+  },
+  {
+    "file": "print/02_frame/white/24_F02_DOUBLE_RECEIVER_NUT__qty_16.stl",
+    "bytes": 505284,
+    "sha256": "c0dd169aea58c7479cae93d85cd50aeeed292c11055c8d1a866179e5f172bcb8"
+  },
+  {
+    "file": "print/02_frame/white/37_F05_VERTICAL_SPLICE__qty_06.stl",
+    "bytes": 870584,
+    "sha256": "3dc353a2ad437f93b4f3d1645c03bf1548a7b119c59567033486d1dcc2f97404"
+  },
+  {
+    "file": "print/02_frame/white/38_F06_LONG_SPLICE__qty_02.stl",
+    "bytes": 876084,
+    "sha256": "b2c857ed6deba46e7ddff060d25a9dc60ff90c33a1ac4163d3a2ad53c540c208"
+  },
+  {
+    "file": "print/02_frame/white/39_F07_HORIZONTAL_SPLICE__qty_06.stl",
+    "bytes": 863484,
+    "sha256": "8cc2ee7eaa63fb669f44cd2a8211588e8cd51f4b1ae55c440a5c4af2ff23dabb"
+  },
+  {
+    "file": "print/02_frame/white/40_F10_CAPTIVE_CROSS_MEMBER__qty_12.stl",
+    "bytes": 5884,
+    "sha256": "18dfce7790206e9039c19d2b803b79cf93da4168a92161e6bdd7a2ccb8e41abf"
+  },
+  {
+    "file": "print/02_frame/white/63_F12_FRAME_BOLT__qty_38.stl",
+    "bytes": 403784,
+    "sha256": "6695a9d723ecc9a484ffd80f132b8e92e39427a4bbe30dfdbca29cbb592e85c5"
+  },
+  {
+    "file": "print/02_frame/white/65_F14_HEX_KEY__qty_01.stl",
+    "bytes": 27484,
+    "sha256": "cfb261c8630c83af86aed81b221e191d11c3e6c3f4cd9f05c266aecde870f5ab"
+  },
+  {
+    "file": "print/02_frame/white/66_F15_CENTRAL_SPLICE__qty_03.stl",
+    "bytes": 868884,
+    "sha256": "5010632d21b35ca68ac883f9d0d612c681080308e0a4520abe7514f2b49cf991"
+  },
+  {
+    "file": "print/02_frame/white/67_F16_RECESSED_HEAD_BOLT__qty_36.stl",
+    "bytes": 326384,
+    "sha256": "7ccf7d053bace0972b20e9324ddbb16d83a157d35e5a3aade5a625a7b151c37b"
+  },
+  {
+    "file": "print/02_frame/white/68_F17_LONG_RECEIVER_KEY__qty_01.stl",
+    "bytes": 29084,
+    "sha256": "a106d266be2228796940f4d0fb6a6a34cd0adc0166120000a8f968adc2dcda9a"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/F18_EXTRA_REAR_FOOT__qty_01.stl",
+    "bytes": 626784,
+    "sha256": "a7996af5d8bfa9a73456cbfe61d552984a23be136b1e2ab9701b2f436daf6912"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R01_RIGHT_RIB__qty_04.stl",
+    "bytes": 4214084,
+    "sha256": "b249b13e660d42263a555c30a5b1127c22d25a3acd552302c57a5d33976ce487"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R02_LEFT_RIB__qty_04.stl",
+    "bytes": 4210884,
+    "sha256": "fdfdd122c31517fc6750e19861c1eeabd5ba930d20fec0da0fdb45cb2e0c0546"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R22_LEFT_CENTRE_BASE_SUPPORT__qty_02.stl",
+    "bytes": 1112084,
+    "sha256": "3790dcc73cdf0822d8dcb6b64da3bd705582bcf7361ecc92892fd56feb50b385"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R23_RIGHT_REAR_BASE_SUPPORT__qty_02.stl",
+    "bytes": 1112084,
+    "sha256": "36e24c8403673e7a3257a8630c8ddf962290c9f2a070098891d6056ddd936bab"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R31_REAR_FOOT_ADAPTER__qty_01.stl",
+    "bytes": 112384,
+    "sha256": "9dc08379e4b4786ee4cd8a29c3af8cf2dfc987f005de38bd81a5fd0eedc2115f"
+  },
+  {
+    "file": "print/03_reinforcement/anthracite/R41_CLIP_ON_CABLE_GUIDE__qty_04.stl",
+    "bytes": 17484,
+    "sha256": "68845651729090560e4f23ee8188c6445d3869ed591fa93528b10b2389cf1d42"
+  },
+  {
+    "file": "print/03_reinforcement/orange/R24_FOOT_RETAINING_SADDLE__qty_04.stl",
+    "bytes": 28284,
+    "sha256": "a5b32f319fdc03dd86e9f7e312747e682b4398c11a57f47adb42dd3d4d170ca9"
+  },
+  {
+    "file": "print/03_reinforcement/white/R03_FRONT_CLAMP__qty_16.stl",
+    "bytes": 20284,
+    "sha256": "ed7b741f7ab0859ba97b12df03c5b5c8cb7d6ff322177e47d07fae40c33f5dc5"
+  },
+  {
+    "file": "print/03_reinforcement/white/R04_SIDE_SPLICE__qty_06.stl",
+    "bytes": 39884,
+    "sha256": "b9cc466945296dbf74b7d6cca166a407194074493c09838578014d4efbaea3b0"
+  },
+  {
+    "file": "print/03_reinforcement/white/R05_SHORT_SCREW_15MM__qty_34.stl",
+    "bytes": 403784,
+    "sha256": "b0d76b4666217da6df27a83874b52108e704f8dcb6c07e1756888aef97db3ca3"
+  },
+  {
+    "file": "print/03_reinforcement/white/R21_LONG_SCREW_18_8MM__qty_26.stl",
+    "bytes": 587784,
+    "sha256": "4c4090e8ac04507b232b8120ef6ac7af0557d708c7f8e9ba749d44bc7c5676de"
+  },
+  {
+    "file": "print/03_reinforcement/white/R25_FOOT_SCREW_61MM__qty_08.stl",
+    "bytes": 1699584,
+    "sha256": "73854b35cb9b75c73d83dd54fce74c7f4600a1889bf3ebad16ec495954567ad0"
+  },
+  {
+    "file": "print/03_reinforcement/white/R26_ASSEMBLY_KEY__qty_01.stl",
+    "bytes": 27484,
+    "sha256": "e8d2c845d55a43e64ef79fcf9a68d877d5cab2eba39288be9e332cc821efd4ac"
+  },
+  {
+    "file": "print/07_building_optional/anthracite/12_B03_BASE_REAR_WITH_FOOT.stl",
+    "bytes": 9084,
+    "sha256": "617f3276c92627b0ace2fb7612613d669f8860ef8648a179385f97c476c8df2b"
+  },
+  {
+    "file": "print/07_building_optional/anthracite/13_B04_BASE_FAN_INTEGRATED.stl",
+    "bytes": 215484,
+    "sha256": "90db5ac28ab3bb06a03c71056d751bb8006a61095e41d85a832723ecc9a7ebfe"
+  },
+  {
+    "file": "print/07_building_optional/blue/47_I02_STRIP_BLUE.stl",
+    "bytes": 2284,
+    "sha256": "462a51bbd724387fffd8e5027c111efd22fce80c0afbf3b0765dc50df6dd3350"
+  },
+  {
+    "file": "print/07_building_optional/blue/51_I04_ACCENT_WORKSHOP_BLUE.stl",
+    "bytes": 5484,
+    "sha256": "c41c2abceadc60c2fab2484c5d9a87d768816f367e8219d7685c3759d42f7c6a"
+  },
+  {
+    "file": "print/07_building_optional/green/55_I04_ACCENT_MEETING_ROOM_GREEN.stl",
+    "bytes": 2684,
+    "sha256": "d42910e9821443115b5f820967a879ae0f5e044adc8df455a90c3a4ef8765b03"
+  },
+  {
+    "file": "print/07_building_optional/orange/16_E04_CLAMP_POWER_SUPPLY.stl",
+    "bytes": 7884,
+    "sha256": "e86526dec7af0957cfe92782f44583dccf8822b2e67b2b45ab6fb9bcd49a43f1"
+  },
+  {
+    "file": "print/07_building_optional/orange/49_I02_STRIP_ORANGE.stl",
+    "bytes": 2284,
+    "sha256": "462a51bbd724387fffd8e5027c111efd22fce80c0afbf3b0765dc50df6dd3350"
+  },
+  {
+    "file": "print/07_building_optional/orange/52_I04_ACCENT_WORKSHOP_ORANGE.stl",
+    "bytes": 5484,
+    "sha256": "c41c2abceadc60c2fab2484c5d9a87d768816f367e8219d7685c3759d42f7c6a"
+  },
+  {
+    "file": "print/07_building_optional/orange/54_I04_ACCENT_LOUNGE_ORANGE.stl",
+    "bytes": 2684,
+    "sha256": "7737c17f3012f4573f0e9645daa18fde22a951b007d0e52b6143725321d745b6"
+  },
+  {
+    "file": "print/07_building_optional/orange/59_S01_STAIR_FLIGHT_LOWER.stl",
+    "bytes": 25284,
+    "sha256": "ca751d0cee080fe37fb509cef548719de15ef4cad6a7bbcf3ddc39b3dcfc2c09"
+  },
+  {
+    "file": "print/07_building_optional/orange/60_S02_STAIR_FLIGHT_UPPER.stl",
+    "bytes": 26084,
+    "sha256": "96df0a63706cfab162f5b2d3aa49b3ac9009054921e06b9a53731a89c8ae9a03"
+  },
+  {
+    "file": "print/07_building_optional/white/01_A01_ROOF_1.stl",
+    "bytes": 127084,
+    "sha256": "a1c7060907f9613e4fac4fb106327cb6c31d2921e11f887a3be52a69388c42cd"
+  },
+  {
+    "file": "print/07_building_optional/white/02_A01_ROOF_2.stl",
+    "bytes": 112284,
+    "sha256": "86bc9c5507c058d9e16796b6aa2aaada6251c8e9b091dbb5177a7f506fc359af"
+  },
+  {
+    "file": "print/07_building_optional/white/03_A01_FLOOR_1.stl",
+    "bytes": 134884,
+    "sha256": "dea1ea95adc2cd5e79c5f9b70fda101cd4d07f9dc442b69a95c481b8ecedaeaf"
+  },
+  {
+    "file": "print/07_building_optional/white/04_A01_FLOOR_2.stl",
+    "bytes": 113684,
+    "sha256": "b44df7fccdd451cfbc861c89ff032ee9c403c53e8f0dd7acaad543ce9f4d74bc"
+  },
+  {
+    "file": "print/07_building_optional/white/05_A01_GROUND_FLOOR_1.stl",
+    "bytes": 131084,
+    "sha256": "2b2b2cc6e261be8c0ea67c291bcd090b920a6bbb9cfeed953cfa8024af4e639d"
+  },
+  {
+    "file": "print/07_building_optional/white/06_A01_GROUND_FLOOR_2.stl",
+    "bytes": 111284,
+    "sha256": "7c02d541b71549ea8c95346372f7171ef052ae72b16920f0084c350ca6de01f3"
+  },
+  {
+    "file": "print/07_building_optional/white/07_A02_FRAME_REAR.stl",
+    "bytes": 15284,
+    "sha256": "4d5b2d70411113e5b99a2dea4a0090380a2b1eed4b1ba2efce7ca92627b4cb68"
+  },
+  {
+    "file": "print/07_building_optional/white/08_A02_FRAME_REAR_TALL.stl",
+    "bytes": 18484,
+    "sha256": "4e827002324eb7bfaca0dc464ed40552c007aeb822fe0e6b72531912e08b1392"
+  },
+  {
+    "file": "print/07_building_optional/white/09_A05_FINS_WAVE_RISING.stl",
+    "bytes": 73884,
+    "sha256": "cbb41ca0a3b69b41c623d54a0f6198decda8c372b76917889b81e95b57e38950"
+  },
+  {
+    "file": "print/07_building_optional/white/10_A06_FINS_WAVE_FALLING.stl",
+    "bytes": 70684,
+    "sha256": "80a2d4c5969332a9d0893b733311005c940d2a1fff0fc910f196fcb4196dce67"
+  },
+  {
+    "file": "print/07_building_optional/white/11_A07_FINS_WAVE_FLOOR_TALL.stl",
+    "bytes": 67484,
+    "sha256": "bca288224d6f60bf0120230b4e82a8b505902553193c51b6af1571d48c4c201e"
+  },
+  {
+    "file": "print/07_building_optional/white/14_E02_BOX_POWER_SUPPLY_12V.stl",
+    "bytes": 74284,
+    "sha256": "57640c3921f954f2bad4c7fce0520174e70d290ca111f4f81e6c2c1aff201557"
+  },
+  {
+    "file": "print/07_building_optional/white/15_E03_LID_POWER_SUPPLY.stl",
+    "bytes": 2284,
+    "sha256": "cdad1d34b529abf8edd9fb10225b7dcae5b20adfad0d09a1ade370b72815a4b8"
+  },
+  {
+    "file": "print/07_building_optional/white/17_E05_BOX_CONTROLLER.stl",
+    "bytes": 57884,
+    "sha256": "9d14be66e3e6789506ef922c683bc08fef8b64d28a472d6b25613d09c32c6c51"
+  },
+  {
+    "file": "print/07_building_optional/white/18_E06_LID_CONTROLLER.stl",
+    "bytes": 2284,
+    "sha256": "9c5dcdd989ebda28de55ee78101dfa172b17f9464b9170fdae96dd5a0da4f931"
+  },
+  {
+    "file": "print/07_building_optional/white/19_E07_CHANNEL_ROOF_1.stl",
+    "bytes": 10084,
+    "sha256": "e8f5bb62b8725162f99409f46d39a2b032331fe4dbf5ff9e455ca438e087e13e"
+  },
+  {
+    "file": "print/07_building_optional/white/20_E07_CHANNEL_ROOF_2.stl",
+    "bytes": 13084,
+    "sha256": "09519eec763be2efa0ed61a4cdbf602a6501ee0dd6465a4969ae26b9106fa6fa"
+  },
+  {
+    "file": "print/07_building_optional/white/21_E07_CHANNEL_ROOF_3.stl",
+    "bytes": 8484,
+    "sha256": "fff0c957d912d794a88924e053b074a8703c8e439f29aba678ac0515a7cadcc2"
+  },
+  {
+    "file": "print/07_building_optional/white/22_E08_LID_CHANNEL_ROOF.stl",
+    "bytes": 684,
+    "sha256": "186bf73fd1259c41407b94d45cd4b07040128b54afd21fa4e32a267dde870381"
+  },
+  {
+    "file": "print/07_building_optional/white/41_F11_KEY_TRANSVERSALA.stl",
+    "bytes": 6284,
+    "sha256": "cede8f79d22a1e20e3abd8201663c375cd00e82b108b3b691c7361c3245a1772"
+  },
+  {
+    "file": "print/07_building_optional/white/42_I01_WORKSHOP.stl",
+    "bytes": 58484,
+    "sha256": "1a09099457aa1d4089c73e0a1d6db56ea97e76e96d92e697af0d19e07892bc89"
+  },
+  {
+    "file": "print/07_building_optional/white/43_I01_RECEPTION.stl",
+    "bytes": 53284,
+    "sha256": "bbf20945f71bcfa7800af20e8fdc984df735cca7de5dbdd675abae874d9bc9dc"
+  },
+  {
+    "file": "print/07_building_optional/white/44_I01_LOUNGE.stl",
+    "bytes": 88284,
+    "sha256": "aed02f9da5ea2dec051a1757cf6530f2b8ffd4de7928520fc9a905981e1e2c7b"
+  },
+  {
+    "file": "print/07_building_optional/white/45_I01_MEETING_ROOM.stl",
+    "bytes": 51084,
+    "sha256": "1e635fe6a8b19c453c2ff733c6082f7a36ca46a07195294dfb7d82e6b82d2a6e"
+  },
+  {
+    "file": "print/07_building_optional/white/46_I02_STRIP_WHITE.stl",
+    "bytes": 2284,
+    "sha256": "462a51bbd724387fffd8e5027c111efd22fce80c0afbf3b0765dc50df6dd3350"
+  },
+  {
+    "file": "print/07_building_optional/white/48_I02_STRIP_YELLOW.stl",
+    "bytes": 2284,
+    "sha256": "462a51bbd724387fffd8e5027c111efd22fce80c0afbf3b0765dc50df6dd3350"
+  },
+  {
+    "file": "print/07_building_optional/white/50_I03_GUARD_OPENING_STAIR.stl",
+    "bytes": 22284,
+    "sha256": "af1cfd702d8afa90a7aaccc0f3cf23ad172e4d420c01ced2ea315c8bafb37616"
+  },
+  {
+    "file": "print/07_building_optional/white/53_I04_ACCENT_RECEPTION_YELLOW.stl",
+    "bytes": 4084,
+    "sha256": "fe7780e848d7272e27f01c9d26ea02a20faab703d1c75d887320f05746440728"
+  },
+  {
+    "file": "print/07_building_optional/white/56_I05_FRAME_SHEET_PETG.stl",
+    "bytes": 4484,
+    "sha256": "c585d1d139dadf259cacbe886bb25a28c026e444b16b72b3ed77271cbd3ffd5f"
+  },
+  {
+    "file": "print/07_building_optional/white/58_J04_KEY_FLOOR_SLAB_U.stl",
+    "bytes": 4684,
+    "sha256": "27f4cbf81c6af2356bade00da39229bb9cc4691f216ee5e87383e85a1f5a6056"
+  },
+  {
+    "file": "print/07_building_optional/white/61_S03_RAILING_SEPARATE.stl",
+    "bytes": 3684,
+    "sha256": "7c59d9a74d795e917c05c992f77b9187b043ddce63e38fbcd78c513d71d21f3b"
+  },
+  {
+    "file": "print/07_building_optional/white/62_T02_HATCH_ROOF.stl",
+    "bytes": 2284,
+    "sha256": "85e07a006f7e579d5671f01aadd78461976159bd3cda958915ef54690d54ba10"
+  },
+  {
+    "file": "print/08_shared_tools/AXLE_HEAD_FLAT_KEY__qty_01.stl",
+    "bytes": 2284,
+    "sha256": "4e452f59fda96b90ea8ed4200345eb81123cd0dadb934d2e25f42291bcb8d1ec"
+  },
+  {
+    "file": "print/08_shared_tools/SIDE_CONE_SOCKET_KEY__qty_01.stl",
+    "bytes": 36184,
+    "sha256": "ca7a07e2bebc9c5ed84a5ebf7b3d680c4a5f87bfbc2dc523beef8cf2e5bb0470"
+  },
+  {
+    "file": "tools/README.md",
+    "bytes": 563,
+    "sha256": "e45d94031da5a9292da982d9cc4b69a7b2e90eb85dbbd553b983f7293acfb7db"
+  },
+  {
+    "file": "tools/build_manuals.py",
+    "bytes": 30521,
+    "sha256": "3f4c8527ebba66bf91c0fd746f9249e2a782b2ea8dd49ca4a9a71f9f76129c4a"
+  },
+  {
+    "file": "tools/package_release.py",
+    "bytes": 1286,
+    "sha256": "ee7dc374c152ea0b686628fd4475e53b6ba7753f079d56067a3054f092e93655"
+  },
+  {
+    "file": "tools/requirements.txt",
+    "bytes": 65,
+    "sha256": "9f6a1cb8c0225d632de2287a078fe633d2aeff0ce7b11a85bcead7c18bce1a74"
+  },
+  {
+    "file": "tools/verify.py",
+    "bytes": 2206,
+    "sha256": "77308ca54c68e2ea3b0c19323ae0faad41aba29a9507144b0f3d785518a69863"
+  }
+]

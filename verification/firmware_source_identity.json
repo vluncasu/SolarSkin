@@ -1,0 +1,5 @@
+{
+  "result": "PASS",
+  "source_files_compared": 18,
+  "note": "Essential-edition firmware files are byte-identical to the locally compiled and host-simulated English publication."
+}

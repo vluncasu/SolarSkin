@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-08",
+  "design": "SolarSkin PLA avans 10 mm, trei inceputuri",
+  "based_on": "SOLARSKIN_REPROIECTATA_6MM, corrected 2026-09-30; user reported successful physical operation",
+  "thread": {
+    "lead_mm": 10,
+    "starts": 3,
+    "axial_pitch_mm": 3.3333333333333335,
+    "nominal_radial_clearance_mm": 0.2
+  },
+  "ideal_ratios_vs_6mm": {
+    "linear_speed": 1.6666666666666667,
+    "stroke_time": 0.6,
+    "axial_force_at_equal_torque": 0.6
+  },
+  "module": {
+    "stl_types": 28,
+    "pieces": 62
+  },
+  "structure_20_modules": {
+    "stl_types": 36,
+    "pieces": 146
+  },
+  "tools": {
+    "stl_types": 4,
+    "pieces": 4
+  },
+  "changed_parts": [
+    "P13",
+    "P12",
+    "P26"
+  ],
+  "unchanged_stl_types": 65,
+  "checks": {
+    "mesh_inventory": "68 closed meshes, consistent winding and positive volume",
+    "CAD_thread_positions": 9,
+    "animation_positions": 9,
+    "insertion_positions": 101,
+    "new_parts_sliced": 3,
+    "firmware_compile": "PASS esp32dev",
+    "motion_test": "PASS",
+    "guide_render_review": "19 pages reviewed"
+  },
+  "firmware": {
+    "nominal_span_halfsteps": 6287,
+    "drive_revision": 5,
+    "hardware_accessed": false,
+    "uploaded": false
+  },
+  "limitations": "10mm transmission has not yet been physically printed or load/endurance tested. Supports-disabled slicing does not prove supportless printability. Shared building structure not revalidated in this change."
+}

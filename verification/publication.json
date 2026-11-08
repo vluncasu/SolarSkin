@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "edition": "essential",
+  "files": 291,
+  "working_bytes": 337803240,
+  "mechanism_types": 28,
+  "mechanism_pieces_per_module": 62,
+  "historical_archive_included": false,
+  "errors": []
+}

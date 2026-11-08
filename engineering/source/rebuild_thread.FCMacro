@@ -1,0 +1,59 @@
+"""10 mm lead; three starts, unchanged tested interfaces. Dimensions in mm."""
+import FreeCAD as A,Part,MeshPart,math,json
+from pathlib import Path
+SOURCE=Path(__file__).resolve().parent;R=SOURCE.parent/'generated_thread';V=A.Vector
+for folder in ['CAD','verification','print/orange','print/windows_blue']:(R/folder).mkdir(parents=True,exist_ok=True)
+LEAD=10.;STARTS=3;CLEAR=.20;Z0=34.;END=75.6
+
+def cyl(r,h,z):return Part.makeCylinder(r,h,V(0,0,z))
+def valid(s):
+ if not s.isValid():s.fix(1e-6,1e-6,.01)
+ assert s.isValid() and len(s.Solids)==1,('invalid',s.isValid(),len(s.Solids))
+ return s
+
+def envelope(clear):
+ dz=math.sqrt(2)*clear
+ pts=[V(3.90+clear,0,-1.25-dz),V(5.10+clear,0,-.15-dz+clear),V(5.10+clear,0,.15+dz-clear),V(3.90+clear,0,1.25+dz)]
+ section=Part.Wire(Part.makePolygon(pts+[pts[0]]).Edges);sweeps=[]
+ for i in range(STARTS):
+  helix=Part.Wire(Part.makeHelix(LEAD,50,4).Edges);p=section.copy();angle=i*360/STARTS
+  helix.rotate(V(),V(0,0,1),angle);p.rotate(V(),V(0,0,1),angle)
+  sweeps.append(helix.makePipeShell([p],True,True))
+ out=cyl(4.02+clear,50,0).multiFuse(sweeps);out.translate(V(0,0,30))
+ return valid(out)
+
+old=Part.Shape();old.read(str(SOURCE/'P13_interface_reference.brep'))
+# Keep the proven journal, socket and clearance relief above z75.6 exactly.
+upper=old.common(Part.makeBox(40,40,40,V(-20,-20,END)))
+print('START THREAD',flush=True)
+male=envelope(0);female=envelope(CLEAR)
+thread=male.common(Part.makeBox(30,30,END-Z0,V(-15,-15,Z0)))
+screw=valid(upper.fuse(thread))
+print('SCREW',screw.Volume,flush=True)
+parts={'P13':screw};zlo={'P12':53.58848395840478,'P26':61.10848395840478}
+for code,z in zlo.items():
+ blank=Part.makeBox(13,13,7,V(-6.5,-6.5,z));nut=valid(blank.cut(female))
+ assert 500<nut.Volume<850,(code,nut.Volume)
+ # Explicit through-bore check: a blank nut cannot pass this.
+ assert nut.common(cyl(3.8,7,z)).Volume<1e-6
+ parts[code]=nut;print(code,nut.Volume,flush=True)
+names={'P13':'orange/P13_THREE_START_LEAD_SCREW__qty_01.stl','P12':'windows_blue/P12_LOWER_SPLIT_NUT__qty_01.stl','P26':'windows_blue/P26_UPPER_SPLIT_NUT__qty_01.stl'}
+report={'lead_mm':LEAD,'starts':STARTS,'pitch_mm':LEAD/STARTS,'nominal_radial_thread_clearance_mm':CLEAR,'parts':{}}
+for code,shape in parts.items():
+ shape.exportBrep(str(R/'CAD'/f'{code}_10MM.brep'))
+ mesh=MeshPart.meshFromShape(Shape=shape,LinearDeflection=.025,AngularDeflection=.12,Relative=False);assert mesh.isSolid();mesh.write(str(R/'CAD'/f'{code}_ANSAMBLU.stl'))
+ p=shape.copy()
+ if code=='P12':p.rotate(V(),V(1,0,0),180)
+ m=MeshPart.meshFromShape(Shape=p,LinearDeflection=.025,AngularDeflection=.12,Relative=False);b=m.BoundBox;m.translate(-b.XMin,-b.YMin,-b.ZMin);m.write(str(R/'print'/names[code]))
+ report['parts'][code]={'valid':True,'solids':1,'closed_mesh':m.isSolid(),'volume_mm3':shape.Volume,'file':names[code]}
+# All final interfaces above END must be identical to the proven 6 mm screw.
+clip=Part.makeBox(40,40,40,V(-20,-20,END))
+a=screw.common(clip);report['upper_interface_difference_mm3']=a.cut(upper).Volume+upper.cut(a).Volume
+print('INTERFACE DIFF',report['upper_interface_difference_mm3'],flush=True)
+assert report['upper_interface_difference_mm3']<.001
+(R/'verification/thread_geometry.json').write_text(json.dumps(report,indent=2))
+d=A.newDocument('Thread10mm')
+for code,sh in parts.items():o=d.addObject('PartDesign::Feature',code);o.Shape=sh
+# Compact source contains parts in their actual assembly position.
+d.recompute();d.saveAs(str(R/'CAD/TRANSMISIE_10MM.FCStd'));Part.export(d.Objects,str(R/'CAD/TRANSMISIE_10MM.step'))
+print('BUILD PASS',flush=True)

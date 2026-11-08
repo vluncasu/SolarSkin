@@ -1,0 +1,30 @@
+{
+  "lead_mm": 10.0,
+  "starts": 3,
+  "pitch_mm": 3.3333333333333335,
+  "nominal_radial_thread_clearance_mm": 0.2,
+  "parts": {
+    "P13": {
+      "valid": true,
+      "solids": 1,
+      "closed_mesh": true,
+      "volume_mm3": 6392.5214710964665,
+      "file": "PORTOCALIU/P13_Surub_cuplaj_3_inceputuri_avans_10_mm__1_bucata.stl"
+    },
+    "P12": {
+      "valid": true,
+      "solids": 1,
+      "closed_mesh": true,
+      "volume_mm3": 683.4034336934434,
+      "file": "ALBASTRU_WINDOWS/P12_Semipiulita_inferioara_avans_10_mm__1_bucata.stl"
+    },
+    "P26": {
+      "valid": true,
+      "solids": 1,
+      "closed_mesh": true,
+      "volume_mm3": 683.4242163687746,
+      "file": "ALBASTRU_WINDOWS/P26_Semipiulita_superioara_avans_10_mm__1_bucata.stl"
+    }
+  },
+  "upper_interface_difference_mm3": 0.0
+}

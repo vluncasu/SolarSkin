@@ -1,0 +1,8 @@
+{
+  "engineering_manual_pages": 25,
+  "parts_catalog_pages": 5,
+  "paper": "A4",
+  "parts_per_full_catalog_page": 6,
+  "review": "New building overview pages and shifted index rendered and inspected; existing mechanism/stand chapters retain their previously reviewed layout. Renders are WebP conversions of supplied CAD images.",
+  "overflow_checks": "Passed during PDF generation"
+}

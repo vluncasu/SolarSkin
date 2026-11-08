@@ -1,0 +1,30 @@
+name: Verify SolarSkin
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  firmware:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        variant: [stand, baseline_web, minimal]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install platformio==6.1.19
+      - run: python3 engineering/test_calculations.py
+      - run: pio run -j 1 -d firmware/${{ matrix.variant }}
+      - name: Run motor simulation
+        shell: bash
+        run: |
+          cd firmware/${{ matrix.variant }}
+          if [ -f test/firmware_test.cpp ]; then
+            c++ -std=c++17 -O2 test/firmware_test.cpp -o /tmp/solarskin-test
+          else
+            c++ -std=c++17 -O2 host_test.cpp -o /tmp/solarskin-test
+          fi
+          /tmp/solarskin-test

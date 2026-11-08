@@ -1,0 +1,29 @@
+part_id,description,color,per_module,modules_9,modules_12,modules_14,modules_16,file,legacy_id,size_x_mm,size_y_mm,size_z_mm
+P04_FRONT_HUB,Front Hub,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P04_FRONT_HUB__qty_01.stl,P04_BUTUC_FATA,42.505,41.5,29.0
+P05_PILLAR,Pillar,windows_blue,3,27,36,42,48,print/01_mechanism/one_module/windows_blue/P05_PILLAR__qty_03.stl,P05_STALP,61.0,110.9,14.0
+P36_DRIVER_TRAY_BUSHING,Driver Tray Bushing,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P36_DRIVER_TRAY_BUSHING__qty_01.stl,P36_BUCSA_TAVA,12.0,10.392,14.2
+P37_DRIVER_TRAY_CONE,Driver Tray Cone,orange,1,9,12,14,16,print/01_mechanism/one_module/orange/P37_DRIVER_TRAY_CONE__qty_01.stl,P37_CON_TAVA,11.0,9.526,14.4
+P08_WING_AXLE,Wing Axle,windows_blue,3,27,36,42,48,print/01_mechanism/one_module/windows_blue/P08_WING_AXLE__qty_03.stl,P08_AX_RADIAL,7.0,7.0,85.0
+P07L_LEFT_WING,Left Wing,white,3,27,36,42,48,print/01_mechanism/one_module/white/P07L_LEFT_WING__qty_03.stl,P07_ARIPA_L,75.633,43.9,8.8
+P16_LINK_ROD,Link Rod,orange,6,54,72,84,96,print/01_mechanism/one_module/orange/P16_LINK_ROD__qty_06.stl,P16_BIELA,7.4,27.4,12.0
+P32_AXLE_NUT,Axle Nut,orange,12,108,144,168,192,print/01_mechanism/one_module/orange/P32_AXLE_NUT__qty_12.stl,P32_PIULITA_AX,8.0,8.0,5.2
+P07R_RIGHT_WING,Right Wing,white,3,27,36,42,48,print/01_mechanism/one_module/white/P07R_RIGHT_WING__qty_03.stl,P07_ARIPA_R,77.483,43.9,8.8
+P33_EXPANSION_BUSHING,Expansion Bushing,windows_blue,2,18,24,28,32,print/01_mechanism/one_module/windows_blue/P33_EXPANSION_BUSHING__qty_02.stl,P33_BUCSA_EXPANDABILA,12.0,10.392,12.2
+P34_CLAMP_CONE,Clamp Cone,orange,2,18,24,28,32,print/01_mechanism/one_module/orange/P34_CLAMP_CONE__qty_02.stl,P34_SURUB_CONIC,11.0,9.526,12.4
+P09_D_PROFILE_GUIDE,D Profile Guide,windows_blue,3,27,36,42,48,print/01_mechanism/one_module/windows_blue/P09_D_PROFILE_GUIDE__qty_03.stl,P09_GHIDAJ,5.998,112.65,5.4
+P10_CARRIAGE,Carriage,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P10_CARRIAGE__qty_01.stl,P10_CARUCIOR,85.138,73.764,42.197
+P12_LOWER_SPLIT_NUT,Lower Split Nut,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P12_LOWER_SPLIT_NUT__qty_01.stl,P12_PIULITA,13.0,13.0,7.0
+P26_UPPER_SPLIT_NUT,Upper Split Nut,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P26_UPPER_SPLIT_NUT__qty_01.stl,P26_PIULITA_SUS,13.0,13.0,7.0
+P11_CARRIAGE_COVER,Carriage Cover,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P11_CARRIAGE_COVER__qty_01.stl,P11_CAPAC_PIULITA,42.4,22.0,5.1
+P29_COVER_SCREW,Cover Screw,windows_blue,2,18,24,28,32,print/01_mechanism/one_module/windows_blue/P29_COVER_SCREW__qty_02.stl,P29_SURUB_LUNG,12.0,12.0,29.0
+P13_THREE_START_LEAD_SCREW,Three Start Lead Screw,orange,1,9,12,14,16,print/01_mechanism/one_module/orange/P13_THREE_START_LEAD_SCREW__qty_01.stl,P13_SURUB_CUPLAJ,15.999,15.998,68.3
+P02_REAR_FRAME,Rear Frame,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P02_REAR_FRAME__qty_01.stl,P02_CADRU_SPATE,86.21,87.0,37.452
+P44_FRAME_CONNECTOR,Frame Connector,orange,1,9,12,14,16,print/01_mechanism/one_module/orange/P44_FRAME_CONNECTOR__qty_01.stl,P44_RACORD_FILETAT,24.0,24.0,44.0
+P45_D_PROFILE_RECEIVER,D Profile Receiver,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/P45_D_PROFILE_RECEIVER__qty_01.stl,P45_RECEPTOR_TUBULAR,46.0,26.0,30.0
+P46_RECEIVER_CROSS_SCREW,Receiver Cross Screw,orange,1,9,12,14,16,print/01_mechanism/one_module/orange/P46_RECEIVER_CROSS_SCREW__qty_01.stl,P46_SURUB_RECEPTOR,10.0,10.0,12.8
+P03_MOTOR_CLAMP,Motor Clamp,windows_blue,2,18,24,28,32,print/01_mechanism/one_module/windows_blue/P03_MOTOR_CLAMP__qty_02.stl,P03_BRIDA_MOTOR,13.0,21.0,8.3
+P30_MOTOR_SCREW,Motor Screw,orange,2,18,24,28,32,print/01_mechanism/one_module/orange/P30_MOTOR_SCREW__qty_02.stl,P30_SURUB_MOTOR,12.0,10.392,19.0
+P31_MOTOR_LOCKNUT,Motor Locknut,windows_blue,2,18,24,28,32,print/01_mechanism/one_module/windows_blue/P31_MOTOR_LOCKNUT__qty_02.stl,P31_CONTRAPIULITA,13.0,11.258,3.0
+E01_DRIVER_TRAY,Driver Tray,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/E01_DRIVER_TRAY__qty_01.stl,E01_TAVA_DRIVER,79.997,95.5,7.8
+E02_DRIVER_COVER,Driver Cover,windows_blue,1,9,12,14,16,print/01_mechanism/one_module/windows_blue/E02_DRIVER_COVER__qty_01.stl,E02_CAPAC_DRIVER,79.997,95.5,17.65
+E03_DRIVER_COVER_SCREW,Driver Cover Screw,windows_blue,3,27,36,42,48,print/01_mechanism/one_module/windows_blue/E03_DRIVER_COVER_SCREW__qty_03.stl,E03_CHEIE_DRIVER,8.0,8.0,22.0
