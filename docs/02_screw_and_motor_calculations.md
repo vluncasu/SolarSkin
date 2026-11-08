@@ -16,6 +16,12 @@ The generator constructs each helix with lead 10 mm and rotates its matching sec
 
 $$H_i(t)=\left[R\cos(t+2\pi i/3),R\sin(t+2\pi i/3),z_0+Lt/(2\pi)\right].$$
 
+Here, t is the angle turned in radians. Follow one ridge with your finger.
+After a quarter turn its height has increased by 2.5 mm. After a whole turn
+it has increased by 10 mm. The offset angle selects the second or third ridge
+without changing the distance climbed. In CAD the cross-section sweeps along
+each of those paths. The matching nut is cut with a slightly larger copy.
+
 The unexpanded section uses these `(radius, axial offset)` points in millimetres:
 
 | Point | Radius | Axial offset |

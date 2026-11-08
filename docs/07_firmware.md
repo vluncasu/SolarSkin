@@ -8,6 +8,21 @@
 
 All present variants command **seven registers and fourteen motor channels**. None detects which motors actually move. All channels receive the same phase; the historical independently choreographed firmware is not the current synchronized baseline.
 
+## First run on the stand
+
+Start with the mechanism at its known closed position. On the baseline web
+variant, `TRAVEL` in `src/main.cpp` sets the half-steps per direction.
+Calculate the count for your reduction and set it before uploading. Build
+from the repository root with `pio run -d firmware/baseline_web -j 1`.
+Connect the ESP32 by USB and add `-t upload` to that command to flash it.
+
+After the startup delay, watch one complete opening and closing cycle.
+The ESP32 changes the four coil commands for each motor in order.
+A latch pulse updates all seven registers together. The software counts
+each command as a step, even when a disconnected motor stays still.
+If the leaves reach an end before reversal, stop the motion and shorten
+the travel. Re-establish the closed starting position before the next run.
+
 ## Autonomous state machine
 
 ```text

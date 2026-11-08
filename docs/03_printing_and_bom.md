@@ -1,5 +1,26 @@
 # Printing and BOM
 
+## How the model comes off the printer
+
+A working hinge needs clearance between its moving faces. The leaves,
+axles and rods are separate prints. Insert an axle after aligning the two
+leaves, then attach the rods. This also leaves their bearing surfaces
+accessible for cleaning before assembly.
+
+The carriage and its cover form a pocket around two removable nuts.
+You can test the thread outside the frame and replace a tight nut
+without printing the carriage again. The rear frame has a side opening
+for inserting the screw before the motor clamps close off access.
+
+The tall stand breaks down into cassettes that bolt together after printing.
+The ribs span their joints, and the wider base pieces support the feet.
+For the office building, print the floor slabs, roof, rear framing,
+stairs and interior pieces from their respective color folders.
+Open the complete architectural assembly to identify their installed positions.
+
+[Four arranged mechanism beds](13_print_beds.md) ·
+[Footprint of each building and stand STL](15_print_dimensions.md)
+
 ## Mechanism
 
 [Mechanism CSV](../bom/mechanism.csv) contains **28 types / 62 printed pieces per module**, with totals for 9, 12, 14 and 16 modules. Quantities in filenames apply to **one module**. A single STL normally contains one part, not all requested copies.
