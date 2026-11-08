@@ -21,8 +21,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 4537,
-    "sha256": "d70dc343509e3be35ec0c1978ae30aa03930253cff8fc4f25f8ceff203ee42a4"
+    "bytes": 4651,
+    "sha256": "f6431ed0a428f9cca485714d1fe0b12ed63af111ec65b3a0ca602951352890a0"
   },
   {
     "file": "bom/building_optional_files.json",
@@ -215,6 +215,16 @@
     "sha256": "3920a0b49ef65404c2b87ea333657b5a3d63b82a4c63d6e9f843ea66dc3aa9f9"
   },
   {
+    "file": "cad/furnished/OFFICE_16.blend",
+    "bytes": 50643756,
+    "sha256": "8e12580299cf64b6a6c8fa6435b48e2a4e2500bf77a21fa6ca6c917fc7edf10c"
+  },
+  {
+    "file": "cad/simplified/OFFICE_16.blend",
+    "bytes": 53560280,
+    "sha256": "ea2a29f2fb2ae7d4cc62639aba08ec94ebe9dd4e468da907105013caaa46ef63"
+  },
+  {
     "file": "docs/01_mechanism_and_kinematics.md",
     "bytes": 2669,
     "sha256": "572d843787bb6d8acebd779da566a249808151b9739c538485ee164efa294dcc"
@@ -226,8 +236,8 @@
   },
   {
     "file": "docs/03_printing_and_bom.md",
-    "bytes": 4051,
-    "sha256": "5a16dc6a2c79cdc5d63e41ba8b51dc6282363d80ae0d39c24bd9e7b24b85dba6"
+    "bytes": 3902,
+    "sha256": "96a3d5fa0cd76a042d647443d162856d5617d06228d224a36b0e3ec35f118b10"
   },
   {
     "file": "docs/04_mechanism_assembly.md",
@@ -251,8 +261,8 @@
   },
   {
     "file": "docs/08_cad_and_renders.md",
-    "bytes": 2092,
-    "sha256": "beadce628b573a727858e4207820b07e338cdc2552235ec7268578a365b13770"
+    "bytes": 2214,
+    "sha256": "aea8d2646c34af71894f51c315f95424dac2496a9db08180df7db8e8a53bb7bb"
   },
   {
     "file": "docs/09_verification.md",
@@ -261,8 +271,8 @@
   },
   {
     "file": "docs/10_repository_and_downloads.md",
-    "bytes": 1179,
-    "sha256": "0f5b9b873abf2a0bbc48c31ec8887c34b553acd0d159cf0f1ae183074c7eb4c7"
+    "bytes": 1249,
+    "sha256": "5821a24136c7b6edd76b21db00cf7c481d1cfa96a4631b95a73245b6be5fd2d7"
   },
   {
     "file": "docs/11_references.md",
@@ -271,18 +281,18 @@
   },
   {
     "file": "docs/12_building_and_facade.md",
-    "bytes": 3521,
-    "sha256": "aac1965202a6bafae5a2064ad4c9d065d873930a3a94d03019438a57a0cbc72c"
+    "bytes": 8227,
+    "sha256": "7ed90b6f1484d4a063788397644437a34683f295cc1148e4255f62198ae7e4b4"
   },
   {
     "file": "docs/13_print_beds.md",
-    "bytes": 4942,
-    "sha256": "a5ee6674652cdaf34c6eb1f2f0feeca48cf0aa7125e58ac0c8a18e66c473328f"
+    "bytes": 4976,
+    "sha256": "174d3c6fa496a9d802600336260b46e85c83ae28d3c5078ea83ec31120b56a8c"
   },
   {
     "file": "docs/14_photo_walkthrough.md",
-    "bytes": 2919,
-    "sha256": "8d8404ed4197a05b60defcf06a25337bba9a3ef814fa54b7ba0318d3df6fd19f"
+    "bytes": 3067,
+    "sha256": "0103485868a96090377b62e3160d2fa511bbe5e0bb4d883e6875de2b7f8cc6e9"
   },
   {
     "file": "docs/15_print_dimensions.md",
@@ -290,14 +300,19 @@
     "sha256": "d9227f91cb965aae019bc5afe3e46f23c7b5e189f7df9d3c572d8e7a43d64e08"
   },
   {
+    "file": "docs/pdf/SOLARSKIN_COMPARATIVE_DESIGN_STUDY.pdf",
+    "bytes": 5379593,
+    "sha256": "8c938b179717c3eb09fc0260a56b29831255abd8ef1709512a9d94e97ba19062"
+  },
+  {
     "file": "docs/pdf/SOLARSKIN_ENGINEERING_AND_ASSEMBLY.pdf",
-    "bytes": 7175049,
-    "sha256": "9a33d27fbd8d0ed3db2a6f737d52e0231fe0bbd3ffd3fb37e4db7631d334b845"
+    "bytes": 6068054,
+    "sha256": "a32ebce97e739ee2d575f1cb3e19dc55217cfc6a4ec93ebd38ea905b8f366166"
   },
   {
     "file": "docs/pdf/SOLARSKIN_PARTS_CATALOG.pdf",
     "bytes": 7973052,
-    "sha256": "12a0b3bd1853a877d08a81033a5fe7050b55275ed30e9d758881d0c6095a7d05"
+    "sha256": "bff0b2ee3954ac55f639a61176698dde6387521398873575531bf5cf95b9ff1b"
   },
   {
     "file": "engineering/calculations.py",
@@ -835,6 +850,31 @@
     "sha256": "48a5052f1f70c6cfbe26068652c52fc473631a0e529e35c70286e123b58f1df8"
   },
   {
+    "file": "media/renders/furnished_closed.webp",
+    "bytes": 112240,
+    "sha256": "746ab56aaad7415658ce0e13de91e26b4a2dba1aaebe7deae6eb174a644228e7"
+  },
+  {
+    "file": "media/renders/furnished_floor_print.webp",
+    "bytes": 16362,
+    "sha256": "0aa2a6908a4831e904af9af7c7822f14b369eba40d82700f0ab48cfc03f5d3e4"
+  },
+  {
+    "file": "media/renders/furnished_interior.webp",
+    "bytes": 128384,
+    "sha256": "296f5b75e828a617a012fe759ce4d04f859fa521ddd5691fc84e6f979b0815fc"
+  },
+  {
+    "file": "media/renders/furnished_open.webp",
+    "bytes": 106186,
+    "sha256": "c3da2f09a6af81ec45353f7d4d4a7e970db0bdad190e98450af75c954c63237d"
+  },
+  {
+    "file": "media/renders/furnished_rear.webp",
+    "bytes": 99326,
+    "sha256": "01d504ddda8a09339cb7ee7cbca0b450f0270611c2c34deccca108d84223d179"
+  },
+  {
     "file": "media/renders/interior_detail.webp",
     "bytes": 111780,
     "sha256": "4aa1b90bf5c5aac4fd1f45919adf03c171634abbc17abc47e3193f32312d037d"
@@ -863,6 +903,31 @@
     "file": "media/renders/screw_insertion_03.webp",
     "bytes": 25944,
     "sha256": "0f4fec88926064c85682ffc463e303b6159841b8b5f645abf7a4e1030e857ef6"
+  },
+  {
+    "file": "media/renders/simplified_closed.webp",
+    "bytes": 114480,
+    "sha256": "5ed4cce147f969cbc535b6acc9b7a0eee2b7eee1681eaa5bde4775f6489084bb"
+  },
+  {
+    "file": "media/renders/simplified_floor_print.webp",
+    "bytes": 16302,
+    "sha256": "d433fdd096b7a72ea0dd91e90e1d5e8e8b772f6d7a73392d0b69abb35ace1f33"
+  },
+  {
+    "file": "media/renders/simplified_interior.webp",
+    "bytes": 160798,
+    "sha256": "6eaf4ade24412112614952828c6041b233b7db8368633dd66ede2fbd8cc72b09"
+  },
+  {
+    "file": "media/renders/simplified_open.webp",
+    "bytes": 109384,
+    "sha256": "3c880ead6151e35b343c143517f740b88799597fb4ca073642941e4a7abf2142"
+  },
+  {
+    "file": "media/renders/simplified_rear.webp",
+    "bytes": 81982,
+    "sha256": "cefcd8b82b30910a0a71f7a452efdf841e5d6fcfeb90e71b198245fd7250b1d7"
   },
   {
     "file": "media/renders/stand_overview.webp",
@@ -1450,14 +1515,584 @@
     "sha256": "38c71bae11609480b404f12efec6cdcc8353e4a4fc7d79666afad2f248905f0e"
   },
   {
+    "file": "print/furnished/bed_01_matte_white_PLA.3mf",
+    "bytes": 33288,
+    "sha256": "472b59a2d09a6c707b98daf67e4c2c3dd3b674d6d86668a7f5dc7e80a8624736"
+  },
+  {
+    "file": "print/furnished/bed_02_matte_white_PLA.3mf",
+    "bytes": 138159,
+    "sha256": "bb0fb7678f906e0f101332330346cd3aed34a523a76ddff9ccaf2e313f4c63df"
+  },
+  {
+    "file": "print/furnished/bed_03_matte_white_PLA.3mf",
+    "bytes": 19910,
+    "sha256": "33b9cdd9aa8b2a6edcb5c349ba1eb00409efa831046d4c2a8c425a204a6130a6"
+  },
+  {
+    "file": "print/furnished/bed_04_matte_white_PLA.3mf",
+    "bytes": 8127,
+    "sha256": "8fc1aedc7a25ca7b17ebf90f0e6433a7cb1743b1a527d5956f47a3a39186db46"
+  },
+  {
+    "file": "print/furnished/bed_05_matte_white_PLA.3mf",
+    "bytes": 7001,
+    "sha256": "c1debf61b18fc9263dd7a385e6b37cc1248fead1c5b736cfec1c520b0aff724f"
+  },
+  {
+    "file": "print/furnished/bed_06_matte_white_PLA.3mf",
+    "bytes": 7873,
+    "sha256": "47486e3f4c8c96651c1dcb0d961370071c21406e300e5deef86f86e183f7a46b"
+  },
+  {
+    "file": "print/furnished/bed_07_matte_white_PLA.3mf",
+    "bytes": 14484,
+    "sha256": "45bc86c6b76e2aa0f15b70a9e41187cde1f7c644a1ccb1abcbb59b6e9df8c401"
+  },
+  {
+    "file": "print/furnished/bed_08_matte_white_PLA.3mf",
+    "bytes": 17975,
+    "sha256": "15fbec87df94a6597a5d52234af5277a29ceb77fa7727558dff1b5b880dd09f2"
+  },
+  {
+    "file": "print/furnished/bed_09_matte_white_PLA.3mf",
+    "bytes": 8541,
+    "sha256": "9281519a96ebdef57680874c762ebefa97ac7bfe50db1ca0c8ac92add7ff21a3"
+  },
+  {
+    "file": "print/furnished/bed_10_matte_white_PLA.3mf",
+    "bytes": 412059,
+    "sha256": "04ba32de8d3b8d95f7ddee6ad55a1fe4867a15c94c577cbe3932e3b7fe5b2b09"
+  },
+  {
+    "file": "print/furnished/bed_11_matte_white_PLA.3mf",
+    "bytes": 5273,
+    "sha256": "c010ba6a64e5e087b12bce97ddca5be1c6fac5562a6d6e05c869269b2a120783"
+  },
+  {
+    "file": "print/furnished/bed_12_matte_white_PLA.3mf",
+    "bytes": 5273,
+    "sha256": "f6c496ac2881b10f7c6b30dc85b6ecf8196ae4d396219bdfbab4ca95df71d185"
+  },
+  {
+    "file": "print/furnished/bed_13_matte_white_PLA.3mf",
+    "bytes": 2086,
+    "sha256": "205a94225979aed9b64a5686c2f94f39452378563a397547ffcb871fca6a4cbf"
+  },
+  {
+    "file": "print/furnished/bed_14_matte_white_PLA.3mf",
+    "bytes": 2086,
+    "sha256": "13fd399dc644293fb1df81a71f76675d021e805e983eec97c38a4db8a21c29fa"
+  },
+  {
+    "file": "print/furnished/bed_15_matte_white_PLA.3mf",
+    "bytes": 2086,
+    "sha256": "e108ba764310a7fc2d5dc353cd9afb87ad2593d5de299e734256020d43c478a7"
+  },
+  {
+    "file": "print/furnished/bed_16_matte_white_PLA.3mf",
+    "bytes": 2087,
+    "sha256": "66c2056f4a6cbc502f4d6a57773b1f72ca2ac25c4ee894162fa519ed00b38121"
+  },
+  {
+    "file": "print/furnished/bed_17_matte_white_PLA.3mf",
+    "bytes": 2087,
+    "sha256": "efbbcd4715b8eed9a93ed8114bad5412cebe914ece5778fd11f3d2423bf939bc"
+  },
+  {
+    "file": "print/furnished/bed_18_matte_white_PLA.3mf",
+    "bytes": 10898,
+    "sha256": "c7b500003be156ff0c8cd91475a78bc4abf67019dc0c5560f29e25654d0d6b4d"
+  },
+  {
+    "file": "print/furnished/bed_19_matte_white_PLA.3mf",
+    "bytes": 10897,
+    "sha256": "9bdfa4878c813a1a3d4a4fef52ec233d57fc0d6d562e4cdb0f2d3e2e254059dc"
+  },
+  {
+    "file": "print/furnished/bed_20_matte_white_PLA.3mf",
+    "bytes": 10898,
+    "sha256": "0dcedcfaea47d3d3ba1f3f319d02c42515ea504586b1902f28e048ee6f1df3b9"
+  },
+  {
+    "file": "print/furnished/bed_21_matte_white_PLA.3mf",
+    "bytes": 10898,
+    "sha256": "45578f16ee626efa6792d5d3eec279162eba779af845355bffd6ddccba4b3a10"
+  },
+  {
+    "file": "print/furnished/bed_22_matte_white_PLA.3mf",
+    "bytes": 10872,
+    "sha256": "b3d1b0825b71b261fcc1e63147a4b4e40e95b6850aba38cb8256bbfff9b206ec"
+  },
+  {
+    "file": "print/furnished/bed_23_matte_white_PLA.3mf",
+    "bytes": 10872,
+    "sha256": "33528a404421cc896a4a4794b51810cbf1591c5871a2dcbdbb95d95c756de906"
+  },
+  {
+    "file": "print/furnished/bed_24_matte_white_PLA.3mf",
+    "bytes": 12438,
+    "sha256": "fdbcb150f41064fcf037fd4109c2400d50b7ca440a87b30f606c3ea11c2cf5ad"
+  },
+  {
+    "file": "print/furnished/bed_25_matte_white_PLA.3mf",
+    "bytes": 8745,
+    "sha256": "50f6055ca5a8c2484a58f50b17e884c691bf9bc3d875d04810bfd1e0729a007e"
+  },
+  {
+    "file": "print/furnished/bed_26_matte_white_PLA.3mf",
+    "bytes": 1686,
+    "sha256": "6119dc7bbf84f73ab606f725468c0b83d83cd7e94b55e22403e702d0806cfe6b"
+  },
+  {
+    "file": "print/furnished/bed_27_matte_white_PLA.3mf",
+    "bytes": 6144,
+    "sha256": "fe4a145469914c6ba98ca018d298f35f08e33af8e9d637934bc93526dd6917b5"
+  },
+  {
+    "file": "print/furnished/bed_28_matte_white_PLA.3mf",
+    "bytes": 6615,
+    "sha256": "41f6ff5a6b455b6ffd93e1cda715923f2cec5bb77290ddfd831a9c3c6983be40"
+  },
+  {
+    "file": "print/furnished/bed_29_anthracite_PLA.3mf",
+    "bytes": 23463,
+    "sha256": "8402ce34f3e01c721db2dbe2959cf3ae6341535181974862f40c49bcc015e1ee"
+  },
+  {
+    "file": "print/furnished/bed_30_anthracite_PLA.3mf",
+    "bytes": 9897,
+    "sha256": "e548caebfe965d5a3ad4ee54afa7bd9fd78427ca05095e5e74ea2888dea1fc8d"
+  },
+  {
+    "file": "print/furnished/bed_31_anthracite_PLA.3mf",
+    "bytes": 15853,
+    "sha256": "504af8eaa528d3370607dfb71526f1d7dfaea5816923e0da76328fca728c9851"
+  },
+  {
+    "file": "print/furnished/bed_32_anthracite_PLA.3mf",
+    "bytes": 43750,
+    "sha256": "1de0f38751bdbfca98786b0ad6cf59a2ec917fe3f1a09b98ecbf4ab37729be99"
+  },
+  {
+    "file": "print/furnished/bed_33_anthracite_PLA.3mf",
+    "bytes": 43750,
+    "sha256": "3be613d57e94d02d7e5c2df309bf263882ae9594fe1ad6262a9b4fb522405698"
+  },
+  {
+    "file": "print/furnished/bed_34_anthracite_PLA.3mf",
+    "bytes": 43750,
+    "sha256": "383d261203ee15221f7a32368a0f7ad730323f2d2c4dde1d02293664ec5dd935"
+  },
+  {
+    "file": "print/furnished/bed_35_anthracite_PLA.3mf",
+    "bytes": 17603,
+    "sha256": "f53b5635f47c9a00acc11a55817e19d69ed990ba3c0b1807a02adf515b5b6fa1"
+  },
+  {
+    "file": "print/furnished/bed_36_anthracite_PLA.3mf",
+    "bytes": 10641,
+    "sha256": "5c6ba3f9dba5204ffb37437877cccaf118b9cd474e352c681bccd5befd7ab7db"
+  },
+  {
+    "file": "print/furnished/bed_37_anthracite_PLA.3mf",
+    "bytes": 10784,
+    "sha256": "97b3ee314b8973980a14fc44058a6c7bd92242c570b0500f7beedce0bbc647c4"
+  },
+  {
+    "file": "print/furnished/bed_38_anthracite_PLA.3mf",
+    "bytes": 9916,
+    "sha256": "95a7318e44d62a0e63b00eefbdccad075b9061545b573ff2a25742801ae97c2f"
+  },
+  {
+    "file": "print/furnished/bed_39_anthracite_PLA.3mf",
+    "bytes": 10652,
+    "sha256": "585a62a1ddc021f4d05457da5734fe33501bfa7900f9225683e9c4db07510f89"
+  },
+  {
+    "file": "print/furnished/bed_40_anthracite_PLA.3mf",
+    "bytes": 10636,
+    "sha256": "b88cb232bc883527c49021f9003c8795178394564c8e93c3a03ca38fa147ab77"
+  },
+  {
+    "file": "print/furnished/bed_41_anthracite_PLA.3mf",
+    "bytes": 17564,
+    "sha256": "70b6130fd4d9dc50b012fe47f77b2af999f6da594319fd2eaf55d7c64043b1a2"
+  },
+  {
+    "file": "print/furnished/bed_42_anthracite_PLA.3mf",
+    "bytes": 3840,
+    "sha256": "17613cb84b808c49fbfa3c05aa8e3a87570de62c3be5e369739714b325bf8602"
+  },
+  {
+    "file": "print/furnished/bed_43_anthracite_PLA.3mf",
+    "bytes": 10786,
+    "sha256": "f47e5812e95e006b3f7413a6859cb73b39a0fd5a507d32044b0ed30fbd834226"
+  },
+  {
+    "file": "print/furnished/bed_44_orange_PLA.3mf",
+    "bytes": 4272,
+    "sha256": "f86ab98edff5c738f003e030e04e8f29e060531a8a96284f4cd4131cab915f4c"
+  },
+  {
+    "file": "print/furnished/bed_45_orange_PLA.3mf",
+    "bytes": 5749,
+    "sha256": "4b1eafb6119d0526ecf8a39282054f7c581ae3da05e429128af52e079bcbd17c"
+  },
+  {
+    "file": "print/furnished/bed_46_orange_PLA.3mf",
+    "bytes": 4008,
+    "sha256": "d53ca013165f40f14d8183d6631e6709d6e122fcec0e74c171e9b22a06aef9d2"
+  },
+  {
+    "file": "print/furnished/inventory.csv",
+    "bytes": 3527,
+    "sha256": "9074b6a63e7f8aa7d91476d8a98d2d2d0ca48d641c3c7135eeb1b194a534df33"
+  },
+  {
+    "file": "print/furnished/placements.csv",
+    "bytes": 9900,
+    "sha256": "e7e07ed07bad409b867dfa389fd81aa5a6392c56b201a74e59d71ac90a0ce21a"
+  },
+  {
+    "file": "print/simplified/bed_01_matte_white_PLA.3mf",
+    "bytes": 1607,
+    "sha256": "0bf16ccfe314ddd09a97856f8bc91e64e5435b6ef4e4e6a7d8d4458603432799"
+  },
+  {
+    "file": "print/simplified/bed_02_matte_white_PLA.3mf",
+    "bytes": 127457,
+    "sha256": "fe5da99deb953018f8d4ef9dab70b794166d9678ff0ac4e393615e707ad9fff0"
+  },
+  {
+    "file": "print/simplified/bed_03_matte_white_PLA.3mf",
+    "bytes": 19055,
+    "sha256": "a69ffd9b8f61909dc31fd496c7ac06a18a2ab637f822e4b74d37e97f9499da87"
+  },
+  {
+    "file": "print/simplified/bed_04_translucent_green_PETG.3mf",
+    "bytes": 1016,
+    "sha256": "738122e246d5a1e3ba58e992c904bd7db653537bdcdef4224f65aa5c891941b3"
+  },
+  {
+    "file": "print/simplified/bed_05_translucent_green_PETG.3mf",
+    "bytes": 1015,
+    "sha256": "a25850f6440b4f0563445f05831db6f8d0e210f7c517cd90e0256f10cf39f523"
+  },
+  {
+    "file": "print/simplified/bed_06_translucent_green_PETG.3mf",
+    "bytes": 1016,
+    "sha256": "e37f75c74cfe14268684f4999622bc53aec5fb98b2a7c546db3b28e80075b396"
+  },
+  {
+    "file": "print/simplified/bed_07_translucent_green_PETG.3mf",
+    "bytes": 1016,
+    "sha256": "110fde1507be0809b8f9d900e0f5f4397bbd9b7c9da32297b6c4637af3abf532"
+  },
+  {
+    "file": "print/simplified/bed_08_translucent_green_PETG.3mf",
+    "bytes": 1016,
+    "sha256": "bf0c73741bef3455004fa22086d4e535268c415aae5e127754b4215f4b543950"
+  },
+  {
+    "file": "print/simplified/bed_09_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "23df8e7debbba39c48ddcffa5572508eb3e2e3782ba1095ea8b266f85d285f5e"
+  },
+  {
+    "file": "print/simplified/bed_10_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "a84f9fd1b5e62172c1515f6077385d40fe9a26dff7fbb0e01c2fc3e5dc2a49b1"
+  },
+  {
+    "file": "print/simplified/bed_11_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "2102beb918186e10bf1a8d1e06127c71fda70712153e6558b2e5a65bbfeca2ba"
+  },
+  {
+    "file": "print/simplified/bed_12_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "1e2244cafb2ed836cf95b2a59a1b84bace4a4c8bfc4bb287a379653c7e23f545"
+  },
+  {
+    "file": "print/simplified/bed_13_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "58ab117768eccddbcdc93fb743d81f387483864842b514ab717c90a7c1787186"
+  },
+  {
+    "file": "print/simplified/bed_14_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "a1f7fc24a8b92bf380f277e141229995074a8748f1d084cdceb79ecacfd439dc"
+  },
+  {
+    "file": "print/simplified/bed_15_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "03d9b175ec7412461eca4634b89c7cd73461983740a067f83f0e7049016c4c52"
+  },
+  {
+    "file": "print/simplified/bed_16_translucent_green_PETG.3mf",
+    "bytes": 1011,
+    "sha256": "656d95ba1d7bc969e6bb58fb1802f7f99f04c6761628cf64ef93b5658158b963"
+  },
+  {
+    "file": "print/simplified/bed_17_translucent_green_PETG.3mf",
+    "bytes": 1012,
+    "sha256": "169212e68610c86d3d031aef4ace3f7e8bd1df815b43e079a14cb8cc29afd09a"
+  },
+  {
+    "file": "print/simplified/bed_18_translucent_green_PETG.3mf",
+    "bytes": 1013,
+    "sha256": "043a9855a5ccd4bdfea2372779e8185337ca8d68ee1bccf89184aa480cd2015e"
+  },
+  {
+    "file": "print/simplified/bed_19_translucent_green_PETG.3mf",
+    "bytes": 1012,
+    "sha256": "aec07604adb67c2b078d3152e662a379a921722f63a7527009ec90f151b7c86f"
+  },
+  {
+    "file": "print/simplified/bed_20_translucent_green_PETG.3mf",
+    "bytes": 1013,
+    "sha256": "b13ab30e5016b1871dfe0ba4bdfc5e49db78eb230a9d6d861e5003f4c00409b3"
+  },
+  {
+    "file": "print/simplified/bed_21_translucent_green_PETG.3mf",
+    "bytes": 1013,
+    "sha256": "ff5f251f5601358d96a69606acb3f3bb6e6f5d86eeeb8d95e09336939e534825"
+  },
+  {
+    "file": "print/simplified/bed_22_translucent_green_PETG.3mf",
+    "bytes": 1013,
+    "sha256": "2c003d7c2344e0e66e8c827ae76bd3304b28989c24e7f6020082655d918461dd"
+  },
+  {
+    "file": "print/simplified/bed_23_translucent_green_PETG.3mf",
+    "bytes": 1013,
+    "sha256": "d769ea5ec3fac53d5112628b4bd15826cbdfaaa6258ef68901eac0fee69b37e1"
+  },
+  {
+    "file": "print/simplified/bed_24_matte_white_PLA.3mf",
+    "bytes": 1241131,
+    "sha256": "859e5901285e53753a7d2e26d358ccef4ad1e9668deb6f0a9c25ca7655fcf1ec"
+  },
+  {
+    "file": "print/simplified/bed_25_matte_white_PLA.3mf",
+    "bytes": 1240289,
+    "sha256": "3e59ca6489ce0c1fa78c550e94e4c7bf441f8914596db2dfc06161944c38202e"
+  },
+  {
+    "file": "print/simplified/bed_26_matte_white_PLA.3mf",
+    "bytes": 3723,
+    "sha256": "9dc7744fb88c7d6a21ec68c3222db7f15d6c84872b77cf195162f6932c20dd18"
+  },
+  {
+    "file": "print/simplified/bed_27_matte_white_PLA.3mf",
+    "bytes": 51891,
+    "sha256": "14fd76f04863c6c30db7a597a86d7c68e748c7a96ef409fb7947cdadb5676756"
+  },
+  {
+    "file": "print/simplified/bed_28_matte_white_PLA.3mf",
+    "bytes": 158711,
+    "sha256": "49dfa03c7a09dbc9cfda63f2d0d1ce74d7eafc8e310c1169662144a9d1d2907a"
+  },
+  {
+    "file": "print/simplified/bed_29_matte_white_PLA.3mf",
+    "bytes": 102753,
+    "sha256": "6370205dc449a4257e3abd254ac7b39c2ce27f137eb4c4443a9d5128c9cdd88b"
+  },
+  {
+    "file": "print/simplified/bed_30_matte_white_PLA.3mf",
+    "bytes": 2235,
+    "sha256": "0a9b8fd2420321f19add44b630fc60410b76110d1063f7e08639be500009105f"
+  },
+  {
+    "file": "print/simplified/bed_31_matte_white_PLA.3mf",
+    "bytes": 2235,
+    "sha256": "4f38dbfedd62c916dbdd07ec65b37ab4a57e20c1c93ac3ef0a96a5b1364a4441"
+  },
+  {
+    "file": "print/simplified/bed_32_matte_white_PLA.3mf",
+    "bytes": 52390,
+    "sha256": "e1690b854b0dd4fc2313db9c0a251e367f7dbcbc4e4b585cb96cbc3502d8008f"
+  },
+  {
+    "file": "print/simplified/bed_33_matte_white_PLA.3mf",
+    "bytes": 106738,
+    "sha256": "a314b9ed922f1b632e6a04032d83c33d1aa3ee64776483e34c0d0c94260ccd5c"
+  },
+  {
+    "file": "print/simplified/bed_34_matte_white_PLA.3mf",
+    "bytes": 52185,
+    "sha256": "77f7dd5bbe981b721d3bbcf4e003610d3b88bc2421a77da296f429cc1e1ca667"
+  },
+  {
+    "file": "print/simplified/bed_35_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "5892021d2256a32b551a5e4819997246cf3238074b12023f940fe58211a84af6"
+  },
+  {
+    "file": "print/simplified/bed_36_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "795322b4c8cf1872232ee3f2a57f4106f6809e2b1202a59480363d869c204ceb"
+  },
+  {
+    "file": "print/simplified/bed_37_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "40b6d4b5fa4c74c6cca2aa54fc082e42be8f7dc0e55da04afed2612630a6b7c3"
+  },
+  {
+    "file": "print/simplified/bed_38_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "39e271c1054e53b823ccc21bdfb6e4729d7e719ba231b56e90a2f104bbad8ce0"
+  },
+  {
+    "file": "print/simplified/bed_39_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "0159dc25812d54e27b9da8a42342fc72cb777e76c69b078e86767cd3c8cfa13c"
+  },
+  {
+    "file": "print/simplified/bed_40_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "990f95a63fb8f0b9416db12631ce88a55bbf921a6a6c37e2d7e3c42c5c647151"
+  },
+  {
+    "file": "print/simplified/bed_41_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "03217bfa84b4f981b43d3c6ab2ab904c1a532c61646286084f7c6c4eb3dfb9a8"
+  },
+  {
+    "file": "print/simplified/bed_42_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "010cdb8977908444083132883938d74c406b013687bd27f4304b47638e781b49"
+  },
+  {
+    "file": "print/simplified/bed_43_matte_white_PLA.3mf",
+    "bytes": 2652,
+    "sha256": "095310353c9d325faa85282a6294b9989396daad0a732b12402f1dc49f8774b9"
+  },
+  {
+    "file": "print/simplified/bed_44_matte_white_PLA.3mf",
+    "bytes": 51909,
+    "sha256": "333bfa4079458fe0af52967d1970595c60db750d0b93e179808d431f82f12613"
+  },
+  {
+    "file": "print/simplified/bed_45_matte_white_PLA.3mf",
+    "bytes": 51894,
+    "sha256": "7178c4a177b2d9de9bf7e22715dfabe0a729a70aa17f794809cf1375b7a7fc79"
+  },
+  {
+    "file": "print/simplified/bed_46_matte_white_PLA.3mf",
+    "bytes": 53027,
+    "sha256": "d528b1b61db4942720a640494075edf51d05bc9fa055b90af284ec08eff83a17"
+  },
+  {
+    "file": "print/simplified/bed_47_matte_white_PLA.3mf",
+    "bytes": 106735,
+    "sha256": "74fe10cb20d0e58423e5cafeaa85482a4fb44d64f3742717a8e04ec3502d4e19"
+  },
+  {
+    "file": "print/simplified/bed_48_matte_white_PLA.3mf",
+    "bytes": 3405,
+    "sha256": "e42b50e23cf054f1b377ccdcc85a6928878b3800f6338f4af88ebb34a326a598"
+  },
+  {
+    "file": "print/simplified/bed_49_matte_white_PLA.3mf",
+    "bytes": 52190,
+    "sha256": "1fc4de26ae36aad1463ade30a9447873dfa00e563d99bd19a482f5aa1d915cc6"
+  },
+  {
+    "file": "print/simplified/bed_50_matte_white_PLA.3mf",
+    "bytes": 2201,
+    "sha256": "332efd5a59d0372d9fac2d7e7f42d8c3554dc92cd657cf88c5a4f0bec991914e"
+  },
+  {
+    "file": "print/simplified/bed_51_matte_white_PLA.3mf",
+    "bytes": 2201,
+    "sha256": "d6bd216eabd7a709ea442b493ec78dddac7b875315a78a1746a611faffe64e7c"
+  },
+  {
+    "file": "print/simplified/bed_52_matte_white_PLA.3mf",
+    "bytes": 2201,
+    "sha256": "219610c0b0016d5a8acf3d0f9dfddc99184b23a54afc9a61aa3584412d9a38d3"
+  },
+  {
+    "file": "print/simplified/bed_53_matte_white_PLA.3mf",
+    "bytes": 2201,
+    "sha256": "d1270d908a4dc6857913752df896a34a971019525b1091b3bea85865aad42c09"
+  },
+  {
+    "file": "print/simplified/bed_54_matte_white_PLA.3mf",
+    "bytes": 2200,
+    "sha256": "a1e525841b3f137cd5d586a60475c373a8cb45c46292a9fcddd993162a64e2e4"
+  },
+  {
+    "file": "print/simplified/bed_55_matte_white_PLA.3mf",
+    "bytes": 2201,
+    "sha256": "e85aac2e75910e82e20d692c7030f3b5de3501fd0f855143c2e3e4fdc30dec09"
+  },
+  {
+    "file": "print/simplified/bed_56_matte_white_PLA.3mf",
+    "bytes": 11764,
+    "sha256": "45cde0ffa9af93b434eef5a0edf0553c0218d5c049b49512b215137a8327d961"
+  },
+  {
+    "file": "print/simplified/bed_57_matte_white_PLA.3mf",
+    "bytes": 8745,
+    "sha256": "8e177023bd764865655f714c78ff0be6097265cfe4fb40f97f5bec3038845806"
+  },
+  {
+    "file": "print/simplified/bed_58_anthracite_PLA.3mf",
+    "bytes": 1922,
+    "sha256": "d4dca3fcf3b9a66b31d55b43c09b77f6e75445fce84585c1266528dfcebe20af"
+  },
+  {
+    "file": "print/simplified/bed_59_anthracite_PLA.3mf",
+    "bytes": 2316,
+    "sha256": "5e994d8149bce7c56f1d84238b2da732ca2bd1b43b9be6fbcb5a79b8ea3ab5f7"
+  },
+  {
+    "file": "print/simplified/bed_60_anthracite_PLA.3mf",
+    "bytes": 1937,
+    "sha256": "9f7bf23928aae5e6c3806561bbabe73249a53498d85631823902a7f5c9dea8c0"
+  },
+  {
+    "file": "print/simplified/bed_61_orange_PLA.3mf",
+    "bytes": 4095,
+    "sha256": "8fd48af8f487bcd8b189e97cc4148f85e493717b923cc82593cf94c68811fd6d"
+  },
+  {
+    "file": "print/simplified/bed_62_orange_PLA.3mf",
+    "bytes": 5366,
+    "sha256": "bf518c22c4c67d34bfe252a3fd6ae9f09e7674ad8e7938419e942fab604b1a6c"
+  },
+  {
+    "file": "print/simplified/bed_63_orange_PLA.3mf",
+    "bytes": 3812,
+    "sha256": "b7582fe7ed79e883b0d5222c6034c18a4d4b0b159b2b7ebc4570207a75a9e0f0"
+  },
+  {
+    "file": "print/simplified/inventory.csv",
+    "bytes": 1590,
+    "sha256": "f120d3c9ea503384de73b3acf46e9c2c1519fffd30a99e28be4ed9ca28a11430"
+  },
+  {
+    "file": "print/simplified/placements.csv",
+    "bytes": 8288,
+    "sha256": "90f154063870c2b479b18669eb1fa78189e07b21236ff652af318bb1c4d72def"
+  },
+  {
     "file": "tools/README.md",
     "bytes": 563,
     "sha256": "e45d94031da5a9292da982d9cc4b69a7b2e90eb85dbbd553b983f7293acfb7db"
   },
   {
+    "file": "tools/build_architecture_study.py",
+    "bytes": 2281,
+    "sha256": "86dfb9693053e62d386b4ff701439668f182a4402391e1a0ba4106b5a4adc9eb"
+  },
+  {
     "file": "tools/build_manuals.py",
-    "bytes": 30521,
-    "sha256": "3f4c8527ebba66bf91c0fd746f9249e2a782b2ea8dd49ca4a9a71f9f76129c4a"
+    "bytes": 29263,
+    "sha256": "dddc8f882b4b361be50d2ed5dcdcbe9f07b9280eac22219a3e1fae0d9a7ee677"
   },
   {
     "file": "tools/build_print_plates.py",

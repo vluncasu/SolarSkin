@@ -52,6 +52,6 @@ The publication preparation does not invoke Bambu Studio or claim new slicing ti
 
 ## Architectural building
 
-The [building print set](../print/07_building_optional/) accompanies the large office-building model. It is separate from the current reinforced presentation stand. The original architectural model displays nine module positions; its render palette is not the current per-color mechanism manufacturing specification.
+Choose the [furnished office beds](../print/furnished/) or the [simplified office beds](../print/simplified/). Each inventory excludes the sixteen existing mechanisms.
 
 [Shared printed tools](../print/08_shared_tools/) are workshop tools: print once, not once per mechanism. Historical batch layouts, experimental axles and draft electronics enclosures are excluded from this essential edition.

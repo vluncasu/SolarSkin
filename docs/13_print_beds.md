@@ -1,7 +1,7 @@
 # Print beds for one six-leaf module
 
 Use the STLs at 100% scale in millimetres. Each row below is one copy.
-Start with one module. The nine-module building repeats this list nine times.
+Start with one module. Either sixteen-position office repeats this list sixteen times when all modules are new.
 The stand, tools and office furniture have their own print folders.
 
 These layouts use the exported X/Y bounding boxes on a 256 mm square bed.

@@ -1,27 +1,22 @@
-# SolarSkin - a 3D printed kinetic facade controlled by an ESP32
+# SolarSkin - kinetic facade design for three architectural prototypes
 
-Turn the orange screw behind one window and six leaves fold open together.
-SolarSkin repeats that mechanism across the front of a model office building.
-The Blender assembly lets you look through the facade, around the back and
-between the floors.
+![Furnished office with a sixteen-module kinetic facade](media/renders/furnished_open.webp)
 
-![Animated CAD view of the nine facade modules opening and closing](media/renders/building_motion.gif)
+The same six-leaf mechanism appears in three configurations. Choose the
+assembly that corresponds to the question you want to investigate.
 
-[Open the complete building in Blender](cad/04_building_optional/BUILDING_ASSEMBLY.blend)
-or [download the build files and both illustrated manuals](https://github.com/vluncasu/SolarSkin/releases).
+| Furnished office | Simplified office | Independent stand |
+|---|---|---|
+| ![Office interior and stairs](media/renders/furnished_interior.webp) | ![Rapid office model](media/renders/simplified_open.webp) | ![Reinforced frame](media/renders/assembly_03.webp) |
+| [Open building CAD](cad/furnished/OFFICE_16.blend) | [Open building CAD](cad/simplified/OFFICE_16.blend) | [Open stand CAD](cad/03_reinforced_assembly/REINFORCED_16_MODULE_ASSEMBLY.blend) |
+| [46 architectural print beds](print/furnished/) | [63 architectural print beds](print/simplified/) | [Frame and foot assembly](docs/05_frame_assembly.md) |
 
-## Explore the building
+[Read the comparative design study](docs/12_building_and_facade.md) ·
+[Download the study as a PDF](docs/pdf/SOLARSKIN_COMPARATIVE_DESIGN_STUDY.pdf).
+It traces the design from the office interior to the support frame and
+relates both to the actuator stroke and the fourteen-channel controller.
 
-| Facade closed | Floors and interior |
-|---|---|
-| ![Nine modules in their closed pose](media/renders/building_closed.webp) | ![Floor slabs and furniture behind the facade](media/renders/building_floors.webp) |
-
-The building has nine module positions. The exhibition stand is a separate
-sixteen-position frame. Its open back gives access to the motor plugs,
-receiver screws and wiring. The installed controller drives fourteen motors.
-
-[Tour the building](docs/12_building_and_facade.md) ·
-[Follow the assembly in 21 pictures](docs/14_photo_walkthrough.md)
+[Download the project and illustrated manuals](https://github.com/vluncasu/SolarSkin/releases).
 
 ## Print one working module
 
@@ -34,7 +29,7 @@ receiver screws and wiring. The installed controller drives fourteen motors.
 Start with the orange P13 screw and the blue P12 and P26 nuts.
 Thread each nut onto the screw by hand. One turn advances it 10 mm.
 This small print checks the fit of the most sensitive interface
-before you commit to printing nine sets.
+before you commit to printing the full facade.
 
 [Four prearranged 3MF plates](print/09_one_module_plates/) ·
 [One-module bed layouts](docs/13_print_beds.md) ·

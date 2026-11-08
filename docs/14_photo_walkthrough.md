@@ -1,6 +1,8 @@
 # SolarSkin in pictures
 
-## The office building
+## Architectural development archive
+
+The nine-position elevation and wave study belong to an earlier design. [Current three-model comparison](12_building_and_facade.md).
 
 ![Open facade](../media/renders/building_open.webp)
 
